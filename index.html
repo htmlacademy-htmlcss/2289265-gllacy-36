@@ -18,8 +18,9 @@
   </head>
 
   <body>
-    <div class="sizing-container">
-      <header class="main-header">
+
+    <header class="main-header">
+      <div class="sizing-container main-header-container">
         <a class="logo-gllacy" href="index.html" aria-label="Переход на главную страницу магазина.">
           <img class="logo-gllacy-picture" width="137" height="55" src="/images/header/logo-glaccy.svg"
             alt="Логотип GlaccyShop">
@@ -137,7 +138,7 @@
               </div>
             </li>
 
-            <li class="right-navigation-item">
+            <li class="right-navigation-item cart-item">
 
               <a class="cart-link" href="">
                 2 Товара
@@ -148,7 +149,6 @@
                   Корзина
                 </p>
                 <ul class="cart-product-list">
-
                   <li class="cart-product-item">
                     <a class="cart-product-link" href="#">
                       <img class="cart-product-pic" src="/images/ice-creams/ice-cream-1.png" width="46" height="46"
@@ -203,14 +203,14 @@
             </li>
           </ul>
         </nav>
-      </header>
+      </div>
+    </header>
 
-      <main class="index-page">
-
-        <h1 class="visually-hidden">
-          Магазин мороженного Глейси.
-        </h1>
-
+    <main class="index-page">
+      <h1 class="visually-hidden">
+        Магазин мороженного Глейси.
+      </h1>
+      <div class="sizing-container">
         <section class="slider">
 
           <h2 class="visually-hidden">
@@ -596,10 +596,11 @@
             Форма обратной связи
           </a>
         </section>
-      </main>
+      </div>
+    </main>
 
-      <footer class="main-footer">
-
+    <footer class="main-footer">
+      <div class="sizing-container">
         <ul class="footer-social-media-list">
 
           <li class="footer-social-media-item">
@@ -653,8 +654,8 @@
             Сделано в <a href="https://htmlacademy.ru/" aria-label="Переход на сайт академии">.html academy</a> © 2021
           </span>
         </div>
-      </footer>
-    </div>
+      </div>
+    </footer>
 
     <!-- Modal Window -->
 
