@@ -247,6 +247,16 @@ footer {
   display: none;
 }
 
+.cart-item-empty .empty-cart-pop-over,
+.cart-item-empty .cart-link .have-no-items {
+  display: block;
+}
+
+.cart-item-empty .empty-cart-pop-over,
+.cart-item-empty .cart-link .have-items {
+  display: none;
+}
+
 .cart-pop-over-container {
   display: none;
   position: absolute;
