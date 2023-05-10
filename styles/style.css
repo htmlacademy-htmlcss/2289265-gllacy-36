@@ -27,7 +27,8 @@ body {
 
 /* Header Navigation */
 
-.main-header {
+.main-header,
+.inner-header {
   display: flex;
 }
 

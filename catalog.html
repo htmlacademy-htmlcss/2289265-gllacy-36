@@ -19,126 +19,121 @@
 
   <body>
     <div class="sizing-container">
-      <header class="inner-header">
-        <a class="logo-gllacy-shop" href="index.html" aria-label="Переход на главную страницу магазина.">
+      <header class="main-header">
+        <a class="logo-gllacy" href="index.html" aria-label="Переход на главную страницу магазина.">
           <img class="logo-gllacy-picture" width="137" height="55" src="/images/header/logo-glaccy.svg"
             alt="Логотип GlaccyShop">
         </a>
 
         <nav class="left-header-navigation">
+          <ul class="header-navigation-list">
 
-          <ul class="left-navigation-list">
-
-            <li class="left-navigation-item">
-
-              <a class="left-navigation-link" href="#">
+            <li class="header-navigation-item">
+              <a class="catalog-link" href="#">
                 Каталог
               </a>
 
               <ul class="subcatalog-list">
                 <li class="subcatalog-item">
-                  <a class="subcatalog-link" href="">
+                  <a class="subcatalog-link" href="#">
                     Новинки
                   </a>
                 </li>
 
                 <li class="subcatalog-item">
-                  <a class="subcatalog-link" href="">
+                  <a class="subcatalog-link" href="catalog.html">
                     Сливочное
                   </a>
                 </li>
 
                 <li class="subcatalog-item">
-                  <a class="subcatalog-link" href="">
+                  <a class="subcatalog-link" href="#">
                     Щербеты
                   </a>
                 </li>
 
                 <li class="subcatalog-item">
-                  <a class="subcatalog-link" href="">
+                  <a class="subcatalog-link" href="#">
                     Фруктовый лед
                   </a>
                 </li>
 
                 <li class="subcatalog-item">
-                  <a class="subcatalog-link" href="">
+                  <a class="subcatalog-link" href="#">
                     Мелорин
                   </a>
                 </li>
               </ul>
             </li>
 
-            <li class="left-navigation-item">
-              <a class="left-navigation-link" href="#">
+            <li class="header-navigation-item">
+              <a class="delivery-payment-link" href="#">
                 Доставка и оплата
               </a>
             </li>
 
-            <li class="left-navigation-item">
-              <a class="left-navigation-link" href="#">
+            <li class="header-navigation-item">
+              <a class="about-us-link" href="#">
                 О компании
               </a>
             </li>
           </ul>
         </nav>
 
-        <nav class="right-header-navigation">
-
+        <nav class="right-navigation-container">
           <ul class="right-navigation-list">
             <li class="right-navigation-item">
-              <a class="phone-number" href="tel:+78005558628">
+              <a class="header-phone-number" href="tel:+78005558628">
                 +7 800 555-86-28
               </a>
             </li>
 
-            <li class="right-navigation-item">
-
+            <li class="right-navigation-item search-item">
+              <button class="button search-button" type="button" aria-label="Кнопка поиска."></button>
               <div class="search-container">
-                <button class="button search-button" type="button" aria-label="Кнопка поиска.">
-                </button>
-
                 <form class="search" action="https://echo.htmlacademy.ru/" method="get">
                   <label class="search-label" aria-label="Поле поиска">
-                    <input class="search-input" type="search" required>
+                    <input class="search-input" type="search" placeholder="Поиск по сайту" required>
                   </label>
                 </form>
               </div>
             </li>
 
-            <li class="right-navigation-item">
-              <a class="login-link" href="">
+            <li class="right-navigation-item login-item">
+              <a class="login-link" href="#">
                 Вход
               </a>
+
               <div class="login-pop-over-container">
                 <form class="login-form" action="https://echo.htmlacademy.ru/" method="get">
-
-                  <fieldset>
-
+                  <fieldset class="login-fieldset">
                     <legend class="login-form-title">
                       Личный кабинет
                     </legend>
 
                     <label aria-label="Поле для воода почты">
-                      <input class="email-input" type="text" name="email" required>
+                      <input class="email-input" type="text" name="email" value="email@example.com" required>
                     </label>
 
                     <label aria-label="Поле для воода почты">
-                      <input class="password-input" type="password" name="password" required>
+                      <input class="password-input" type="password" name="password" value="qwerty" required>
                     </label>
                   </fieldset>
 
                   <button class="login-button button" type="submit">
                     Войти
                   </button>
+
+                  <p class="login-links-container">
+                    <a class="forgot-password-link" href="#">
+                      Забыли пароль?
+                    </a>
+
+                    <a class="sign-up-link" href="#">
+                      Регистрация
+                    </a>
+                  </p>
                 </form>
-
-                <a class="forgot-password-link" href="#">
-                  Забыли пароль?
-                </a>
-
-                <a class="sign-up-link" href="#">
-                  Регистрация
-                </a>
               </div>
             </li>
 
@@ -147,68 +142,63 @@
               <a class="cart-link" href="">
                 2 Товара
               </a>
+
               <div class="cart-pop-over-container">
+                <p class="cart-title">
+                  Корзина
+                </p>
+                <ul class="cart-product-list">
 
-                <div class="cart-pop-over">
-
-                  <p class="cart-title">
-                    Корзина
-                  </p>
-
-                  <ul class="cart-product-list">
-
-                    <li class="cart-product-item">
-                      <a class="cart-product-link" href="">
-                        <img class="cart-product-pic" src="/images/ice-creams/ice-cream-1.png" width="46" height="46"
-                          alt="Изображение мороженого Малинка.">
-                        <p class="cart-product-text">
-                          Малинка
-                          <span class="cart-product-details">
-                            1 кг х 310 ₽
-                          </span>
-                        </p>
-                        <span class="cart-product-price">
-                          310 ₽
+                  <li class="cart-product-item">
+                    <a class="cart-product-link" href="#">
+                      <img class="cart-product-pic" src="/images/ice-creams/ice-cream-1.png" width="46" height="46"
+                        alt="Изображение мороженого Малинка.">
+                      <p class="cart-product-text">
+                        Малинка
+                        <span class="cart-product-details">
+                          1 кг х 310 ₽
                         </span>
-                      </a>
-                      <button class="delete-product-button" type="button" aria-label="Удалить продукт из корзины.">
-                      </button>
-                    </li>
-
-                    <li class="cart-product-item">
-                      <a class="cart-product-link" href="">
-                        <img class="cart-product-pic" src="/images/ice-creams/ice-cream-4.png" width="46" height="46"
-                          alt="Изображение мороженого Бабл-гам.">
-                        <p class="cart-product-text">
-                          Бабл-гам
-                          <span class="cart-product-details">
-                            1,5 кг х 320 ₽
-                          </span>
-                        </p>
-                        <span class="cart-product-price">
-                          480 ₽
-                        </span>
-                      </a>
-                      <button class="delete-product-button" type="button" aria-label="Удалить продукт из корзины.">
-                      </button>
-                    </li>
-                  </ul>
-
-                  <p>
-                    <button class="apply-order" type="button">
-                      Оформить заказ
+                      </p>
+                      <span class="cart-product-price">
+                        310 ₽
+                      </span>
+                    </a>
+                    <button class="delete-product-button button" type="button" aria-label="Удалить продукт из корзины.">
                     </button>
-                    <span class="total-price">
-                      Итого: 790 ₽
-                    </span>
-                  </p>
-                </div>
+                  </li>
 
-                <div class="cart-pop-over empty">
-                  <p class="cart-empty-text">
-                    Ваша корзина пока пуста
-                  </p>
-                </div>
+                  <li class="cart-product-item">
+                    <a class="cart-product-link" href="#">
+                      <img class="cart-product-pic" src="/images/ice-creams/ice-cream-4.png" width="46" height="46"
+                        alt="Изображение мороженого Бабл-гам.">
+                      <p class="cart-product-text">
+                        Бабл-гам
+                        <span class="cart-product-details">
+                          1,5 кг х 320 ₽
+                        </span>
+                      </p>
+                      <span class="cart-product-price">
+                        480 ₽
+                      </span>
+                    </a>
+                    <button class="delete-product-button button" type="button" aria-label="Удалить продукт из корзины.">
+                    </button>
+                  </li>
+                </ul>
+                <p class="apply-button-and-price">
+                  <button class="apply-order-button button" type="button">
+                    Оформить заказ
+                  </button>
+                  <span class="total-price">
+                    Итого: 790 ₽
+                  </span>
+                </p>
+              </div>
+
+              <div class="empty-cart-pop-over">
+                <p class="cart-empty-text">
+                  Ваша корзина пока пуста
+                </p>
               </div>
             </li>
           </ul>
@@ -235,7 +225,7 @@
             </li>
 
             <li class="breadcrumbs-item">
-              <a class="breadcrumbs-link" href="">
+              <a class="breadcrumbs-link" href="#">
                 Каталог
               </a>
             </li>
