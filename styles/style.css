@@ -1,0 +1,248 @@
+/* Fonts */
+
+
+
+/* Global Styles */
+
+body {
+  background-color: #feaFc3;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.sizing-container {
+  width: 1366px;
+  margin: 0 auto;
+  padding: 0 98px;
+}
+
+.button {
+  border: none;
+  background-color: transparent;
+}
+
+/* Header Navigation */
+
+.main-header {
+  display: flex;
+}
+
+.header-navigation-list {
+  display: flex;
+  gap: 32px;
+  list-style: none;
+}
+
+.subcatalog-list {
+  list-style: none;
+}
+
+.header-navigation-item a {
+  text-decoration: none;
+}
+
+.right-navigation-list {
+  display: flex;
+  gap: 32px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.right-navigation-list a {
+  text-decoration: none;
+  display: block;
+}
+
+.search-button {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: rgba(252, 252, 252, 0.3);
+  background-image: url("../images/header/search-icon.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.login-link {
+  border-radius: 30px;
+  background-color: rgba(252, 252, 252, 0.3);
+  background-image: url("../images/header/login-icon.svg");
+  background-repeat: no-repeat;
+  background-position: 15px 8px;
+  padding: 6px 16px 6px 38px;
+}
+
+.cart-link {
+  position: relative;
+  border-radius: 30px;
+  background-color: rgba(252, 252, 252, 0.3);
+  background-image: url("../images/header/cart-icon.svg");
+  background-repeat: no-repeat;
+  background-position: 15px 8px;
+  padding: 6px 16px 6px 38px;
+}
+
+/* Login Pop Over */
+
+.login-item {
+  position: relative;
+}
+
+.login-pop-over-container {
+  display: none;
+}
+
+.login-item:focus-within .login-pop-over-container {
+  display: block;
+  position: absolute;
+  top: 50px;
+  right: 0;
+}
+
+.login-form {
+  display: flex;
+  flex-wrap: wrap;
+  width: 420px;
+  height: 350px;
+  padding: 48px;
+  background-color: #fcfcfc;
+  border-radius: 4px;
+}
+
+.login-fieldset {
+  margin: 0;
+  margin-bottom: 28px;
+  padding: 0;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.email-input,
+.password-input {
+  padding: 14px 152px 14px 16px;
+  max-width: 324px;
+}
+
+.login-button {
+  align-self: flex-start;
+  outline: 4px solid rgba(255, 47, 100, 0.3);
+  padding: 12px 32px;
+  background-color: #ff2f64;
+  border-radius: 26px;
+  margin-right: 19px;
+}
+
+.login-links-container {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.login-links-container a {
+  color: #000000;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+/* Cart Pop-Over */
+
+.cart-pop-over-container {
+  display: none;
+  position: absolute;
+  width: 441px;
+  height: 382px;
+  padding: 48px;
+  background-color: #fcfcfc;
+  border-radius: 4px;
+}
+
+.cart-product-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.cart-product-link {
+  display: flex;
+}
+
+.cart-product-item {
+  position: relative;
+}
+
+.cart-product-item:last-child {
+  padding-bottom: 32px;
+  border-bottom: 1px solid #e7e7e7;
+}
+
+.cart-product-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.delete-product-button {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 0;
+  right: 0;
+  background-image: url("../images/header/cross.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.cart-product-text {
+  margin: 0;
+}
+
+.cart-product-price {
+  align-self: flex-end;
+}
+
+.apply-button-and-price {
+  display: flex;
+  justify-content: space-between;
+}
+
+.apply-order-button {
+  outline: 4px solid rgba(255, 47, 100, 0.3);
+  padding: 12px 32px;
+  background-color: #ff2f64;
+  border-radius: 26px;
+}
+
+/* Search Pop Over */
+
+.search-item {
+  position: relative;
+}
+
+.search-container {
+  display: none;
+}
+
+.search-item:focus-within .search-container {
+  display: block;
+  position: absolute;
+  top:50px;
+  left: 0;
+}
+
+.search {
+  width: 356px;
+  height: 96px;
+  border-radius: 4px;
+  padding: 24px 16px;
+  background-color: #fcfcfc;
+}
+
+/* Main */
