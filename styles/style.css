@@ -294,3 +294,10 @@ footer {
 }
 
 /* Main */
+
+
+/* Modal Window*/
+
+.modal-container-closed {
+  display: none;
+}
