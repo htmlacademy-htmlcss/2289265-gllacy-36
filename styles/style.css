@@ -247,12 +247,12 @@ footer {
   display: none;
 }
 
-.cart-item-empty .empty-cart-pop-over,
+.cart-item-empty .cart-pop-over-container .empty-cart-pop-over,
 .cart-item-empty .cart-link .have-no-items {
   display: block;
 }
 
-.cart-item-empty .empty-cart-pop-over,
+.cart-item-empty .cart-pop-over-container .cart-pop-over,
 .cart-item-empty .cart-link .have-items {
   display: none;
 }
