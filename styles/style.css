@@ -242,6 +242,10 @@ footer {
 
 /* Cart Pop-Over */
 
+.cart-item {
+  position: relative;
+}
+
 .have-no-items,
 .empty-cart-pop-over {
   display: none;
@@ -260,6 +264,8 @@ footer {
 .cart-pop-over-container {
   display: none;
   position: absolute;
+  right: 0;
+  top: 40px;
   width: 441px;
   padding: 48px;
   background-color: #fcfcfc;
