@@ -708,6 +708,7 @@ footer {
 
 .home-delivery {
   display: flex;
+  gap: 135px;
   padding: 64px 64px 64px 100px;
   background-image: url("../images/index/delivery-background.jpg");
   background-repeat: no-repeat;
@@ -718,10 +719,27 @@ footer {
   width: 371px;
 }
 
+.home-delivery-title {
+  margin: 0;
+  margin-bottom: 24px;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 46px;
+}
+
+.home-delivery-text {
+  margin: 0;
+  color: #565c66;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+
 .home-delivery-form {
   width: 500px;
   padding: 40px;
   background-color: #fcfcfc;
+  border-radius: 8px;
 }
 
 /* Modal Window*/
