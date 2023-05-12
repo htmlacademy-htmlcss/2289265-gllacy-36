@@ -96,6 +96,7 @@ footer {
 .main-header-container,
 .inner-header-container {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
 }
 
@@ -103,6 +104,7 @@ footer {
   margin: 33px 0;
   padding: 0;
   display: flex;
+  flex-wrap: wrap;
   gap: 32px;
   list-style: none;
 }
@@ -121,6 +123,7 @@ footer {
 
 .right-navigation-list {
   display: flex;
+  flex-wrap: wrap;
   gap: 32px;
   list-style: none;
   margin: 0;
@@ -231,6 +234,7 @@ footer {
   padding: 0;
   border: none;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   gap: 16px;
 }
@@ -254,6 +258,7 @@ footer {
   margin: 0;
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   gap: 4px;
 }
 
@@ -306,6 +311,7 @@ footer {
   padding: 0;
   list-style: none;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   gap: 24px;
 }
@@ -321,12 +327,14 @@ footer {
 
 .cart-product-link {
   display: flex;
+  flex-wrap: wrap;
   text-decoration: none;
 }
 
 .cart-product-text {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .delete-product-button {
@@ -352,12 +360,14 @@ footer {
 .apply-button-and-price {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .apply-order-button {
   outline: 4px solid rgba(255, 47, 100, 0.3);
   padding: 12px 32px;
   background-color: #ff2f64;
+  color: #fcfcfc;
   border-radius: 26px;
 }
 
@@ -371,6 +381,7 @@ footer {
 
 .slider-item {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .slide-description {
@@ -413,6 +424,7 @@ footer {
   margin: 0;
   padding: 0;
   display: flex;
+  flex-wrap: wrap;
   gap: 8px;
   list-style: none;
 }
@@ -432,6 +444,7 @@ footer {
 
 .slider-navigation-and-socials {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
@@ -441,6 +454,7 @@ footer {
   margin: 0;
   list-style: none;
   display: flex;
+  flex-wrap: wrap;
   gap: 40px;
 }
 
@@ -495,6 +509,7 @@ footer {
   margin: 0;
   padding: 0;
   display: flex;
+  flex-wrap: wrap;
   gap: 30px;
   list-style: none;
 }
@@ -552,11 +567,13 @@ footer {
   padding: 0;
   list-style: none;
   display: flex;
+  flex-wrap: wrap;
   gap: 30px;
 }
 
 .catalog-item {
   display: flex;
+  flex-wrap: wrap;
   width: 270px;
 }
 
@@ -601,6 +618,110 @@ footer {
 
 .features-text {
   margin: 0;
+  padding-left: 64px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+/* Article and Subscription */
+
+.article-and-subscription {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-bottom: 80px;
+}
+
+.glaccy-blog {
+  width: 570px;
+  background-image: url("../images/index/blog-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 16px;
+}
+
+.glaccy-blog-link {
+  padding: 32px 235px 67px 32px;
+  display: block;
+  text-decoration: none;
+  color: inherit
+}
+
+.glaccy-blog-text {
+  margin: 0;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.glaccy-blog-title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.subscription-form-container {
+  width: 570px;
+  padding: 6px;
+  background-image: url("../images/index/subscribe-background.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 16px;
+}
+
+.subscription-form {
+  padding: 26px;
+  border-radius: 16px;
+  background-color: #ffffff;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.subscription-text {
+  margin: 0;
+  margin-bottom: 44px;
+}
+
+.subscription-input {
+  margin-right: 16px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 14px 90px 14px 16px;
+  border: 1px solid #b9b9b9;
+  border-radius: 4px;
+}
+
+.subscription-button {
+  padding: 12px 32px;
+  background-color: #ff3f64;
+  outline: 4px solid rgba(255, 47, 100, 0.3);
+  color: #fcfcfc;
+  border-radius: 26px;
+}
+
+/* Home Delivery */
+
+.home-delivery {
+  display: flex;
+  padding: 64px 64px 64px 100px;
+  background-image: url("../images/index/delivery-background.jpg");
+  background-repeat: no-repeat;
+  border-radius: 26px;
+}
+
+.home-delivery-container {
+  width: 371px;
+}
+
+.home-delivery-form {
+  width: 500px;
+  padding: 40px;
+  background-color: #fcfcfc;
 }
 
 /* Modal Window*/
