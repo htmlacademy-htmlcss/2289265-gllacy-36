@@ -712,6 +712,7 @@ footer {
   padding: 64px 64px 64px 100px;
   background-image: url("../images/index/delivery-background.jpg");
   background-repeat: no-repeat;
+  background-size: cover;
   border-radius: 26px;
 }
 
@@ -720,8 +721,7 @@ footer {
 }
 
 .home-delivery-title {
-  margin: 0;
-  margin-bottom: 24px;
+  margin: 103px 0 24px 0;
   font-weight: 900;
   font-size: 32px;
   line-height: 46px;
@@ -737,14 +737,14 @@ footer {
 
 .delivery-form-container {
   width: 500px;
-  padding: 40px;
+  padding: 40px 40px 42px 40px;
   background-color: #fcfcfc;
   border-radius: 8px;
 }
 
 .delivery-form {
   display: grid;
-  grid-template-columns: repeat(2, minmax(117px, 287px));
+  grid-template-columns: 117px 287px;
   column-gap: 16px;
 }
 
@@ -757,18 +757,81 @@ footer {
   line-height: 22px;
 }
 
+/* Date */
+
 .date-container {
+  width: 117px;
+  display: flex;
+  margin-bottom: 20px;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.date-label {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.date-input {
+  width: 117px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 14px 16px;
+  border: 1px solid #b9b9b9;
+  border-radius: 4px;
+}
+
+/* Phone */
+
+.phone-container {
   display: flex;
   flex-direction: column;
   gap: 8px;
 }
 
-.date-input {
-  width: 117px;
+.phone-label {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
 }
+
+.phone-input {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 14px 0 14px 16px;
+  border: 1px solid #b9b9b9;
+  border-radius: 4px;
+}
+
+/* Address */
 
 .address-container {
   grid-column: 1/-1;
+  display: flex;
+  margin-bottom: 32px;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.address-label {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.address-input {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 14px 90px 14px 16px;
+  border: 1px solid #b9b9b9;
+  border-radius: 4px;
 }
 
 .delivery-form-button {
