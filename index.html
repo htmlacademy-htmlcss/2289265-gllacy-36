@@ -18,212 +18,206 @@
   </head>
 
   <body>
+    <header class="page-header">
+      <a class="logo-gllacy" href="index.html" aria-label="Переход на главную страницу магазина.">
+        <img class="logo-gllacy-picture" width="137" height="55" src="/images/header/logo-glaccy.svg"
+          alt="Логотип GlaccyShop">
+      </a>
 
-    <header class="main-header">
-      <div class="sizing-container main-header-container">
-        <a class="logo-gllacy" href="index.html" aria-label="Переход на главную страницу магазина.">
-          <img class="logo-gllacy-picture" width="137" height="55" src="/images/header/logo-glaccy.svg"
-            alt="Логотип GlaccyShop">
-        </a>
+      <nav class="left-header-navigation">
+        <ul class="header-navigation-list">
 
-        <nav class="left-header-navigation">
-          <ul class="header-navigation-list">
+          <li class="header-navigation-item">
 
-            <li class="header-navigation-item">
+            <a class="catalog-link" href="#">
+              Каталог
+            </a>
 
-              <a class="catalog-link" href="#">
-                Каталог
-              </a>
+            <ul class="subcatalog-list">
+              <li class="subcatalog-item">
+                <a class="subcatalog-link" href="#">
+                  Новинки
+                </a>
+              </li>
 
-              <ul class="subcatalog-list">
-                <li class="subcatalog-item">
-                  <a class="subcatalog-link" href="#">
-                    Новинки
-                  </a>
-                </li>
+              <li class="subcatalog-item">
+                <a class="subcatalog-link" href="catalog.html">
+                  Сливочное
+                </a>
+              </li>
 
-                <li class="subcatalog-item">
-                  <a class="subcatalog-link" href="catalog.html">
-                    Сливочное
-                  </a>
-                </li>
+              <li class="subcatalog-item">
+                <a class="subcatalog-link" href="#">
+                  Щербеты
+                </a>
+              </li>
 
-                <li class="subcatalog-item">
-                  <a class="subcatalog-link" href="#">
-                    Щербеты
-                  </a>
-                </li>
+              <li class="subcatalog-item">
+                <a class="subcatalog-link" href="#">
+                  Фруктовый лед
+                </a>
+              </li>
 
-                <li class="subcatalog-item">
-                  <a class="subcatalog-link" href="#">
-                    Фруктовый лед
-                  </a>
-                </li>
+              <li class="subcatalog-item">
+                <a class="subcatalog-link" href="#">
+                  Мелорин
+                </a>
+              </li>
+            </ul>
+          </li>
 
-                <li class="subcatalog-item">
-                  <a class="subcatalog-link" href="#">
-                    Мелорин
-                  </a>
-                </li>
-              </ul>
-            </li>
+          <li class="header-navigation-item">
+            <a class="delivery-payment-link" href="#">
+              Доставка и оплата
+            </a>
+          </li>
 
-            <li class="header-navigation-item">
-              <a class="delivery-payment-link" href="#">
-                Доставка и оплата
-              </a>
-            </li>
+          <li class="header-navigation-item">
+            <a class="about-us-link" href="#">
+              О компании
+            </a>
+          </li>
+        </ul>
+      </nav>
 
-            <li class="header-navigation-item">
-              <a class="about-us-link" href="#">
-                О компании
-              </a>
-            </li>
-          </ul>
-        </nav>
+      <nav class="right-navigation">
+        <ul class="right-navigation-list">
+          <li class="right-navigation-item">
+            <a class="header-phone-number" href="tel:+78005558628">
+              +7 800 555-86-28
+            </a>
+          </li>
 
-        <nav class="right-navigation">
-          <ul class="right-navigation-list">
-            <li class="right-navigation-item">
-              <a class="header-phone-number" href="tel:+78005558628">
-                +7 800 555-86-28
-              </a>
-            </li>
+          <li class="right-navigation-item search-item">
+            <button class="button search-button" type="button" aria-label="Кнопка поиска."></button>
+            <div class="search-container">
+              <form class="search" action="https://echo.htmlacademy.ru/" method="get">
+                <label class="search-label" aria-label="Поле поиска">
+                  <input class="search-input" type="search" placeholder="Поиск по сайту" required>
+                </label>
+              </form>
+            </div>
+          </li>
 
-            <li class="right-navigation-item search-item">
-              <button class="button search-button" type="button" aria-label="Кнопка поиска."></button>
-              <div class="search-container">
-                <form class="search" action="https://echo.htmlacademy.ru/" method="get">
-                  <label class="search-label" aria-label="Поле поиска">
-                    <input class="search-input" type="search" placeholder="Поиск по сайту" required>
+          <li class="right-navigation-item login-item">
+            <a class="login-link" href="#">
+              Вход
+            </a>
+
+            <div class="login-pop-over-container">
+              <form class="login-form" action="https://echo.htmlacademy.ru/" method="get">
+                <fieldset class="login-fieldset">
+                  <legend class="login-form-title">
+                    Личный кабинет
+                  </legend>
+
+                  <label aria-label="Поле для воода почты">
+                    <input class="email-input" type="text" name="email" value="email@example.com" required>
                   </label>
-                </form>
+
+                  <label aria-label="Поле для воода почты">
+                    <input class="password-input" type="password" name="password" value="qwerty" required>
+                  </label>
+                </fieldset>
+
+                <button class="login-button button" type="submit">
+                  Войти
+                </button>
+
+                <p class="login-links-container">
+                  <a class="forgot-password-link" href="#">
+                    Забыли пароль?
+                  </a>
+
+                  <a class="sign-up-link" href="#">
+                    Регистрация
+                  </a>
+                </p>
+              </form>
+            </div>
+          </li>
+
+          <!-- Для показа пустой корзины добавте класс cart-item-empty для cart-item  -->
+
+          <li class="right-navigation-item cart-item">
+
+            <a class="cart-link" href="">
+              <span class="have-items">
+                2 Товара
+              </span>
+              <span class="have-no-items">
+                Нет товаров
+              </span>
+            </a>
+
+            <div class="cart-pop-over-container">
+
+              <div class="empty-cart-pop-over">
+                <p class="cart-empty-text">
+                  Ваша корзина пока пуста
+                </p>
               </div>
-            </li>
 
-            <li class="right-navigation-item login-item">
-              <a class="login-link" href="#">
-                Вход
-              </a>
-
-              <div class="login-pop-over-container">
-                <form class="login-form" action="https://echo.htmlacademy.ru/" method="get">
-                  <fieldset class="login-fieldset">
-                    <legend class="login-form-title">
-                      Личный кабинет
-                    </legend>
-
-                    <label aria-label="Поле для воода почты">
-                      <input class="email-input" type="text" name="email" value="email@example.com" required>
-                    </label>
-
-                    <label aria-label="Поле для воода почты">
-                      <input class="password-input" type="password" name="password" value="qwerty" required>
-                    </label>
-                  </fieldset>
-
-                  <button class="login-button button" type="submit">
-                    Войти
-                  </button>
-
-                  <p class="login-links-container">
-                    <a class="forgot-password-link" href="#">
-                      Забыли пароль?
-                    </a>
-
-                    <a class="sign-up-link" href="#">
-                      Регистрация
-                    </a>
-                  </p>
-                </form>
-              </div>
-            </li>
-
-            <!-- Для показа пустой корзины добавте класс cart-item-empty для cart-item  -->
-
-            <li class="right-navigation-item cart-item">
-
-              <a class="cart-link" href="">
-                <span class="have-items">
-                  2 Товара
-                </span>
-                <span class="have-no-items">
-                  Нет товаров
-                </span>
-              </a>
-
-              <div class="cart-pop-over-container">
-
-                <div class="empty-cart-pop-over">
-                  <p class="cart-empty-text">
-                    Ваша корзина пока пуста
-                  </p>
-                </div>
-
-                <div class="cart-pop-over">
-                  <p class="cart-title">
-                    Корзина
-                  </p>
-                  <ul class="cart-product-list">
-                    <li class="cart-product-item">
-                      <a class="cart-product-link" href="#">
-                        <img class="cart-product-pic" src="/images/ice-creams/ice-cream-1.png" width="46" height="46"
-                          alt="Изображение мороженого Малинка.">
-                        <p class="cart-product-text">
-                          Малинка
-                          <span class="cart-product-details">
-                            1 кг х 310 ₽
-                          </span>
-                        </p>
-                        <span class="cart-product-price">
-                          310 ₽
+              <div class="cart-pop-over">
+                <p class="cart-title">
+                  Корзина
+                </p>
+                <ul class="cart-product-list">
+                  <li class="cart-product-item">
+                    <a class="cart-product-link" href="#">
+                      <img class="cart-product-pic" src="/images/ice-creams/ice-cream-1.png" width="46" height="46"
+                        alt="Изображение мороженого Малинка.">
+                      <p class="cart-product-text">
+                        Малинка
+                        <span class="cart-product-details">
+                          1 кг х 310 ₽
                         </span>
-                      </a>
-                      <button class="delete-product-button button" type="button"
-                        aria-label="Удалить продукт из корзины.">
-                      </button>
-                    </li>
-
-                    <li class="cart-product-item">
-                      <a class="cart-product-link" href="#">
-                        <img class="cart-product-pic" src="/images/ice-creams/ice-cream-4.png" width="46" height="46"
-                          alt="Изображение мороженого Бабл-гам.">
-                        <p class="cart-product-text">
-                          Бабл-гам
-                          <span class="cart-product-details">
-                            1,5 кг х 320 ₽
-                          </span>
-                        </p>
-                        <span class="cart-product-price">
-                          480 ₽
-                        </span>
-                      </a>
-                      <button class="delete-product-button button" type="button"
-                        aria-label="Удалить продукт из корзины.">
-                      </button>
-                    </li>
-                  </ul>
-                  <p class="apply-button-and-price">
-                    <button class="apply-order-button button" type="button">
-                      Оформить заказ
+                      </p>
+                      <span class="cart-product-price">
+                        310 ₽
+                      </span>
+                    </a>
+                    <button class="delete-product-button button" type="button" aria-label="Удалить продукт из корзины.">
                     </button>
-                    <span class="total-price">
-                      Итого: 790 ₽
-                    </span>
-                  </p>
-                </div>
+                  </li>
+
+                  <li class="cart-product-item">
+                    <a class="cart-product-link" href="#">
+                      <img class="cart-product-pic" src="/images/ice-creams/ice-cream-4.png" width="46" height="46"
+                        alt="Изображение мороженого Бабл-гам.">
+                      <p class="cart-product-text">
+                        Бабл-гам
+                        <span class="cart-product-details">
+                          1,5 кг х 320 ₽
+                        </span>
+                      </p>
+                      <span class="cart-product-price">
+                        480 ₽
+                      </span>
+                    </a>
+                    <button class="delete-product-button button" type="button" aria-label="Удалить продукт из корзины.">
+                    </button>
+                  </li>
+                </ul>
+                <p class="apply-button-and-price">
+                  <button class="apply-order-button button" type="button">
+                    Оформить заказ
+                  </button>
+                  <span class="total-price">
+                    Итого: 790 ₽
+                  </span>
+                </p>
               </div>
-            </li>
-          </ul>
-        </nav>
-      </div>
+            </div>
+          </li>
+        </ul>
+      </nav>
     </header>
 
     <main class="index-page">
       <h1 class="visually-hidden">
         Магазин мороженного Глейси.
       </h1>
-      <div class="sizing-container">
         <section class="slider">
           <h2 class="visually-hidden">
             Слайдер.
@@ -335,7 +329,6 @@
         </section>
 
         <section class="gifts">
-
           <h2 class="visually-hidden">
             Подарки.
           </h2>
@@ -607,11 +600,9 @@
             </a>
           </div>
         </section>
-      </div>
     </main>
 
-    <footer class="main-footer">
-      <div class="sizing-container">
+    <footer class="page-footer">
         <ul class="footer-socials-list">
           <li class="footer-socials-item">
             <a class="socials-link telegram" href="#" aria-label="Телеграм."></a>
@@ -626,31 +617,31 @@
           </li>
         </ul>
 
-          <ul class="footer-navigation-list">
-            <li class="footer-navigation-item">
-              <a class="footer-navigation-link">
-                Для поставщиков
-              </a>
-            </li>
+        <ul class="footer-navigation-list">
+          <li class="footer-navigation-item">
+            <a class="footer-navigation-link">
+              Для поставщиков
+            </a>
+          </li>
 
-            <li class="footer-navigation-item">
-              <a class="footer-navigation-link">
-                Наши документы
-              </a>
-            </li>
+          <li class="footer-navigation-item">
+            <a class="footer-navigation-link">
+              Наши документы
+            </a>
+          </li>
 
-            <li class="footer-navigation-item">
-              <a class="footer-navigation-link">
-                О производстве
-              </a>
-            </li>
+          <li class="footer-navigation-item">
+            <a class="footer-navigation-link">
+              О производстве
+            </a>
+          </li>
 
-            <li class="footer-navigation-item">
-              <a class="footer-navigation-link">
-                Экологические стандарты
-              </a>
-            </li>
-          </ul>
+          <li class="footer-navigation-item">
+            <a class="footer-navigation-link">
+              Экологические стандарты
+            </a>
+          </li>
+        </ul>
 
         <div class="footer-logo-container">
           <a class="footer-logo-link" href="https://htmlacademy.ru/" aria-label="Переход на сайт академии"></a>
@@ -658,7 +649,6 @@
             Сделано в <a href="https://htmlacademy.ru/" aria-label="Переход на сайт академии">.html academy</a> © 2021
           </span>
         </div>
-      </div>
     </footer>
 
     <!-- Modal Window -->

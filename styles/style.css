@@ -93,8 +93,7 @@ footer {
   display: block;
 }
 
-.main-header-container,
-.inner-header-container {
+.page-header {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
