@@ -433,11 +433,17 @@ body {
   outline: 4px solid rgba(252, 252, 252, 0.4);
 }
 
-/* Slider Navigation */
-
 .slider-buttons-list {
   position: absolute;
   list-style: none;
+}
+
+/* Slider Footer */
+
+.slider-footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .slider-pagination-list {
@@ -462,13 +468,7 @@ body {
 
 /* Slider Socials */
 
-.slider-navigation-and-socials {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.slider-social-media-list {
+.slider-socials-list {
   width: 104px;
   padding: 0;
   margin: 0;
