@@ -587,18 +587,32 @@ body {
   margin: 0;
   padding: 0;
   list-style: none;
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   gap: 30px;
 }
 
 .catalog-item {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  width: 270px;
+  padding: 0 40px 24px 40px;
+  display: grid;
+  position: relative;
+  justify-items: center;
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.catalog-item::before {
+  position: absolute;
+  content: "";
   background-color: #fcfcfc;
   border-radius: 8px;
+  width: 100%;
+  height: calc(100% - 51px);
+  left: 0;
+  bottom: 0;
+  z-index: -1;
 }
 
 .product-title {
@@ -614,7 +628,7 @@ body {
 .about-us {
   margin-bottom: 80px;
   padding: 24px;
-  background-image: url(../images/index/about-us-background.png);
+  background-image: url("../images/index/about-us-background.png");
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 16px;
