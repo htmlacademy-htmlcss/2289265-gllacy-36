@@ -633,6 +633,19 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 16px;
+  z-index: 1;
+}
+
+.about-us::before {
+  position: absolute;
+  content: "";
+  width: calc(100% - 48px);
+  height: calc(100% - 48px);
+  background-color: #ffffff;
+  border-radius: 16px;
+  top: 24px;
+  left: 24px;
+  z-index: -1;
 }
 
 .about-us-title {
@@ -654,6 +667,7 @@ body {
 }
 
 .features-item {
+  padding-left: 64px;
   font-weight: 400;
   font-size: 16px;
   line-height: 22px;
@@ -670,6 +684,7 @@ body {
 
 .glaccy-blog {
   width: 570px;
+  padding: 32px 235px 67px 32px;
   background-image: url("../images/index/blog-background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -677,19 +692,20 @@ body {
 }
 
 .glaccy-blog-link {
-  padding: 32px 235px 67px 32px;
   display: block;
   text-decoration: none;
   color: inherit
 }
 
-.glaccy-blog-text {
+.glaccy-blog-title {
   margin: 0;
+  font-weight: 400;
   font-size: 16px;
   line-height: 20px;
+  margin-bottom: 12px;
 }
 
-.glaccy-blog-title {
+.glaccy-blog-text {
   margin: 0;
   font-weight: 700;
   font-size: 24px;
