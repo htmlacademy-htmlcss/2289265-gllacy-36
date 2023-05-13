@@ -922,8 +922,7 @@ footer {
 
 /* Footer */
 
-.main-footer .sizing-container,
-.inner-footer .sizing-container {
+.page-footer {
   display: flex;
   flex-wrap: wrap;
   padding: 48px 98px;
