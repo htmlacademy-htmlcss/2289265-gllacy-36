@@ -99,6 +99,15 @@ body {
   align-items: center;
 }
 
+.header-navigation {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+
 .header-navigation-list {
   margin: 33px 0;
   padding: 0;
@@ -108,19 +117,33 @@ body {
   list-style: none;
 }
 
+/* Subcatalog */
+
+.catalog-button {
+  border: none;
+  background-color: transparent;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #2d3440;
+}
+
 .subcatalog-list {
   list-style: none;
 }
 
 .header-navigation-item a {
+  color: #2d3440;
   text-decoration: none;
 }
 
 .user-interface {
+  display: flex;
+  flex-wrap: wrap;
   margin-left: auto;
 }
 
-.right-navigation-list {
+.user-list {
   display: flex;
   flex-wrap: wrap;
   gap: 32px;
