@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -18,7 +17,8 @@
   </head>
 
   <body>
-    <header class="page-header">
+    <div class="page-container">
+      <header class="page-header">
         <nav class="left-header-navigation">
           <a class="logo-gllacy" href="index.html" aria-label="Переход на главную страницу магазина.">
             <img class="logo-gllacy-picture" width="137" height="55" src="/images/header/logo-glaccy.svg"
@@ -81,14 +81,16 @@
             +7 800 555-86-28
           </a>
           <ul class="right-navigation-list">
-            <li class="right-navigation-item search-item">
-              <button class="button search-button" type="button" aria-label="Кнопка поиска."></button>
-              <div class="search-container">
-                <form class="search" action="https://echo.htmlacademy.ru/" method="get">
-                  <label class="search-label" aria-label="Поле поиска">
-                    <input class="search-input" type="search" placeholder="Поиск по сайту" required>
-                  </label>
-                </form>
+            <li class="right-navigation-item">
+              <div class="search-item">
+                <button class="button search-button" type="button" aria-label="Кнопка поиска."></button>
+                <div class="search-container">
+                  <form class="search" action="https://echo.htmlacademy.ru/" method="get">
+                    <label class="search-label" aria-label="Поле поиска">
+                      <input class="search-input" type="search" placeholder="Поиск по сайту" required>
+                    </label>
+                  </form>
+                </div>
               </div>
             </li>
 
@@ -627,5 +629,6 @@
           </span>
         </div>
     </footer>
+    </div>
   </body>
 </html>
