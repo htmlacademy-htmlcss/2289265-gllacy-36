@@ -644,8 +644,8 @@ body {
 }
 
 .features-list {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   gap: 40px 32px;
   margin: 0;
   padding: 0;
@@ -653,12 +653,6 @@ body {
 }
 
 .features-item {
-  width: 505px;
-}
-
-.features-text {
-  margin: 0;
-  padding-left: 64px;
   font-weight: 400;
   font-size: 16px;
   line-height: 22px;
