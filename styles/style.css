@@ -68,6 +68,7 @@ body {
   border: none;
   background-color: transparent;
   font-family: inherit;
+  color: #fcfcfc;
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
@@ -164,27 +165,28 @@ body {
   background-position: center;
 }
 
-.login-link {
-  border-radius: 30px;
-  background-color: rgba(252, 252, 252, 0.3);
-  background-image: url("../images/header/login-icon.svg");
-  background-repeat: no-repeat;
-  background-position: 15px 8px;
-  padding: 6px 16px 6px 38px;
-  text-decoration: none;
+.user-button {
   display: block;
+  padding: 6px 16px 6px 38px;
+  border: none;
+  border-radius: 30px;
+  background-repeat: no-repeat;
+  background-color: rgba(252, 252, 252, 0.3);
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.login-item-button {
+  background-image: url("../images/header/login-icon.svg");
+  background-position: 15px 8px;
 }
 
 .cart-link {
   position: relative;
-  border-radius: 30px;
-  background-color: rgba(252, 252, 252, 0.3);
   background-image: url("../images/header/cart-icon.svg");
-  background-repeat: no-repeat;
   background-position: 15px 8px;
-  padding: 6px 16px 6px 38px;
-  text-decoration: none;
-  display: block;
 }
 
 /* Subcatalog */

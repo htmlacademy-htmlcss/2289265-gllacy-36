@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -82,7 +83,7 @@
           </a>
           <ul class="user-list">
             <li class="user-navigation-item">
-            <div class="search-item">
+              <div class="search-item">
                 <button class="button search-button" type="button" aria-label="Кнопка поиска."></button>
                 <div class="search-container">
                   <form class="search" action="https://echo.htmlacademy.ru/" method="get">
@@ -94,127 +95,127 @@
               </div>
             </li>
 
-            <li class="user-navigation-item login-item">
-              <a class="login-link" href="#">
-                Вход
-              </a>
+            <li class="user-navigation-item">
+              <div class="login-item">
+                <button class="login-item-button user-button" type="button">
+                  Вход
+                </button>
+                <div class="login-pop-over-container">
+                  <form class="login-form" action="https://echo.htmlacademy.ru/" method="get">
+                    <fieldset class="login-fieldset">
+                      <legend class="login-form-title">
+                        Личный кабинет
+                      </legend>
 
-              <div class="login-pop-over-container">
-                <form class="login-form" action="https://echo.htmlacademy.ru/" method="get">
-                  <fieldset class="login-fieldset">
-                    <legend class="login-form-title">
-                      Личный кабинет
-                    </legend>
+                      <label aria-label="Поле для воода почты">
+                        <input class="email-input" type="text" name="email" value="email@example.com" required>
+                      </label>
 
-                    <label aria-label="Поле для воода почты">
-                      <input class="email-input" type="text" name="email" value="email@example.com" required>
-                    </label>
+                      <label aria-label="Поле для воода почты">
+                        <input class="password-input" type="password" name="password" value="qwerty" required>
+                      </label>
+                    </fieldset>
 
-                    <label aria-label="Поле для воода почты">
-                      <input class="password-input" type="password" name="password" value="qwerty" required>
-                    </label>
-                  </fieldset>
+                    <button class="login-button button" type="submit">
+                      Войти
+                    </button>
 
-                  <button class="login-button button" type="submit">
-                    Войти
-                  </button>
+                    <p class="login-links-container">
+                      <a class="forgot-password-link" href="#">
+                        Забыли пароль?
+                      </a>
 
-                  <p class="login-links-container">
-                    <a class="forgot-password-link" href="#">
-                      Забыли пароль?
-                    </a>
-
-                    <a class="sign-up-link" href="#">
-                      Регистрация
-                    </a>
-                  </p>
-                </form>
+                      <a class="sign-up-link" href="#">
+                        Регистрация
+                      </a>
+                    </p>
+                  </form>
+                </div>
               </div>
             </li>
 
             <!-- Для показа пустой корзины добавте класс cart-item-empty для cart-item  -->
 
-            <li class="user-navigation-item cart-item">
+            <li class="user-navigation-item">
+              <div class="cart-item">
+                <button class="cart-link user-button" type="button">
+                  <span class="have-items">
+                    2 Товара
+                  </span>
+                  <span class="have-no-items">
+                    Нет товаров
+                  </span>
+                </button>
 
-              <a class="cart-link" href="">
-                <span class="have-items">
-                  2 Товара
-                </span>
-                <span class="have-no-items">
-                  Нет товаров
-                </span>
-              </a>
-
-              <div class="cart-pop-over-container">
-
-                <div class="empty-cart-pop-over">
-                  <p class="cart-empty-text">
-                    Ваша корзина пока пуста
-                  </p>
-                </div>
-
-                <div class="cart-pop-over">
-                  <p class="cart-title">
-                    Корзина
-                  </p>
-                  <ul class="cart-product-list">
-                    <li class="cart-product-item">
-                      <a class="cart-product-link" href="#">
-                        <img class="cart-product-pic" src="/images/ice-creams/ice-cream-1.png" width="46" height="46"
-                          alt="Изображение мороженого Малинка.">
-                        <p class="cart-product-text">
-                          Малинка
-                          <span class="cart-product-details">
-                            1 кг х 310 ₽
+                <div class="cart-pop-over-container">
+                  <div class="empty-cart-pop-over">
+                    <p class="cart-empty-text">
+                      Ваша корзина пока пуста
+                    </p>
+                  </div>
+                  <div class="cart-pop-over">
+                    <p class="cart-title">
+                      Корзина
+                    </p>
+                    <ul class="cart-product-list">
+                      <li class="cart-product-item">
+                        <a class="cart-product-link" href="#">
+                          <img class="cart-product-pic" src="/images/ice-creams/ice-cream-1.png" width="46" height="46"
+                            alt="Изображение мороженого Малинка.">
+                          <p class="cart-product-text">
+                            Малинка
+                            <span class="cart-product-details">
+                              1 кг х 310 ₽
+                            </span>
+                          </p>
+                          <span class="cart-product-price">
+                            310 ₽
                           </span>
-                        </p>
-                        <span class="cart-product-price">
-                          310 ₽
-                        </span>
-                      </a>
-                      <button class="delete-product-button button" type="button"
-                        aria-label="Удалить продукт из корзины.">
-                      </button>
-                    </li>
+                        </a>
+                        <button class="delete-product-button button" type="button"
+                          aria-label="Удалить продукт из корзины.">
+                        </button>
+                      </li>
 
-                    <li class="cart-product-item">
-                      <a class="cart-product-link" href="#">
-                        <img class="cart-product-pic" src="/images/ice-creams/ice-cream-4.png" width="46" height="46"
-                          alt="Изображение мороженого Бабл-гам.">
-                        <p class="cart-product-text">
-                          Бабл-гам
-                          <span class="cart-product-details">
-                            1,5 кг х 320 ₽
+                      <li class="cart-product-item">
+                        <a class="cart-product-link" href="#">
+                          <img class="cart-product-pic" src="/images/ice-creams/ice-cream-4.png" width="46" height="46"
+                            alt="Изображение мороженого Бабл-гам.">
+                          <p class="cart-product-text">
+                            Бабл-гам
+                            <span class="cart-product-details">
+                              1,5 кг х 320 ₽
+                            </span>
+                          </p>
+                          <span class="cart-product-price">
+                            480 ₽
                           </span>
-                        </p>
-                        <span class="cart-product-price">
-                          480 ₽
-                        </span>
-                      </a>
-                      <button class="delete-product-button button" type="button"
-                        aria-label="Удалить продукт из корзины.">
+                        </a>
+                        <button class="delete-product-button button" type="button"
+                          aria-label="Удалить продукт из корзины.">
+                        </button>
+                      </li>
+                    </ul>
+                    <p class="apply-button-and-price">
+                      <button class="apply-order-button button" type="button">
+                        Оформить заказ
                       </button>
-                    </li>
-                  </ul>
-                  <p class="apply-button-and-price">
-                    <button class="apply-order-button button" type="button">
-                      Оформить заказ
-                    </button>
-                    <span class="total-price">
-                      Итого: 790 ₽
-                    </span>
-                  </p>
+                      <span class="total-price">
+                        Итого: 790 ₽
+                      </span>
+                    </p>
+                  </div>
                 </div>
               </div>
             </li>
           </ul>
         </div>
-    </header>
+      </header>
 
-    <main class="page-catalog">
-      <h1 class="visually-hidden">
-        Каталог магазина Глейси.
-      </h1>
+      <main class="page-catalog">
+        <h1 class="visually-hidden">
+          Каталог магазина Глейси.
+        </h1>
         <section class="breadcrumbs-and-title">
           <h2 class="catalog-title">
             Сливочное мороженое
@@ -579,9 +580,9 @@
             </li>
           </ul>
         </section>
-    </main>
+      </main>
 
-    <footer class="page-footer">
+      <footer class="page-footer">
         <ul class="footer-socials-list">
           <li class="footer-socials-item">
             <a class="socials-link telegram" href="#" aria-label="Телеграм."></a>
@@ -628,7 +629,8 @@
             Сделано в <a href="https://htmlacademy.ru/" aria-label="Переход на сайт академии">.html academy</a> © 2021
           </span>
         </div>
-    </footer>
+      </footer>
     </div>
   </body>
+
 </html>
