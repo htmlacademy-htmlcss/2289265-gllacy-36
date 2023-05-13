@@ -626,8 +626,9 @@ body {
 /* About Us */
 
 .about-us {
+  position: relative;
   margin-bottom: 80px;
-  padding: 24px;
+  padding: 80px 64px;
   background-image: url("../images/index/about-us-background.png");
   background-repeat: no-repeat;
   background-size: cover;
