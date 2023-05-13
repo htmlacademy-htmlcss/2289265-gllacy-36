@@ -33,8 +33,6 @@ html {
 body {
   min-height: 100%;
   margin: 0 auto;
-  display: flex;
-  flex-direction: column;
   background-color: #feaFc3;
   color: #2d3440;
   font-family: "Inter", sans-serif;
@@ -43,11 +41,11 @@ body {
   line-height: 24px;
 }
 
-main {
+.page-main {
   flex-grow: 1;
 }
 
-footer {
+.page-footer {
   margin-top: auto;
 }
 
@@ -57,10 +55,12 @@ footer {
   box-sizing: border-box;
 }
 
-.sizing-container {
+.page-container {
   width: 1366px;
   margin: 0 auto;
   padding: 0 98px;
+  display: flex;
+  flex-direction: column;
 }
 
 .button {
