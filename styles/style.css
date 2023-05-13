@@ -1,3 +1,4 @@
+catalog-item-link
 /* Fonts */
 
 @font-face {
@@ -574,7 +575,10 @@ footer {
 .catalog-item {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
   width: 270px;
+  background-color: #fcfcfc;
+  border-radius: 8px;
 }
 
 /* About Us */
@@ -710,6 +714,7 @@ footer {
   display: flex;
   gap: 135px;
   padding: 64px 64px 64px 100px;
+  margin-bottom: 80px;
   background-image: url("../images/index/delivery-background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -844,6 +849,43 @@ footer {
   border-radius: 26px;
 }
 
+/* Section Address */
+
+.address {
+  margin-bottom: 80px;
+  padding: 64px;
+  border-radius: 16px;
+  background-image: url("../images/index/address-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.address-container {
+  width: 343px;
+  background-color: #fcfcfc;
+  border-radius: 8px;
+  padding: 40px 40px 42px 40px;
+}
+
+.address-title {
+  margin: 0;
+  margin-bottom: 12px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.address-info {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.address-phone-number-container {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
 /* Modal Window*/
 
 .modal-container-closed {
