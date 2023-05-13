@@ -171,10 +171,6 @@ body {
   position: absolute;
 }
 
-.catalog-item:focus-within .subcatalog-list {
-  display: block;
-}
-
 /* Search Pop-Over */
 
 .search-item {
