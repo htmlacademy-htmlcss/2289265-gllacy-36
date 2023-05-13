@@ -18,8 +18,8 @@
   </head>
 
   <body>
-    <div class="sizing-container">
-      <header class="main-header">
+    <header class="main-header">
+      <div class="sizing-container main-header-container">
         <a class="logo-gllacy" href="index.html" aria-label="Переход на главную страницу магазина.">
           <img class="logo-gllacy-picture" width="137" height="55" src="/images/header/logo-glaccy.svg"
             alt="Логотип GlaccyShop">
@@ -29,6 +29,7 @@
           <ul class="header-navigation-list">
 
             <li class="header-navigation-item">
+
               <a class="catalog-link" href="#">
                 Каталог
               </a>
@@ -80,7 +81,7 @@
           </ul>
         </nav>
 
-        <nav class="right-navigation-container">
+        <nav class="right-navigation">
           <ul class="right-navigation-list">
             <li class="right-navigation-item">
               <a class="header-phone-number" href="tel:+78005558628">
@@ -137,82 +138,92 @@
               </div>
             </li>
 
-            <li class="right-navigation-item">
+            <!-- Для показа пустой корзины добавте класс cart-item-empty для cart-item  -->
+
+            <li class="right-navigation-item cart-item">
 
               <a class="cart-link" href="">
-                2 Товара
+                <span class="have-items">
+                  2 Товара
+                </span>
+                <span class="have-no-items">
+                  Нет товаров
+                </span>
               </a>
 
               <div class="cart-pop-over-container">
-                <p class="cart-title">
-                  Корзина
-                </p>
-                <ul class="cart-product-list">
 
-                  <li class="cart-product-item">
-                    <a class="cart-product-link" href="#">
-                      <img class="cart-product-pic" src="/images/ice-creams/ice-cream-1.png" width="46" height="46"
-                        alt="Изображение мороженого Малинка.">
-                      <p class="cart-product-text">
-                        Малинка
-                        <span class="cart-product-details">
-                          1 кг х 310 ₽
+                <div class="empty-cart-pop-over">
+                  <p class="cart-empty-text">
+                    Ваша корзина пока пуста
+                  </p>
+                </div>
+
+                <div class="cart-pop-over">
+                  <p class="cart-title">
+                    Корзина
+                  </p>
+                  <ul class="cart-product-list">
+                    <li class="cart-product-item">
+                      <a class="cart-product-link" href="#">
+                        <img class="cart-product-pic" src="/images/ice-creams/ice-cream-1.png" width="46" height="46"
+                          alt="Изображение мороженого Малинка.">
+                        <p class="cart-product-text">
+                          Малинка
+                          <span class="cart-product-details">
+                            1 кг х 310 ₽
+                          </span>
+                        </p>
+                        <span class="cart-product-price">
+                          310 ₽
                         </span>
-                      </p>
-                      <span class="cart-product-price">
-                        310 ₽
-                      </span>
-                    </a>
-                    <button class="delete-product-button button" type="button" aria-label="Удалить продукт из корзины.">
-                    </button>
-                  </li>
+                      </a>
+                      <button class="delete-product-button button" type="button"
+                        aria-label="Удалить продукт из корзины.">
+                      </button>
+                    </li>
 
-                  <li class="cart-product-item">
-                    <a class="cart-product-link" href="#">
-                      <img class="cart-product-pic" src="/images/ice-creams/ice-cream-4.png" width="46" height="46"
-                        alt="Изображение мороженого Бабл-гам.">
-                      <p class="cart-product-text">
-                        Бабл-гам
-                        <span class="cart-product-details">
-                          1,5 кг х 320 ₽
+                    <li class="cart-product-item">
+                      <a class="cart-product-link" href="#">
+                        <img class="cart-product-pic" src="/images/ice-creams/ice-cream-4.png" width="46" height="46"
+                          alt="Изображение мороженого Бабл-гам.">
+                        <p class="cart-product-text">
+                          Бабл-гам
+                          <span class="cart-product-details">
+                            1,5 кг х 320 ₽
+                          </span>
+                        </p>
+                        <span class="cart-product-price">
+                          480 ₽
                         </span>
-                      </p>
-                      <span class="cart-product-price">
-                        480 ₽
-                      </span>
-                    </a>
-                    <button class="delete-product-button button" type="button" aria-label="Удалить продукт из корзины.">
+                      </a>
+                      <button class="delete-product-button button" type="button"
+                        aria-label="Удалить продукт из корзины.">
+                      </button>
+                    </li>
+                  </ul>
+                  <p class="apply-button-and-price">
+                    <button class="apply-order-button button" type="button">
+                      Оформить заказ
                     </button>
-                  </li>
-                </ul>
-                <p class="apply-button-and-price">
-                  <button class="apply-order-button button" type="button">
-                    Оформить заказ
-                  </button>
-                  <span class="total-price">
-                    Итого: 790 ₽
-                  </span>
-                </p>
-              </div>
-
-              <div class="empty-cart-pop-over">
-                <p class="cart-empty-text">
-                  Ваша корзина пока пуста
-                </p>
+                    <span class="total-price">
+                      Итого: 790 ₽
+                    </span>
+                  </p>
+                </div>
               </div>
             </li>
           </ul>
         </nav>
-      </header>
+      </div>
+    </header>
 
-      <main class="catalog-page">
-
-        <h1 class="visually-hidden">
-          Каталог магазина Глейси.
-        </h1>
-
+    <main class="catalog-page">
+      <h1 class="visually-hidden">
+        Каталог магазина Глейси.
+      </h1>
+      <div class="sizing-container">
         <section class="breadcrumbs-and-title">
-
           <h2 class="catalog-title">
             Сливочное мороженое
           </h2>
@@ -391,246 +402,245 @@
 
           <ul class="catalog-list">
             <li class="catalog-item">
-                <h3 class="product-title">
-                  Малинка
-                </h3>
-                <img class="product-picture" width="168" height="168" src="/images/ice-creams/ice-cream-1.png"
-                  alt="Изображение мороженого Малинка.">
-                <p class="product-description">
-                  Сливочное мороженое с малиновым джемом
-                </p>
-                <span class="product-price">
-                  310 ₽/кг
-                </span>
+              <h3 class="product-title">
+                Малинка
+              </h3>
+              <img class="product-picture" width="168" height="168" src="/images/ice-creams/ice-cream-1.png"
+                alt="Изображение мороженого Малинка.">
+              <p class="product-description">
+                Сливочное мороженое с малиновым джемом
+              </p>
+              <span class="product-price">
+                310 ₽/кг
+              </span>
               <button class="add-to-cart" type="button"></button>
             </li>
 
             <li class="catalog-item">
-                <h3 class="product-title">
-                  Фисташка
-                </h3>
-                <img class="product-picture" width="168" height="168" src="/images/ice-creams/ice-cream-2.png"
-                  alt="Изображение мороженого Фисташка">
-                <p class="product-description">
-                  Фисташковый пломбир с кусочками шоколада
-                </p>
-                <span class="product-price">
-                  340 ₽/кг
-                </span>
+              <h3 class="product-title">
+                Фисташка
+              </h3>
+              <img class="product-picture" width="168" height="168" src="/images/ice-creams/ice-cream-2.png"
+                alt="Изображение мороженого Фисташка">
+              <p class="product-description">
+                Фисташковый пломбир с кусочками шоколада
+              </p>
+              <span class="product-price">
+                340 ₽/кг
+              </span>
               <button class="add-to-cart" type="button"></button>
             </li>
 
             <li class="catalog-item">
-                <h3 class="product-title">
-                  Черника
-                </h3>
-                <img class="product-picture" width="168" height="168" src="/images/ice-creams/ice-cream-3.png"
-                  alt="Изображение мороженого Черника">
-                <p class="product-description">
-                  Крем-брюле
-                  с черничным джемом
-                </p>
-                <span class="product-price">
-                  330 ₽/кг
-                </span>
+              <h3 class="product-title">
+                Черника
+              </h3>
+              <img class="product-picture" width="168" height="168" src="/images/ice-creams/ice-cream-3.png"
+                alt="Изображение мороженого Черника">
+              <p class="product-description">
+                Крем-брюле
+                с черничным джемом
+              </p>
+              <span class="product-price">
+                330 ₽/кг
+              </span>
               <button class="add-to-cart" type="button"></button>
             </li>
 
             <li class="catalog-item">
-                <h3 class="product-title">
-                  Бабл-гам
-                </h3>
-                <img class="product-picture" width="168" height="168" src="/images/ice-creams/ice-cream-4.png"
-                  alt="Изображение Бабл-гам">
-                <p class="product-description">
-                  Ванильный пломбир
-                  со сладкой посыпкой
-                </p>
-                <span class="product-price">
-                  320 ₽/кг
-                </span>
+              <h3 class="product-title">
+                Бабл-гам
+              </h3>
+              <img class="product-picture" width="168" height="168" src="/images/ice-creams/ice-cream-4.png"
+                alt="Изображение Бабл-гам">
+              <p class="product-description">
+                Ванильный пломбир
+                со сладкой посыпкой
+              </p>
+              <span class="product-price">
+                320 ₽/кг
+              </span>
               <button class="add-to-cart" type="button"></button>
             </li>
 
             <li class="catalog-item">
-                <h3 class="product-title">
-                  Ежевика
-                </h3>
-                <img class="product-picture" width="168" height="168" src="/images/ice-creams/ice-cream-5.png"
-                  alt="Изображение мороженого Ежевика">
-                <p class="product-description">
-                  Сливочное мороженое с ежевичным джемом
-                </p>
-                <span class="product-price">
-                  330 ₽/кг
-                </span>
+              <h3 class="product-title">
+                Ежевика
+              </h3>
+              <img class="product-picture" width="168" height="168" src="/images/ice-creams/ice-cream-5.png"
+                alt="Изображение мороженого Ежевика">
+              <p class="product-description">
+                Сливочное мороженое с ежевичным джемом
+              </p>
+              <span class="product-price">
+                330 ₽/кг
+              </span>
               <button class="add-to-cart" type="button"></button>
             </li>
 
             <li class="catalog-item">
-                <h3 class="product-title">
-                  Банан
-                </h3>
-                <img class="product-picture" width="168" height="168" src="/images/ice-creams/ice-cream-6.png"
-                  alt="Изображение мороженого Банан">
-                <p class="product-description">
-                  Сливочный пломбир
-                  с банановым вкусом
-                </p>
-                <span class="product-price">
-                  340 ₽/кг
-                </span>
+              <h3 class="product-title">
+                Банан
+              </h3>
+              <img class="product-picture" width="168" height="168" src="/images/ice-creams/ice-cream-6.png"
+                alt="Изображение мороженого Банан">
+              <p class="product-description">
+                Сливочный пломбир
+                с банановым вкусом
+              </p>
+              <span class="product-price">
+                340 ₽/кг
+              </span>
               <button class="add-to-cart" type="button"></button>
             </li>
 
             <li class="catalog-item">
-                <h3 class="product-title">
-                  Шоколадка
-                </h3>
-                <img class="product-picture" width="168" height="168" src="/images/ice-creams/ice-cream-7.png"
-                  alt="Изображение мороженого Шоколадка">
-                <p class="product-description">
-                  Классический шоколадный пломбир
-                </p>
-                <span class="product-price">
-                  270 ₽/кг
-                </span>
+              <h3 class="product-title">
+                Шоколадка
+              </h3>
+              <img class="product-picture" width="168" height="168" src="/images/ice-creams/ice-cream-7.png"
+                alt="Изображение мороженого Шоколадка">
+              <p class="product-description">
+                Классический шоколадный пломбир
+              </p>
+              <span class="product-price">
+                270 ₽/кг
+              </span>
               <button class="add-to-cart" type="button"></button>
             </li>
 
             <li class="catalog-item">
-                <h3 class="product-title">
-                  Клубничка
-                </h3>
-                <img class="product-picture" width="168" height="168" src="/images/ice-creams/ice-cream-8.png"
-                  alt="Изображение мороженого Клубничка">
-                <p class="product-description">
-                  Сливочный пломбир
-                  с клубничным вкусом
-                </p>
-                <span class="product-price">
-                  300 ₽/кг
-                </span>
+              <h3 class="product-title">
+                Клубничка
+              </h3>
+              <img class="product-picture" width="168" height="168" src="/images/ice-creams/ice-cream-8.png"
+                alt="Изображение мороженого Клубничка">
+              <p class="product-description">
+                Сливочный пломбир
+                с клубничным вкусом
+              </p>
+              <span class="product-price">
+                300 ₽/кг
+              </span>
               <button class="add-to-cart" type="button"></button>
             </li>
 
             <li class="catalog-item">
-                <h3 class="product-title">
-                  Лимон
-                </h3>
-                <img class="product-picture" width="168" height="168" src="/images/ice-creams/ice-cream-9.png"
-                  alt="Изображение мороженого Лимон">
-                <p class="product-description">
-                  Освежающий лимонный сорбет
-                </p>
-                <span class="product-price">
-                  310 ₽/кг
-                </span>
+              <h3 class="product-title">
+                Лимон
+              </h3>
+              <img class="product-picture" width="168" height="168" src="/images/ice-creams/ice-cream-9.png"
+                alt="Изображение мороженого Лимон">
+              <p class="product-description">
+                Освежающий лимонный сорбет
+              </p>
+              <span class="product-price">
+                310 ₽/кг
+              </span>
               <button class="add-to-cart" type="button"></button>
             </li>
 
             <li class="catalog-item">
-                <h3 class="product-title">
-                  Ментол
-                </h3>
-                <img class="product-picture" width="168" height="168" src="/images/ice-creams/ice-cream-10.png"
-                  alt="Изображение мороженого Ментол">
-                <p class="product-description">
-                  Сливочный пломбир
-                  с ментоловым сиропом
-                </p>
-                <span class="product-price">
-                  320 ₽/кг
-                </span>
+              <h3 class="product-title">
+                Ментол
+              </h3>
+              <img class="product-picture" width="168" height="168" src="/images/ice-creams/ice-cream-10.png"
+                alt="Изображение мороженого Ментол">
+              <p class="product-description">
+                Сливочный пломбир
+                с ментоловым сиропом
+              </p>
+              <span class="product-price">
+                320 ₽/кг
+              </span>
               <button class="add-to-cart" type="button"></button>
             </li>
 
             <li class="catalog-item">
-                <h3 class="product-title">
-                  Орешек
-                </h3>
-                <img class="product-picture" width="168" height="168" src="/images/ice-creams/ice-cream-11.png"
-                  alt="Изображение мороженого Орешек">
-                <p class="product-description">
-                  Фисташковый пломбир с шоколадным сиропом
-                </p>
-                <span class="product-price">
-                  360 ₽/кг
-                </span>
+              <h3 class="product-title">
+                Орешек
+              </h3>
+              <img class="product-picture" width="168" height="168" src="/images/ice-creams/ice-cream-11.png"
+                alt="Изображение мороженого Орешек">
+              <p class="product-description">
+                Фисташковый пломбир с шоколадным сиропом
+              </p>
+              <span class="product-price">
+                360 ₽/кг
+              </span>
               <button class="add-to-cart" type="button"></button>
             </li>
 
             <li class="catalog-item">
-                <h3 class="product-title">
-                  Крем-брюле
-                </h3>
-                <img class="product-picture" width="168" height="168" src="/images/ice-creams/ice-cream-12.png"
-                  alt="Изображение мороженого Крем-брюле">
-                <p class="product-description">
-                  Классическое крем-брюле
-                </p>
-                <span class="product-price">
-                  280 ₽/кг
-                </span>
+              <h3 class="product-title">
+                Крем-брюле
+              </h3>
+              <img class="product-picture" width="168" height="168" src="/images/ice-creams/ice-cream-12.png"
+                alt="Изображение мороженого Крем-брюле">
+              <p class="product-description">
+                Классическое крем-брюле
+              </p>
+              <span class="product-price">
+                280 ₽/кг
+              </span>
               <button class="add-to-cart" type="button"></button>
             </li>
           </ul>
         </section>
-      </main>
+      </div>
+    </main>
 
-      <footer class="inner-footer">
-        <div class="sizing-container">
-          <ul class="footer-socials-list">
-            <li class="footer-socials-item">
-              <a class="footer-socials-link telegram" href="#" aria-label="Телеграм."></a>
-            </li>
+    <footer class="inner-footer">
+      <div class="sizing-container">
+        <ul class="footer-socials-list">
+          <li class="footer-socials-item">
+            <a class="socials-link telegram" href="#" aria-label="Телеграм."></a>
+          </li>
 
-            <li class="footer-socials-item">
-              <a class="footer-socials-link vk" href="#" aria-label="Вконтакте"></a>
-            </li>
+          <li class="footer-socials-item">
+            <a class="socials-link vk" href="#" aria-label="Вконтакте"></a>
+          </li>
 
-            <li class="footer-socials-item">
-              <a class="footer-socials-link youtube" href="#" aria-label="Ютуб."></a>
-            </li>
-          </ul>
+          <li class="footer-socials-item">
+            <a class="socials-link youtube" href="#" aria-label="Ютуб."></a>
+          </li>
+        </ul>
 
-          <nav class="footer-navigation">
-            <ul class="footer-navigation-list">
-              <li class="footer-navigation-item">
-                <a class="footer-navigation-link">
-                  Для поставщиков
-                </a>
-              </li>
+        <ul class="footer-navigation-list">
+          <li class="footer-navigation-item">
+            <a class="footer-navigation-link">
+              Для поставщиков
+            </a>
+          </li>
 
-              <li class="footer-navigation-item">
-                <a class="footer-navigation-link">
-                  Наши документы
-                </a>
-              </li>
+          <li class="footer-navigation-item">
+            <a class="footer-navigation-link">
+              Наши документы
+            </a>
+          </li>
 
-              <li class="footer-navigation-item">
-                <a class="footer-navigation-link">
-                  О производстве
-                </a>
-              </li>
+          <li class="footer-navigation-item">
+            <a class="footer-navigation-link">
+              О производстве
+            </a>
+          </li>
 
-              <li class="footer-navigation-item">
-                <a class="footer-navigation-link">
-                  Экологические стандарты
-                </a>
-              </li>
-            </ul>
-          </nav>
+          <li class="footer-navigation-item">
+            <a class="footer-navigation-link">
+              Экологические стандарты
+            </a>
+          </li>
+        </ul>
 
-          <div class="footer-logo-container">
-            <a class="footer-logo-link" href="https://htmlacademy.ru/" aria-label="Переход на сайт академии"></a>
-            <span class="footer-logo-span">
-              Сделано в <a href="https://htmlacademy.ru/" aria-label="Переход на сайт академии">.html academy</a> © 2021
-            </span>
-          </div>
+        <div class="footer-logo-container">
+          <a class="footer-logo-link" href="https://htmlacademy.ru/" aria-label="Переход на сайт академии"></a>
+          <span class="footer-logo-text">
+            Сделано в <a href="https://htmlacademy.ru/" aria-label="Переход на сайт академии">.html academy</a> © 2021
+          </span>
         </div>
-      </footer>
-    </div>
+      </div>
+    </footer>
+
   </body>
 
 </html>
