@@ -124,29 +124,6 @@ body {
   list-style: none;
 }
 
-/* Subcatalog */
-
-.catalog-button {
-  position: relative;
-  cursor: pointer;
-  padding: 0;
-  padding-right: 14px;
-  border: none;
-  background-color: transparent;
-  font-family: inherit;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 20px;
-  color: #2d3440;
-  background-image: url("../images/header/arrow.svg");
-  background-repeat: no-repeat;
-  background-position: 65px 8px;
-}
-
-.subcatalog-container:focus-within .subcatalog-list {
-  display: block;
-}
-
 .header-navigation-item a {
   color: #2d3440;
   text-decoration: none;
@@ -215,18 +192,60 @@ body {
 
 /* Subcatalog */
 
+.catalog-button {
+  position: relative;
+  cursor: pointer;
+  padding: 0;
+  padding-right: 14px;
+  border: none;
+  background-color: transparent;
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #2d3440;
+  background-image: url("../images/header/arrow.svg");
+  background-repeat: no-repeat;
+  background-position: 65px 8px;
+}
+
+.subcatalog-container:focus-within .subcatalog-list {
+  display: block;
+}
+
 .subcatalog-list {
+  display: none;
   position: absolute;
   content: "";
   padding: 16px 13px 14px 16px;
   list-style: none;
-  display: none;
   background-color: #fcfcfc;
-  border-radius: 16px;
+  border-radius: 8px;
+  font-size: 14px;
+  line-height: 20px;
 }
 
-.subcatalog-link.subcatalog-new {
-  text-decoration: underline;
+.subcatalog-item:not(:last-child) {
+  margin-bottom: 12px;
+}
+
+.subcatalog-item:first-child {
+  position: relative;
+  margin-bottom: 22px;
+}
+
+.subcatalog-new {
+font-weight: 700;
+}
+
+.subcatalog-new::before {
+  position: absolute;
+  content: "";
+  width: 103px;
+  height: 1px;
+  left: 0;
+  bottom: -12px;
+  background-color: #b9b9b9;
 }
 
 /* Search Pop-Over */
