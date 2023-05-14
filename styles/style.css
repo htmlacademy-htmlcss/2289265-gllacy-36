@@ -127,6 +127,7 @@ body {
 /* Subcatalog */
 
 .catalog-button {
+  position: relative;
   cursor: pointer;
   padding: 0;
   padding-right: 14px;
@@ -142,8 +143,8 @@ body {
   background-position: 65px 8px;
 }
 
-.subcatalog-list {
-  list-style: none;
+.subcatalog-container:focus-within .subcatalog-list {
+  display: block;
 }
 
 .header-navigation-item a {
@@ -215,8 +216,17 @@ body {
 /* Subcatalog */
 
 .subcatalog-list {
-  display: none;
   position: absolute;
+  content: "";
+  padding: 16px 13px 14px 16px;
+  list-style: none;
+  display: none;
+  background-color: #fcfcfc;
+  border-radius: 16px;
+}
+
+.subcatalog-link.subcatalog-new {
+  text-decoration: underline;
 }
 
 /* Search Pop-Over */
