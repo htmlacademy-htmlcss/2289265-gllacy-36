@@ -1164,7 +1164,8 @@ body {
 
 .catalog-pagination {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
+  padding: 41px 0;
 }
 
 .button-load-more {
@@ -1177,10 +1178,37 @@ body {
 }
 
 .pagintaion-list {
+  display: flex;
+  gap: 8px;
+  align-items: center;
   margin: 0;
   padding: 0;
   list-style: none;
 }
+
+.pagintaion-button {
+  width: 16px;
+  height: 16px;
+  border: none;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.pagintaion-button-next {
+  background-image: url("../images/catalog/arrow.svg");
+}
+
+.pagintaion-button-previous {
+  background-image: url("../images/catalog/arrow.svg");
+  transform: rotate(180deg);
+}
+
+.pagination-link {
+  text-decoration: none;
+  color: inherit
+}
+
 /* Footer */
 
 .page-footer {
