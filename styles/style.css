@@ -85,6 +85,13 @@ body {
   border-radius: 4px;
 }
 
+.title {
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 46px;
+  color: #2d3440;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -440,7 +447,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   text-decoration: none;
-  color:#2d3440
+  color: #2d3440
 }
 
 .cart-product-text {
@@ -621,9 +628,6 @@ body {
   margin-bottom: 55px;
   padding: 0 368px;
   text-align: center;
-  font-weight: 900;
-  font-size: 32px;
-  line-height: 46px;
 }
 
 .gifts-list {
@@ -678,9 +682,6 @@ body {
   margin-bottom: 56px;
   padding: 0 321px;
   text-align: center;
-  font-weight: 900;
-  font-size: 32px;
-  line-height: 46px;
 }
 
 .catalog-list {
@@ -752,9 +753,6 @@ body {
   margin: 0;
   margin-bottom: 56px;
   text-align: center;
-  font-weight: 900;
-  font-size: 32px;
-  line-height: 46px;
 }
 
 .features-list {
@@ -873,9 +871,6 @@ body {
 
 .home-delivery-title {
   margin: 103px 0 24px 0;
-  font-weight: 900;
-  font-size: 32px;
-  line-height: 46px;
 }
 
 .home-delivery-text {
@@ -1039,6 +1034,13 @@ body {
 
 /* Catalog */
 
+.breadcrumbs-and-title {
+  display: grid;
+}
+
+.catalog-title {
+  grid-row: 2/3;
+}
 
 /* Footer */
 
