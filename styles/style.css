@@ -81,7 +81,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
-  padding: 14px 16px;
+  padding: 14px 14px;
   border: 1px solid #b9b9b9;
   border-radius: 4px;
 }
@@ -246,7 +246,7 @@ body {
 }
 
 .subcatalog-new {
-font-weight: 700;
+  font-weight: 700;
 }
 
 .subcatalog-new::before {
@@ -321,14 +321,14 @@ font-weight: 700;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
+  align-items: stretch;
   gap: 16px;
 }
 
-/* .email-input,
+.email-input,
 .password-input {
-  padding: 14px 152px 14px 16px;
-  max-width: 324px;
-} */
+  padding-right: 152px;
+}
 
 .login-button {
   align-self: flex-start;
