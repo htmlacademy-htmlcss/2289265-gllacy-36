@@ -1138,6 +1138,16 @@ body {
   padding-left: 24px;
 }
 
+/* Filter Button */
+
+.filter-button {
+  padding: 8px 52px;
+  align-self: flex-end;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.3);
+  outline: 2px solid #fcfcfc;
+}
+
 /* Footer */
 
 .page-footer {
