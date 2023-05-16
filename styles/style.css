@@ -1100,6 +1100,7 @@ body {
 }
 
 .catalog-select {
+  appearance: none;
   padding: 8px 63px 8px 16px;
   border: none;
   border-radius: 20px;
@@ -1120,6 +1121,10 @@ body {
   list-style: none;
   border-radius: 18px;
   background-color: rgba(255, 255, 255, 0.3);
+}
+
+.radio-label {
+  padding-left: 24px;
 }
 
 /* Checkbox */
@@ -1146,6 +1151,7 @@ body {
   border-radius: 20px;
   background-color: rgba(255, 255, 255, 0.3);
   outline: 2px solid #fcfcfc;
+  color: inherit;
 }
 
 /* Footer */
@@ -1153,7 +1159,7 @@ body {
 .page-footer {
   display: flex;
   flex-wrap: wrap;
-  padding: 48px 98px;
+  padding: 48px 0;
 }
 
 .footer-socials-list {
