@@ -677,7 +677,7 @@ body {
   margin-bottom: 80px;
 }
 
-.catalog-title {
+.main-catalog-title {
   margin: 0;
   margin-bottom: 56px;
   padding: 0 321px;
@@ -1034,13 +1034,37 @@ body {
 
 /* Catalog */
 
+.inner-header {
+  margin-bottom: 32px;
+}
+
 .breadcrumbs-and-title {
   display: grid;
+  row-gap: 16px;
 }
 
 .catalog-title {
   grid-row: 2/3;
+  margin: 0;
+  margin-bottom: 40px;
 }
+
+.breadcrumbs-list {
+  display: flex;
+  gap: 28px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.breadcrumbs-link {
+  text-decoration: none;
+  color: #2d3440;
+}
+
 
 /* Footer */
 
