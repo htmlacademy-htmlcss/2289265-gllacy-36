@@ -1041,12 +1041,12 @@ body {
 .breadcrumbs-and-title {
   display: grid;
   row-gap: 16px;
+  margin-bottom: 40px;
 }
 
 .catalog-title {
   grid-row: 2/3;
   margin: 0;
-  margin-bottom: 40px;
 }
 
 .breadcrumbs-list {
@@ -1063,6 +1063,11 @@ body {
 .breadcrumbs-link {
   text-decoration: none;
   color: #2d3440;
+}
+
+.breadcrumbs-link.current {
+  text-decoration: underline;
+  text-underline-offset: 5px;
 }
 
 
