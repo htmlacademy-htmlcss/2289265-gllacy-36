@@ -386,7 +386,7 @@ body {
   position: absolute;
   right: 0;
   top: 40px;
-  width: 441px;
+  min-width: 288px;
   padding: 48px;
   background-color: #fcfcfc;
   border-radius: 4px;
@@ -408,6 +408,7 @@ body {
 }
 
 .cart-empty-text {
+  text-align: center;
   font-weight: 700;
   font-size: 24px;
   line-height: 30px;
