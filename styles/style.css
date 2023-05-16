@@ -382,7 +382,7 @@ body {
 }
 
 .cart-pop-over-container {
-  display: non;
+  display: none;
   position: absolute;
   right: 0;
   top: 40px;
