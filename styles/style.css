@@ -75,6 +75,17 @@ body {
   cursor: pointer;
 }
 
+.inputs {
+  width: 100%;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 14px 16px;
+  border: 1px solid #b9b9b9;
+  border-radius: 4px;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -256,7 +267,7 @@ font-weight: 700;
 
 .search-container {
   position: absolute;
-  display: non;
+  display: none;
 }
 
 .search-item:focus-within .search-container {
@@ -274,17 +285,6 @@ font-weight: 700;
   background-color: #fcfcfc;
 }
 
-.search-input {
-  width: 100%;
-  font-family: "Inter", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 20px;
-  padding: 14px 16px;
-  border: 1px solid #b9b9b9;
-  border-radius: 4px;
-}
-
 /* Login Pop Over */
 
 .login-item {
@@ -292,7 +292,8 @@ font-weight: 700;
 }
 
 .login-pop-over-container {
-  display: none;
+  position: absolute;
+  display: non;
 }
 
 .login-item:focus-within .login-pop-over-container {
@@ -323,11 +324,11 @@ font-weight: 700;
   gap: 16px;
 }
 
-.email-input,
+/* .email-input,
 .password-input {
   padding: 14px 152px 14px 16px;
   max-width: 324px;
-}
+} */
 
 .login-button {
   align-self: flex-start;
