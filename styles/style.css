@@ -475,9 +475,11 @@ body {
 }
 
 .apply-button-and-price {
+  margin-top: 32px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  align-items: center;
 }
 
 .apply-order-button {
