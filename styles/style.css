@@ -296,7 +296,7 @@ body {
 
 .login-pop-over-container {
   position: absolute;
-  display: non;
+  display: none;
 }
 
 .login-item:focus-within .login-pop-over-container {
@@ -382,7 +382,7 @@ body {
 }
 
 .cart-pop-over-container {
-  display: none;
+  display: non;
   position: absolute;
   right: 0;
   top: 40px;
@@ -397,6 +397,20 @@ body {
 
 .cart-item:focus-within .cart-pop-over-container {
   display: block;
+}
+
+.cart-title {
+  margin: 0;
+  margin-bottom: 32px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.cart-empty-text {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
 }
 
 .cart-product-list {
@@ -421,6 +435,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   text-decoration: none;
+  color:#2d3440
 }
 
 .cart-product-text {
