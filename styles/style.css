@@ -386,7 +386,7 @@ body {
   position: absolute;
   right: 0;
   top: 40px;
-  min-width: 288px;
+  width: 420px;
   padding: 48px;
   background-color: #fcfcfc;
   border-radius: 4px;
