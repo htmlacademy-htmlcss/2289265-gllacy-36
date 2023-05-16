@@ -807,6 +807,7 @@ body {
 }
 
 .subscription-input {
+  width: 332px;
   margin-right: 16px;
 }
 
@@ -888,16 +889,6 @@ body {
   line-height: 20px;
 }
 
-.date-input {
-  font-family: "Inter", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 20px;
-  padding: 14px 16px;
-  border: 1px solid #b9b9b9;
-  border-radius: 4px;
-}
-
 /* Phone */
 
 .phone-container {
@@ -910,16 +901,6 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
-}
-
-.phone-input {
-  font-family: "Inter", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 20px;
-  padding: 14px 0 14px 16px;
-  border: 1px solid #b9b9b9;
-  border-radius: 4px;
 }
 
 /* Address */
@@ -936,16 +917,6 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
-}
-
-.address-input {
-  font-family: "Inter", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 20px;
-  padding: 14px 90px 14px 16px;
-  border: 1px solid #b9b9b9;
-  border-radius: 4px;
 }
 
 .delivery-form-button {
