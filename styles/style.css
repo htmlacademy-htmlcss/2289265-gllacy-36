@@ -201,7 +201,7 @@ body {
   background-position: 15px 8px;
 }
 
-.cart-link {
+.cart-button {
   position: relative;
   background-image: url("../images/header/cart-icon.svg");
   background-position: 15px 8px;
