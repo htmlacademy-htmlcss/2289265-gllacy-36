@@ -344,7 +344,7 @@ body {
 .password-input {
   width: 324px;
   margin-bottom: 32px;
-  }
+}
 
 .login-submit-button {
   align-self: flex-start;
@@ -404,6 +404,10 @@ body {
 
 .cart-item:focus-within .cart-container {
   display: block;
+}
+
+.cart-product-item {
+  display: flex;
 }
 
 .cart-title {
@@ -466,7 +470,7 @@ body {
 }
 
 .cart-product-price {
-  margin: 0 68px 0 auto;
+  padding-right: 10px;
   align-self: center;
 }
 
