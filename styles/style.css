@@ -196,7 +196,7 @@ body {
   line-height: 20px;
 }
 
-.login-item-button {
+.login-button {
   background-image: url("../images/header/login-icon.svg");
   background-position: 15px 8px;
 }
