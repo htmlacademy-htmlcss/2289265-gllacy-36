@@ -391,7 +391,7 @@ body {
 }
 
 .cart-container {
-  display: non;
+  display: none;
   position: absolute;
   right: 0;
   top: 40px;
@@ -580,7 +580,7 @@ body {
 
 /* Slider Socials */
 
-.slider-socials-list {
+.socials-list {
   width: 104px;
   padding: 0;
   margin: 0;
@@ -1222,17 +1222,6 @@ body {
   padding: 48px 0;
 }
 
-.footer-socials-list {
-  width: 104px;
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 40px;
-  align-self: flex-start;
-}
-
 .footer-navigation-list {
   width: 356px;
   margin: 0;
@@ -1255,7 +1244,6 @@ body {
 
 .footer-logo-container {
   width: 193px;
-  margin-left: auto;
 }
 
 .footer-logo-link {
