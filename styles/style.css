@@ -769,12 +769,37 @@ body {
 }
 
 .features-item {
+  position: relative;
   padding-left: 64px;
   font-weight: 400;
   font-size: 16px;
   line-height: 22px;
 }
 
+.features-item::before {
+  position: absolute;
+  content: "";
+  width: 48px;
+  height: 48px;
+  top: 0;
+  left: 0;
+}
+
+.features-ice-cream::before {
+  background-image: url("../images/index/ice-cream.svg");
+}
+
+.features-cow::before {
+  background-image: url("../images/index/cow.svg");
+}
+
+.features-leaf::before {
+  background-image: url("../images/index/leaf.svg");
+}
+
+.features-thermometer::before {
+  background-image: url("../images/index/thermometer.svg");
+}
 /* Article and Subscription */
 
 .article-and-subscription {
