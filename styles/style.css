@@ -146,15 +146,32 @@ body {
   text-decoration: none;
 }
 
+/* User Interface */
+
+.user-button {
+  display: block;
+  padding: 6px 16px 6px 38px;
+  border: none;
+  border-radius: 30px;
+  background-repeat: no-repeat;
+  background-color: rgba(252, 252, 252, 0.3);
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
 .user-interface {
+  margin-left: auto;
   display: flex;
   flex-wrap: wrap;
-  margin-left: auto;
+  align-items: center;
 }
 
 .user-list {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   gap: 16px;
   list-style: none;
   margin: 0;
@@ -174,6 +191,7 @@ body {
 }
 
 .search-button {
+  padding: 0;
   width: 32px;
   height: 32px;
   border-radius: 50%;
@@ -181,19 +199,6 @@ body {
   background-image: url("../images/header/search-icon.svg");
   background-repeat: no-repeat;
   background-position: center;
-}
-
-.user-button {
-  display: block;
-  padding: 6px 16px 6px 38px;
-  border: none;
-  border-radius: 30px;
-  background-repeat: no-repeat;
-  background-color: rgba(252, 252, 252, 0.3);
-  font-family: "Inter", sans-serif;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 20px;
 }
 
 .login-button {
@@ -265,9 +270,16 @@ body {
   background-color: #b9b9b9;
 }
 
-/* Search Pop-Over */
+/* Pop-Overs */
+
+.pop-over-container {
+  background-color: #fcfcfc;
+  border-radius: 4px;
+}
 
 .search-item {
+  display: block;
+  : center;
   position: relative;
 }
 
@@ -286,9 +298,7 @@ body {
 .search {
   width: 356px;
   min-height: 96px;
-  border-radius: 4px;
   padding: 24px 16px;
-  background-color: #fcfcfc;
 }
 
 .search-input {
@@ -319,8 +329,6 @@ body {
   width: 420px;
   min-height: 350px;
   padding: 48px;
-  background-color: #fcfcfc;
-  border-radius: 4px;
 }
 
 .login-form-title {
@@ -395,8 +403,6 @@ body {
   top: 40px;
   width: 420px;
   padding: 48px;
-  background-color: #fcfcfc;
-  border-radius: 4px;
   font-weight: 700;
   font-size: 18px;
   line-height: 22px;
