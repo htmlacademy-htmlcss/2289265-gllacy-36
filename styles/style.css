@@ -1247,25 +1247,38 @@ body {
   padding: 48px 0;
 }
 
+/* Navigation */
+
 .footer-navigation-list {
   width: 356px;
   margin: 0;
   padding: 0;
   display: grid;
   grid-template-columns: 174px 187px;
+  row-gap: 8px;
   list-style: none;
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
 }
 
-.footer-navigation-item:nth-child(odd) .footer-navigation-link {
+.footer-navigation-title {
+  margin: 0;
+  padding-left: 24px;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.footer-navigation-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer-navigation-item:nth-child(3) .footer-navigation-link {
   padding-left: 24px;
 }
 
-.footer-navigation-item:first-child .footer-navigation-link {
-  font-weight: 700;
-}
+/* Logo */
 
 .footer-logo-container {
   width: 193px;
