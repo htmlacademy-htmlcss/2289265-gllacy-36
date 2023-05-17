@@ -313,7 +313,8 @@ body {
 
 .login-container {
   position: absolute;
-  display: none;
+  display: non;
+  padding: 48px;
 }
 
 .login-item:focus-within .login-container {
@@ -326,25 +327,15 @@ body {
 .login-form {
   display: flex;
   flex-wrap: wrap;
-  width: 420px;
-  min-height: 350px;
-  padding: 48px;
+  gap: 16px;
 }
 
 .login-form-title {
+  margin: 0;
   margin-bottom: 32px;
   font-weight: 700;
   font-size: 24px;
   line-height: 30px;
-}
-
-.login-fieldset {
-  margin: 0;
-  margin-bottom: 28px;
-  padding: 0;
-  border: none;
-  display: grid;
-  gap: 16px;
 }
 
 .email-input,

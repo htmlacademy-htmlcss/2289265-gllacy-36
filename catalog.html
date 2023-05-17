@@ -89,9 +89,8 @@
                 <button class="user-button search-button" type="button" aria-label="Кнопка поиска."></button>
                 <div class="pop-over-container search-container">
                   <form class="search" action="https://echo.htmlacademy.ru/" method="get">
-                    <label class="search-label" aria-label="Поле поиска">
-                      <input class="search-input inputs" type="search" placeholder="Поиск по сайту" required>
-                    </label>
+                    <input class="search-input inputs" type="search" placeholder="Поиск по сайту"
+                      aria-label="Поле поиска." required>
                   </form>
                 </div>
               </div>
@@ -103,25 +102,17 @@
                   Вход
                 </button>
                 <div class="pop-over-container login-container">
+                  <h2 class="login-form-title">
+                    Личный кабинет
+                  </h2>
                   <form class="login-form" action="https://echo.htmlacademy.ru/" method="get">
-                    <fieldset class="login-fieldset">
-                      <legend class="login-form-title">
-                        Личный кабинет
-                      </legend>
-
-                      <label aria-label="Поле для воода почты">
-                        <input class="email-input inputs" type="text" name="email" value="email@example.com" required>
-                      </label>
-
-                      <label aria-label="Поле для воода почты">
-                        <input class="password-input inputs" type="password" name="password" value="qwerty" required>
-                      </label>
-                    </fieldset>
-
+                    <input class="email-input inputs" type="text" name="email" value="email@example.com"
+                      aria-label="Поле для воода почты." required>
+                    <input class="password-input inputs" type="password" name="password" value="qwerty"
+                      aria-label="Поле для воода почты." required>
                     <button class="login-submit-button button" type="submit">
                       Войти
                     </button>
-
                     <div class="login-links-container">
                       <a class="forgot-password-link" href="#">
                         Забыли пароль?
@@ -606,7 +597,8 @@
           </button>
           <ul class="pagintaion-list">
             <li class="pagintaion-item">
-              <button class="pagintaion-button pagintaion-button-previous" aria-label="Переход на предыдущую страницу."></button>
+              <button class="pagintaion-button pagintaion-button-previous"
+                aria-label="Переход на предыдущую страницу."></button>
             </li>
 
             <li class="pagintaion-item">
@@ -640,7 +632,8 @@
             </li>
 
             <li class="pagintaion-item">
-              <button class="pagintaion-button pagintaion-button-next" aria-label="Переход на предыдущую страницу."></button>
+              <button class="pagintaion-button pagintaion-button-next"
+                aria-label="Переход на предыдущую страницу."></button>
             </li>
           </ul>
         </section>
