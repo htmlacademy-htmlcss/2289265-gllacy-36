@@ -1218,6 +1218,7 @@ body {
 .page-footer {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
   padding: 48px 0;
 }
 
@@ -1225,7 +1226,6 @@ body {
   width: 104px;
   padding: 0;
   margin: 0;
-  margin-right: auto;
   list-style: none;
   display: flex;
   flex-wrap: wrap;
