@@ -311,12 +311,12 @@ body {
   position: relative;
 }
 
-.login-pop-over-container {
+.login-container {
   position: absolute;
   display: none;
 }
 
-.login-item:focus-within .login-pop-over-container {
+.login-item:focus-within .login-container {
   display: block;
   position: absolute;
   top: 50px;
