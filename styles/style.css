@@ -597,7 +597,7 @@ body {
   width: 24px;
   height: 24px;
   border-radius: 50%;
-  outline: 2px solid rgba(252, 252, 252, 0.1);
+  outline: 2px solid rgba(252, 252, 252, 0.3);
 }
 
 .socials-link::before {
