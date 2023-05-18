@@ -1090,7 +1090,25 @@ body {
   line-height: 20px;
 }
 
+.breadcrumbs-item {
+  position: relative;
+}
+
+.breadcrumbs-item:not(:last-child)::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  right: 0;
+  width: 12px;
+  height: 12px;
+  transform: translate(21px, 5px);
+  background-image: url("../images/catalog/breadcrumbs-arrows.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .breadcrumbs-link {
+  display: block;
   text-decoration: none;
   color: #2d3440;
 }
