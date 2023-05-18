@@ -1152,7 +1152,7 @@ body {
   padding: 8px 63px 8px 16px;
   border: none;
   border-radius: 20px;
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(252, 252, 252, 0.3);
   font-family: inherit;
   font-weight: 400;
   font-size: 14px;
@@ -1168,7 +1168,7 @@ body {
   padding: 8px 24px;
   list-style: none;
   border-radius: 18px;
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(252, 252, 252, 0.3);
 }
 
 .radio-label {
@@ -1216,7 +1216,7 @@ body {
   padding: 8px 24px;
   list-style: none;
   border-radius: 18px;
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(252, 252, 252, 0.3);
 }
 
 .checkbox-label {
@@ -1246,7 +1246,7 @@ body {
   padding: 8px 52px;
   align-self: flex-end;
   border-radius: 20px;
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(252, 252, 252, 0.3);
   outline: 2px solid #fcfcfc;
   color: inherit;
 }
