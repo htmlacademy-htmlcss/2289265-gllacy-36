@@ -936,7 +936,6 @@ body {
 /* Date */
 
 .date-container {
-
   display: flex;
   margin-bottom: 20px;
   flex-direction: column;
