@@ -581,7 +581,7 @@ body {
 }
 
 .slide-picture-container {
-  transform: scale(0.2);
+  transform: scale(0.4);
 }
 
 .slide-picture-container::before {
