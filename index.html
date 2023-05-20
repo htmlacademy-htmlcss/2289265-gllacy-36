@@ -637,31 +637,21 @@
     <!-- Modal Window -->
 
     <div class="modal-container modal-container-closed">
-
       <section class="modal-window">
         <h2 class="visually-hidden">
           Модальное окно
         </h2>
+
         <p class="modal-window-text">
           Мы обязательно ответим вам!
         </p>
         <button class="modal-window-close-button" aria-label="Кнопка закрытия модального окна"></button>
         <form class="modal-window-form" action="https://echo.htmlacademy.ru/" method="post">
-
-          <label aria-label="Поле ввода имени и фамилии">
-            <input class="name-input" type="text" placeholder="Имя и фамилия">
-          </label>
-
-          <label aria-label="Поле ввода почты">
-            <input class="email-input" type="text" placeholder="email@example.com">
-          </label>
-
-          <label aria-label="Поле ввода в свободной форму">
-            <textarea class="free-form-text" name="free-form-text" rows="10">
+            <input class="name-input" type="text" placeholder="Имя и фамилия" aria-label="Поле ввода имени и фамилии">
+            <input class="email-input" type="text" placeholder="email@example.com" aria-label="Поле ввода почты">
+            <textarea class="free-form-text" name="free-form-text" rows="10" aria-label="Поле ввода в свободной форму">
               В свободной форме
               </textarea>
-          </label>
-
           <button class="modal-window-button button" type="submit">
             Отправить
           </button>
@@ -669,5 +659,4 @@
       </section>
     </div>
   </body>
-
 </html>
