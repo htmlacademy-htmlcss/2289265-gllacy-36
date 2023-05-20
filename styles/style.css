@@ -382,12 +382,12 @@ body {
 }
 
 .cart-item-empty .cart-container .empty-cart-pop-over,
-.cart-item-empty .cart-link .have-no-items {
+.cart-item-empty .cart-button .have-no-items {
   display: block;
 }
 
 .cart-item-empty .cart-container .cart-pop-over,
-.cart-item-empty .cart-link .have-items {
+.cart-item-empty .cart-button .have-items {
   display: none;
 }
 
