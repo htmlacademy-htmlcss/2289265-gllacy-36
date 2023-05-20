@@ -1523,18 +1523,20 @@ body {
 
 /* Modal Window*/
 
-
-
 .modal-container {
+  position: fixed;
   z-index: 2;
   display: flex;
   margin: auto;
-  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   background-color: rgba(45, 52, 64, 0.3);
+}
+
+.modal-container-closed {
+  display: none;
 }
 
 .modal-window {
@@ -1558,7 +1560,7 @@ body {
 .modal-window-close-button {
   border: none;
   background-color: transparent;
-  position:  absolute;
+  position: absolute;
   top: 36px;
   right: 36px;
   width: 32px;
