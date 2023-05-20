@@ -326,7 +326,6 @@ body {
 .login-form {
   display: flex;
   flex-wrap: wrap;
-  row-gap: 16px;
 }
 
 .login-form-title {
@@ -337,12 +336,13 @@ body {
   line-height: 30px;
 }
 
-.email-input {
-  width: 324px;
-}
-
+.email-input,
 .password-input {
   width: 324px;
+  margin-bottom: 16px;
+}
+
+.login-form input:last-of-type {
   margin-bottom: 32px;
 }
 
