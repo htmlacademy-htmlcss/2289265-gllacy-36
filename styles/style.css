@@ -1522,3 +1522,18 @@ body {
 .modal-container-closed {
   display: none;
 }
+
+.modal-container {
+  padding: 64px;
+  background-color: #fcfcfc;
+}
+
+.modal-window-form {
+  display: grid;
+  row-gap: 16px;
+}
+
+.free-form-text {
+  resize: none;
+  margin-bottom: 32px;
+}
