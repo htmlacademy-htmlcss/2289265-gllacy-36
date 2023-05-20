@@ -813,12 +813,44 @@ body {
   z-index: -1;
 }
 
+.product-picture {
+  margin-bottom: 16px;
+}
+
 .product-title {
+  margin-bottom: 8px;
   text-decoration: none;
   color: #2d3440;
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
+}
+
+.product-description {
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.product-container {
+  width: 190px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.add-to-cart {
+  padding: 0;
+  position: relative;
+  width: 32px;
+  height: 32px;
+}
+
+.add-to-cart::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: tomato;
+  mask: url("../images/header/cart-icon.svg");
 }
 
 /* About Us */
