@@ -126,10 +126,10 @@
               </div>
             </li>
 
-            <!-- Для показа пустой корзины добавте класс cart-item-empty для cart-item  -->
+            <!-- Для показа пустой корзины замените класс not-empty-cart на empty-cart  -->
 
             <li class="user-navigation-item">
-              <div class="cart-item">
+              <div class="cart-item empty-cart">
                 <button class="cart-button user-button" type="button">
                   <span class="have-items">
                     2 Товара
@@ -145,6 +145,7 @@
                       Ваша корзина пока пуста
                     </p>
                   </div>
+
                   <div class="cart-pop-over">
                     <h3 class="cart-title">
                       Корзина
@@ -154,12 +155,14 @@
                         <a class="cart-product-link" href="#">
                           <img class="cart-product-pic" src="/images/ice-creams/ice-cream-1.png" width="46" height="46"
                             alt="Изображение мороженого Малинка.">
-                          <h3 class="cart-product-text">
-                            Малинка
-                          </h3>
-                          <span class="cart-product-details">
-                            1 кг х 310 ₽
-                          </span>
+                            <div class="cart-product-container">
+                              <h3 class="cart-product-text">
+                                Малинка
+                              </h3>
+                              <span class="cart-product-details">
+                                1 кг х 310 ₽
+                              </span>
+                            </div>
                         </a>
                         <span class="cart-product-price">
                           310 ₽
@@ -173,12 +176,14 @@
                         <a class="cart-product-link" href="#">
                           <img class="cart-product-pic" src="/images/ice-creams/ice-cream-4.png" width="46" height="46"
                             alt="Изображение мороженого Бабл-гам.">
-                          <h3 class="cart-product-text">
-                            Бабл-гам
-                          </h3>
-                          <span class="cart-product-details">
-                            1,5 кг х 320 ₽
-                          </span>
+                            <div class="cart-product-container">
+                              <h3 class="cart-product-text">
+                                Бабл-гам
+                              </h3>
+                              <span class="cart-product-details">
+                                1,5 кг х 320 ₽
+                              </span>
+                            </div>
                         </a>
                         <span class="cart-product-price">
                           480 ₽
@@ -257,7 +262,7 @@
 
             <fieldset class="fieldset-range">
               <legend class="fieldset-title">
-                Цена:
+                Цена: 100 ₽ – 500 ₽
               </legend>
               <div class="range-scale">
                 <div class="range-scale-container range-scale-from">
@@ -597,8 +602,8 @@
           </button>
           <ul class="pagintaion-list">
             <li class="pagintaion-item">
-              <button class="pagintaion-button pagintaion-button-previous"
-                aria-label="Переход на предыдущую страницу."></button>
+              <a class="pagintaion-button pagintaion-button-previous"
+                aria-label="Переход на предыдущую страницу."></a>
             </li>
 
             <li class="pagintaion-item">
@@ -632,8 +637,8 @@
             </li>
 
             <li class="pagintaion-item">
-              <button class="pagintaion-button pagintaion-button-next"
-                aria-label="Переход на предыдущую страницу."></button>
+              <a class="pagintaion-button pagintaion-button-next" href="#
+                aria-label="Переход на предыдущую страницу."></a>
             </li>
           </ul>
         </section>
