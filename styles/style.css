@@ -311,6 +311,7 @@ body {
 }
 
 .login-container {
+  width: 420px;
   position: absolute;
   display: none;
   padding: 48px;
@@ -338,7 +339,7 @@ body {
 
 .email-input,
 .password-input {
-  width: 324px;
+  width: 100%;
   margin-bottom: 16px;
 }
 
