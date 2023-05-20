@@ -378,6 +378,17 @@ body {
   position: relative;
 }
 
+.cart-container {
+  z-index: 2;
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 40px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+}
+
 /* Empty Cart */
 
 .cart-item:focus-within .cart-container {
@@ -398,16 +409,6 @@ body {
   display: none;
 }
 
-.cart-container {
-  z-index: 2;
-  display: non;
-  position: absolute;
-  right: 0;
-  top: 40px;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 22px;
-}
 
 /* Not Empty Cart */
 
