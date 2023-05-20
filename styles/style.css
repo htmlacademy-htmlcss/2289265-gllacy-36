@@ -381,7 +381,11 @@ body {
   display: none;
 }
 
-.cart-item-empty .cart-container .empty-cart-pop-over,
+.cart-item-empty .cart-container .empty-cart-pop-over {
+  width: 288px;
+  display: block;
+}
+
 .cart-item-empty .cart-button .have-no-items {
   display: block;
 }
@@ -392,12 +396,10 @@ body {
 }
 
 .cart-container {
-  display: none;
+  display: non;
   position: absolute;
   right: 0;
   top: 40px;
-  width: 420px;
-  padding: 48px;
   font-weight: 700;
   font-size: 18px;
   line-height: 22px;
@@ -420,6 +422,8 @@ body {
 }
 
 .cart-empty-text {
+  margin: 0;
+  padding: 48px 0;
   text-align: center;
   font-weight: 700;
   font-size: 24px;
