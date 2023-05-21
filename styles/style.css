@@ -1546,6 +1546,7 @@ body {
   padding: 64px;
   border-radius: 8px;
   background-color: #fcfcfc;
+  filter: drop-shadow(0 15px 40px rgba(45, 52, 64, 0.12));
 }
 
 .modal-window-text {
