@@ -1494,6 +1494,20 @@ body {
   padding-left: 24px;
   font-weight: 700;
   font-size: 14px;
+  position: relative;
+}
+
+.footer-navigation-title::before {
+  position: absolute;
+  content: "";
+  width: 16px;
+  height: 16px;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  background-image: url("../images/footer/heart.svg");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .footer-navigation-link {
