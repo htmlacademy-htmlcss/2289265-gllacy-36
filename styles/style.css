@@ -690,7 +690,7 @@ body {
   position: absolute;
   width: 24px;
   height: 24px;
-  border-radius: 50%;
+  border-radius: 24px;
   outline: 2px solid rgba(252, 252, 252, 0.3);
 }
 
@@ -713,6 +713,10 @@ body {
 
 .socials-link.youtube {
   background-image: url("../images/socials/youtube.svg");
+}
+
+.socials-link:hover {
+  background-color: #2d3440;
 }
 
 /* Gifts */
