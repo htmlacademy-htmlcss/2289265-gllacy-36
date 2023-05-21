@@ -877,8 +877,8 @@ body {
   content: "";
   width: 100%;
   height: 100%;
-  background-color: tomato;
-  mask: url("../images/header/cart-icon.svg");
+  border-radius: 26px;
+  background-color: #ff2f64;
 }
 
 /* About Us */
