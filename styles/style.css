@@ -704,15 +704,15 @@ body {
 }
 
 .socials-link.telegram {
-  background-image: url("../images/slider/telegram.svg");
+  background-image: url("../images/socials/telegram.svg");
 }
 
 .socials-link.vk {
-  background-image: url("../images/slider/vk.svg");
+  background-image: url("../images/socials/vk.svg");
 }
 
 .socials-link.youtube {
-  background-image: url("../images/slider/youtube.svg");
+  background-image: url("../images/socials/youtube.svg");
 }
 
 /* Gifts */
