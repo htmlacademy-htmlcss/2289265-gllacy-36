@@ -870,13 +870,6 @@ body {
   position: relative;
   width: 32px;
   height: 32px;
-}
-
-.add-to-cart::before {
-  position: absolute;
-  content: "";
-  width: 100%;
-  height: 100%;
   border-radius: 26px;
   background-color: #ff2f64;
 }
@@ -1434,11 +1427,28 @@ body {
 
 .pagintaion-list {
   display: flex;
-  gap: 8px;
   align-items: center;
   margin: 0;
   padding: 0;
   list-style: none;
+  text-align: center;
+}
+
+.pagination-link {
+  display: block;
+  width: 24px;
+  height: 24px;
+  text-decoration: none;
+  color: inherit
+}
+
+.pagination-link.current {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2px 8px;
+  border-radius: 50px;
+  background-color: #fcfcfc;
 }
 
 .pagintaion-button {
@@ -1458,11 +1468,6 @@ body {
 .pagintaion-button-previous {
   background-image: url("../images/catalog/arrow.svg");
   transform: rotate(180deg);
-}
-
-.pagination-link {
-  text-decoration: none;
-  color: inherit
 }
 
 /* Footer */
