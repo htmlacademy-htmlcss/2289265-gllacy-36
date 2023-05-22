@@ -1482,7 +1482,7 @@ body {
   color: inherit;
 }
 
-.pagintaion-list {
+.pagination-list {
   display: flex;
   align-items: center;
   margin: 0;
@@ -1508,7 +1508,7 @@ body {
   background-color: #fcfcfc;
 }
 
-.pagintaion-button {
+.pagination-button {
   display: block;
   width: 16px;
   height: 16px;
@@ -1518,11 +1518,11 @@ body {
   background-position: center;
 }
 
-.pagintaion-button-next {
+.pagination-button-next {
   background-image: url("../images/catalog/arrow.svg");
 }
 
-.pagintaion-button-previous {
+.pagination-button-previous {
   background-image: url("../images/catalog/arrow.svg");
   transform: rotate(180deg);
 }
