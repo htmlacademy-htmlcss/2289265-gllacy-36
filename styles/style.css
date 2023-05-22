@@ -83,6 +83,27 @@ body {
   padding: 14px 14px;
   border: 1px solid #b9b9b9;
   border-radius: 4px;
+  color: #2d3440;
+}
+
+.inputs:hover {
+  outline: 1px solid #2d3440;
+}
+
+.inputs:focus {
+  outline: 2px solid #2d3440;
+}
+
+.inputs.error {
+  outline: 1px solid #ea5454;
+}
+
+.inputs.error:hover {
+  outline: 2px solid #ea5454;
+}
+
+.inputs:disabled {
+  background-color: #e7e7e7;
 }
 
 .title {
