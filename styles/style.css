@@ -1174,7 +1174,18 @@ body {
 }
 
 .tooltip-text {
+  position: absolute;
+  width: 162px;
+  min-height: 52px;
+  padding: 10px 8px 10px 15px;
   display: none;
+  background-image: url("../images/index/tooltip-background.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
 }
 
 .address-tooltip-info:hover .tooltip-text {
