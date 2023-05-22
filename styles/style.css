@@ -1141,10 +1141,14 @@ body {
 }
 
 .address-label {
-  position: relative;
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
+}
+
+.text-address {
+  width: 70px;
+  position: relative;
 }
 
 .delivery-form-button {
@@ -1161,8 +1165,9 @@ body {
   position: absolute;
   width: 14px;
   height: 14px;
-  top: 0;
+  top: 50%;
   right: 0;
+  transform: translateY(-50%);
   background-image: url("../images/index/tooltip-info.svg");
   background-repeat: no-repeat;
   background-position: center;
@@ -1170,6 +1175,11 @@ body {
 
 .tooltip-text {
   display: none;
+}
+
+.address-tooltip-info:hover .tooltip-text {
+  position: absolute;
+  display: block;
 }
 
 /* Section Address */
