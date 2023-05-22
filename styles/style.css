@@ -1115,6 +1115,7 @@ body {
   line-height: 20px;
 }
 
+
 /* Phone */
 
 .phone-container {
@@ -1140,6 +1141,7 @@ body {
 }
 
 .address-label {
+  position: relative;
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
@@ -1153,6 +1155,21 @@ body {
   outline: 4px solid rgba(255, 47, 100, 0.3);
   color: #fcfcfc;
   border-radius: 26px;
+}
+
+.address-tooltip-info {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  top: 0;
+  right: 0;
+  background-image: url("../images/index/tooltip-info.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.tooltip-text {
+  display: none;
 }
 
 /* Section Address */
