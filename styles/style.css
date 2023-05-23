@@ -1357,7 +1357,7 @@ body {
   padding: 8px 63px 8px 16px;
   border: none;
   border-radius: 20px;
-  background-color: rgba(252, 252, 252, 0.4);
+  background-color: rgba(252, 252, 252, 0.3);
   font-family: inherit;
   font-weight: 400;
   font-size: 14px;
@@ -1374,6 +1374,69 @@ body {
 .catalog-select:focus {
   background-color: rgba(252, 252, 252, 0.4);
   outline: 2px solid #fcfcfc;
+}
+
+/* Range Scale */
+
+.range-scale {
+  display: flex;
+  position: relative;
+  width: 196px;
+  padding: 10px 16px;
+  background-color: rgba(252, 252, 252, 0.3);
+  border-radius: 20px;
+}
+
+.range-scale::before {
+  content: "";
+  position: absolute;
+  width: 164px;
+  left: 16px;
+  top: 17px;
+  height: 2px;
+  background-color: #565c66;
+  opacity: 0.3;
+  z-index: -1;
+}
+
+.range-scale::after {
+  content: "";
+  position: absolute;
+  width: 60px;
+  left: 45px;
+  top: 17px;
+  height: 2px;
+  background-color: #565c66;
+  z-index: -1;
+}
+
+.range-toggle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 16px;
+  height: 16px;
+  background-color: #2d3440;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.range-toggle::before {
+  content: "";
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  background-color: #fcfcfc;
+  border-radius: 50%;
+}
+
+.range-scale-to {
+  transform: translateX(60px);
+}
+
+.range-scale-from {
+  transform: translateX(20px);
 }
 
 /* Radio */
