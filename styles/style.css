@@ -1439,6 +1439,15 @@ body {
   transform: translateX(20px);
 }
 
+.range-toggle:hover {
+  background-color: #fcfcfc;
+  transition: background-color 0.5s ease;
+}
+
+.range-toggle:hover::before {
+  background-color: #2d3440;
+}
+
 /* Radio */
 
 .fat-contains-list {
