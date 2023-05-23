@@ -139,8 +139,7 @@ body {
 
 .page-header {
   display: flex;
-  flex-wrap: wrap;
-  align-items: center;
+  min-height: 104px;
 }
 
 .header-navigation {
@@ -154,11 +153,10 @@ body {
 }
 
 .header-navigation-list {
-  margin: 33px 0;
   padding: 0;
   display: flex;
+  align-items: center;
   flex-wrap: wrap;
-  gap: 32px;
   list-style: none;
 }
 
@@ -238,8 +236,6 @@ body {
 .catalog-button {
   position: relative;
   cursor: pointer;
-  padding: 0;
-  padding-right: 14px;
   border: none;
   background-color: transparent;
   font-family: inherit;
@@ -1159,38 +1155,6 @@ body {
   outline: 4px solid rgba(255, 47, 100, 0.3);
   color: #fcfcfc;
   border-radius: 26px;
-}
-
-.address-tooltip-info {
-  position: absolute;
-  width: 14px;
-  height: 14px;
-  top: 50%;
-  right: 0;
-  transform: translateY(-50%);
-  background-image: url("../images/index/tooltip-info.svg");
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.tooltip-text {
-  position: absolute;
-  width: 162px;
-  min-height: 52px;
-  padding: 10px 8px 10px 15px;
-  display: none;
-  background-image: url("../images/index/tooltip-background.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  font-family: inherit;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 16px;
-}
-
-.address-tooltip-info:hover .tooltip-text {
-  position: absolute;
-  display: block;
 }
 
 /* Section Address */
