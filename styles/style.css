@@ -86,14 +86,11 @@ body {
   color: #2d3440;
 }
 
-.inputs:hover:not(:disabled) {
-  outline: 1px solid #2d3440;
+ .inputs:hover:not(:disabled) {
+  border: 1px solid #2d3440;
 }
 
-.inputs:focus {
-  outline: 2px solid #2d3440;
-}
-
+/*
 .inputs.error {
   outline: 1px solid #ea5454;
 }
@@ -104,7 +101,7 @@ body {
 
 .inputs:disabled {
   background-color: #e7e7e7;
-}
+} */
 
 .title {
   font-weight: 900;
@@ -175,11 +172,17 @@ body {
   background-color: rgba(252, 252, 252, 0.3);
 }
 
-.header-navigation-link:active {
+.user-button:hover {
+  background-color: rgba(252, 252, 252, 0.5);
+}
+
+.header-navigation-link:active,
+.user-button:active {
   background-color: #fcfcfc;
 }
 
-.header-navigation-link:focus {
+.header-navigation-link:focus,
+.user-button:focus {
   background-color: rgba(252, 252, 252, 0.5);
   outline: 2px solid #2d3440;
   border: none;
