@@ -90,18 +90,20 @@ body {
   border: 1px solid #2d3440;
 }
 
-/*
 .inputs.error {
   outline: 1px solid #ea5454;
+  border: none;
 }
 
-.inputs.error:hover {
+.inputs.error:hover,
+.inputs.error:focus {
   outline: 2px solid #ea5454;
+  border: none;
 }
 
 .inputs:disabled {
   background-color: #e7e7e7;
-} */
+}
 
 .title {
   font-weight: 900;
