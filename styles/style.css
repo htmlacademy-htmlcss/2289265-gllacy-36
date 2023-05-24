@@ -157,6 +157,7 @@ body {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
+  gap: 5px;
   list-style: none;
 }
 
@@ -167,11 +168,21 @@ body {
 
 .header-navigation-link {
   padding: 8px 16px;
+  border-radius: 30px;
 }
 
 .header-navigation-link:hover {
   background-color: rgba(252, 252, 252, 0.3);
-  border-radius: 30px;
+}
+
+.header-navigation-link:active {
+  background-color: #fcfcfc;
+}
+
+.header-navigation-link:focus {
+  background-color: rgba(252, 252, 252, 0.5);
+  outline: 2px solid #2d3440;
+  border: none;
 }
 
 /* User Interface */
