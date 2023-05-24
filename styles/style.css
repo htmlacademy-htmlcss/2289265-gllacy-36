@@ -68,11 +68,19 @@ body {
   border: none;
   background-color: transparent;
   font-family: inherit;
-  color: #fcfcfc;
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
   cursor: pointer;
+}
+
+.main-button {
+  display: inline-block;
+  color: inherit;
+  padding: 12px 32px;
+  border-radius: 26px;
+  background-color: #fcfcfc;
+  outline: 4px solid rgba(252, 252, 252, 0.4);
 }
 
 .additional-button {
@@ -605,15 +613,6 @@ body {
   line-height: 24px;
 }
 
-.order-button {
-  padding: 12px 32px;
-  border-radius: 26px;
-  display: inline-block;
-  background-color: #fcfcfc;
-  color: #2d3440;
-  outline: 4px solid rgba(252, 252, 252, 0.4);
-}
-
 /* Slider Picture */
 
 .current-slider .slide-picture-container {
@@ -821,15 +820,6 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 22px;
-}
-
-.gifts-link {
-  display: inline-block;
-  color: inherit;
-  padding: 12px 32px;
-  border-radius: 26px;
-  background-color: #fcfcfc;
-  outline: 4px solid rgba(252, 252, 252, 0.4);
 }
 
 /* Main Page Catalog */
