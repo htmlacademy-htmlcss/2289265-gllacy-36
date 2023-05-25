@@ -388,6 +388,7 @@ body {
 .search-container {
   position: absolute;
   display: none;
+  box-shadow: 0 8px 16px 0 rgba(45, 52, 64, 0.12);
 }
 
 .search-item:focus-within .search-container {
