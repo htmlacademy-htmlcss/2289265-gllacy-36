@@ -1635,6 +1635,25 @@ body {
   color: inherit
 }
 
+.pagination-link:hover {
+  border-radius:  50%;
+  background-color: rgba(252, 252, 252, 0.5);
+}
+
+
+.pagination-link:focus {
+  border-radius:  50%;
+  background-color: rgba(252, 252, 252, 0.3);
+  outline: 1px solid #2d3440;
+  outline-offset: -1px;
+}
+
+.pagination-link:active {
+  border-radius:  50%;
+  background-color: rgba(252, 252, 252, 0.5);
+  outline: 1px solid #fcfcfc;
+}
+
 .pagination-link.current {
   display: flex;
   justify-content: center;
@@ -1652,6 +1671,25 @@ body {
   background-color: transparent;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+
+.pagination-button:hover {
+  border-radius:  50%;
+  background-color: rgba(252, 252, 252, 0.5);
+}
+
+.pagination-button:active {
+  border-radius:  50%;
+  background-color: rgba(252, 252, 252, 0.5);
+  outline: 1px solid #fcfcfc;
+}
+
+.pagination-button:focus {
+  border-radius: 50%;
+  background-color: rgba(252, 252, 252, 0.3);
+  outline: 1px solid #2d3440;
+  outline-offset: -1px;
 }
 
 .pagination-button-next {
