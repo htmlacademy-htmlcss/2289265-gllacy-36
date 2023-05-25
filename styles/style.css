@@ -1552,6 +1552,26 @@ body {
   color: inherit;
 }
 
+.filter-button:hover:not(:disabled) {
+  background-color: #fcfcfc;
+  outline: 2px solid rgba(252, 252, 252, 0.3);
+}
+
+.filter-button:active {
+  background-color: rgba(252, 252, 252, 0.5);
+  outline: none;
+}
+
+.filter-button:focus {
+  background-color: rgba(252, 252, 252, 0.5);
+  outline: 2px solid #2d3440;
+}
+
+.filter-button:disabled {
+  cursor: auto;
+  opacity: 0.4;
+}
+
 /* Catalog */
 
 .catalog-products {
@@ -1584,9 +1604,10 @@ body {
 .button-load-more:active {
   background-color: rgba(252, 252, 252, 0.5);
   outline: none;
+  border: none;
 }
 
-.button-load-more:active {
+.button-load-more:focus {
   background-color: rgba(252, 252, 252, 0.5);
   outline: 4px solid #2d3440;
 }
