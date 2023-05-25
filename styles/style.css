@@ -108,10 +108,32 @@ body {
 .additional-button {
   display: inline-block;
   padding: 12px 32px;
-  background-color: #ff3f64;
+  background-color: #ff2f64;
   outline: 4px solid rgba(255, 47, 100, 0.3);
   color: #fcfcfc;
   border-radius: 26px;
+}
+
+.additional-button:hover {
+  color: #2d3440;
+  background-color: #fcfcfc;
+  outline: 4px solid #ff2f64;
+}
+
+.additional-button:active {
+  outline: 2px solid #2d3440;
+  background-color: #feafc3;
+}
+
+.additional-button:focus {
+  outline: 2px solid #2d3440;
+  outline-offset: -1px;
+  background-color: #ff2f64;
+}
+
+.additional-button:disabled {
+  opacity: 0.3;
+  font-weight: 400;
 }
 
 .inputs {
@@ -1734,9 +1756,4 @@ body {
 
 .modal-window-button {
   justify-self: end;
-  padding: 12px 32px;
-  background-color: #ff3f64;
-  outline: 4px solid rgba(255, 47, 100, 0.3);
-  color: #fcfcfc;
-  border-radius: 26px;
 }
