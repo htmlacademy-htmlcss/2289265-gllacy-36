@@ -420,6 +420,7 @@ body {
   position: absolute;
   display: none;
   padding: 48px;
+  box-shadow: 0 15px 40px 0 rgba(45, 52, 64, 0.12);
 }
 
 .login-item:focus-within .login-container {
