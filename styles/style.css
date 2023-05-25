@@ -84,7 +84,7 @@ body {
   box-shadow: 0 4px 12px 0 rgba(45, 52, 64, 0.1);
 }
 
-.main-button:hover {
+.main-button:hover:not(:disabled) {
   background-color: rgba(252, 252, 252, 0.4);
   outline: 4px solid #fcfcfc;
 }
@@ -101,6 +101,7 @@ body {
 }
 
 .main-button:disabled {
+  cursor: auto;
   opacity: 0.4;
   font-weight: 400;
 }
@@ -114,7 +115,7 @@ body {
   border-radius: 26px;
 }
 
-.additional-button:hover {
+.additional-button:hover:not(:disabled) {
   color: #2d3440;
   background-color: #fcfcfc;
   outline: 4px solid #ff2f64;
@@ -132,6 +133,7 @@ body {
 }
 
 .additional-button:disabled {
+  cursor: auto;
   opacity: 0.3;
   font-weight: 400;
 }
@@ -1574,7 +1576,7 @@ body {
   color: inherit;
 }
 
-.button-load-more:hover {
+.button-load-more:hover:not(:disabled) {
   background-color: #fcfcfc;
   outline: 4px solid rgba(252, 252, 252, 0.3);
 }
@@ -1590,6 +1592,7 @@ body {
 }
 
 .button-load-more:disabled {
+  cursor: auto;
   opacity: 0.4;
 }
 
