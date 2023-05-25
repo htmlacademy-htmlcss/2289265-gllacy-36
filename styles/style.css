@@ -81,6 +81,23 @@ body {
   border-radius: 26px;
   background-color: #fcfcfc;
   outline: 4px solid rgba(252, 252, 252, 0.4);
+  box-shadow: 0 4px 12px 0 rgba(45, 52, 64, 0.1);
+}
+
+.main-button:hover {
+  background-color: rgba(252, 252, 252, 0.4);
+  outline: 4px solid #fcfcfc;
+}
+
+.main-button:active {
+  outline: 2px solid #2d3440;
+  background-color: #fcfcfc;
+}
+
+.main-button:focus {
+  outline: 2px solid #2d3440;
+  outline-offset: -1px;
+  background-color: rgba(252, 252, 252, 0.5);
 }
 
 .additional-button {
