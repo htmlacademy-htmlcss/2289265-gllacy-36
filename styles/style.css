@@ -127,7 +127,6 @@ body {
 
 .additional-button:focus {
   outline: 2px solid #2d3440;
-  outline-offset: -1px;
   background-color: #ff2f64;
 }
 
@@ -750,7 +749,6 @@ body {
 
 .slider-pagination-button:hover {
   outline: 1px solid #fcfcfc;
-  outline-offset: -1px;
 }
 
 .slider-pagination-button:active {
@@ -760,7 +758,6 @@ body {
 
 .slider-pagination-button:focus {
   outline: 1px solid #2d3440;
-  outline-offset: -1px;
 }
 
 .slider-pagination-button.slider-pagination-current {
@@ -1660,7 +1657,6 @@ body {
   border-radius:  50%;
   background-color: rgba(252, 252, 252, 0.3);
   outline: 1px solid #2d3440;
-  outline-offset: -1px;
 }
 
 .pagination-link:active {
@@ -1704,7 +1700,6 @@ body {
   border-radius: 50%;
   background-color: rgba(252, 252, 252, 0.3);
   outline: 1px solid #2d3440;
-  outline-offset: -1px;
 }
 
 .pagination-button-next {
