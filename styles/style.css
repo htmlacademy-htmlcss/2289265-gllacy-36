@@ -885,7 +885,7 @@ body {
   content: "";
   width: 219px;
   height: 268px;
-  top: 0;
+  bottom: 0;
   right: 0;
   background-image: url("../images/index/gifts-raspberry.png");
 }
@@ -896,7 +896,7 @@ body {
   content: "";
   width: 219px;
   height: 268px;
-  top: 0;
+  bottom: 0;
   right: 0;
   background-image: url("../images/index/gifts-marshmallow.png");
 }
