@@ -115,7 +115,14 @@ body {
   display: inline-flex;
   width: 14px;
   height: 14px;
+  margin-left: 9px;
   border: 2px solid rgba(36, 36, 36, 0.24);
+  border-bottom-color: #242424;
+  border-radius: 50%;
+  animation-name: loading;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
 }
 
 .additional-button {
@@ -1875,4 +1882,14 @@ body {
 
 .modal-window-button {
   justify-self: end;
+}
+
+@keyframes loading {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
 }
