@@ -9,12 +9,17 @@ const clearClasses = () => {
   document.querySelector('.slider-pagination-current').classList.remove('slider-pagination-current');
 };
 
+const changeColor = (theme) => {
+  document.body.style.backgroundColor = theme;
+};
+
 sliderTabButtons.forEach((tab, index) => {
   tab.addEventListener('click', () => {
     clearClasses();
     counter = index;
     slides[index].classList.add('current-slider');
     tab.classList.add('slider-pagination-current');
+    changeColor(slides[index].dataset.theme);
   });
 });
 
@@ -27,6 +32,7 @@ buttonPrevious.addEventListener('click', () => {
 
   slides[counter].classList.add('current-slider');
   sliderTabButtons[counter].classList.add('slider-pagination-current');
+  changeColor(slides[counter].dataset.theme);
 });
 
 buttonNext.addEventListener('click', () => {
@@ -37,4 +43,5 @@ buttonNext.addEventListener('click', () => {
   }
   slides[counter].classList.add('current-slider');
   sliderTabButtons[counter].classList.add('slider-pagination-current');
+  changeColor(slides[counter].dataset.theme);
 });
