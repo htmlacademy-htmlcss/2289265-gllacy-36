@@ -257,17 +257,9 @@ body {
   border-radius: 30px;
 }
 
-.header-navigation-link:hover {
-  background-color: rgba(252, 252, 252, 0.3);
-}
-
+.header-navigation-link:hover,
 .user-button:hover {
   background-color: rgba(252, 252, 252, 0.5);
-}
-
-.header-navigation-link:active,
-.user-button:active {
-  background-color: #fcfcfc;
 }
 
 .header-navigation-link:focus,
@@ -275,6 +267,11 @@ body {
   background-color: rgba(252, 252, 252, 0.5);
   outline: 2px solid #2d3440;
   border: none;
+}
+
+.header-navigation-link:active,
+.user-button:active {
+  background-color: #fcfcfc;
 }
 
 /* User Interface */
