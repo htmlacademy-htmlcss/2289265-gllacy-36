@@ -89,14 +89,14 @@ body {
   outline: 4px solid #fcfcfc;
 }
 
-.main-button:active {
-  outline: 2px solid #2d3440;
-  background-color: #fcfcfc;
-}
-
 .main-button:focus {
   outline: 2px solid #2d3440;
   background-color: rgba(252, 252, 252, 0.5);
+}
+
+.main-button:active {
+  outline: 2px solid #2d3440;
+  background-color: #fcfcfc;
 }
 
 .main-button:disabled {
@@ -104,6 +104,8 @@ body {
   opacity: 0.4;
   font-weight: 400;
 }
+
+
 
 .additional-button {
   display: inline-block;
