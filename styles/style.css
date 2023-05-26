@@ -1130,13 +1130,19 @@ body {
   z-index: -1;
 }
 
+.subscription-form {
+  display: flex;
+  align-items: center;
+}
+
 .subscription-text {
   margin: 0;
   margin-bottom: 44px;
 }
 
 .subscription-input {
-  width: 332px;
+  flex-grow: 1;
+  min-width: 200px;
   margin-right: 16px;
 }
 
@@ -1251,6 +1257,7 @@ body {
 /* Section Address */
 
 .address {
+  display: flex;
   padding: 64px;
   border-radius: 16px;
   background-image: url("../images/index/address-background.jpg");
@@ -1259,7 +1266,6 @@ body {
 }
 
 .section-address-container {
-  width: 343px;
   background-color: #fcfcfc;
   border-radius: 8px;
   padding: 40px 40px 42px 40px;
