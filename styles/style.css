@@ -105,7 +105,18 @@ body {
   font-weight: 400;
 }
 
+.main-button.is-loading {
+  display: inline-flex;
+  align-items: center;
+}
 
+.main-button.is-loading::after {
+  content: "";
+  display: inline-flex;
+  width: 14px;
+  height: 14px;
+  border: 2px solid rgba(36, 36, 36, 0.24);
+}
 
 .additional-button {
   display: inline-block;
