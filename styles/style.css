@@ -656,6 +656,7 @@ body {
 }
 
 .slider-list {
+  display: flex;
   margin: 0;
   padding: 0;
 }
@@ -666,11 +667,14 @@ body {
 
 .slider-item {
   display: flex;
-  flex-wrap: wrap;
 }
 
 .slide-description {
   display: none;
+}
+
+.current-slider {
+  order: -1;
 }
 
 .current-slider .slide-description {
