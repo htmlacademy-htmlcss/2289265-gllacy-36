@@ -840,21 +840,25 @@ body {
   height: 24px;
   background-repeat: no-repeat;
   background-position: center;
+  background-color: #000000;
 }
 
 .socials-link.telegram {
-  background-image: url("../images/socials/telegram.svg");
+  -webkit-mask: url("../images/socials/telegram.svg");
+  mask: url("../images/socials/telegram.svg");
 }
 
 .socials-link.vk {
-  background-image: url("../images/socials/vk.svg");
+  -webkit-mask: url("../images/socials/vk.svg");
+  mask: url("../images/socials/vk.svg");
 }
 
 .socials-link.youtube {
-  background-image: url("../images/socials/youtube.svg");
+  -webkit-mask: url("../images/socials/youtube.svg");
+  mask: url("../images/socials/youtube.svg");
 }
 
-.socials-link:hover {
+.socials-link:hover::before {
   background-color: #2d3440;
 }
 
