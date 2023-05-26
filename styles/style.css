@@ -105,12 +105,12 @@ body {
   font-weight: 400;
 }
 
-.main-button.is-loading {
+.button.is-loading {
   display: inline-flex;
   align-items: center;
 }
 
-.main-button.is-loading::after {
+.button.is-loading::after {
   content: "";
   display: inline-flex;
   width: 14px;
@@ -123,6 +123,11 @@ body {
   animation-duration: 1s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
+}
+
+.additional-button.button.is-loading::after {
+  border: 2px solid rgb(252, 252, 252, 0.25);
+  border-bottom-color: #fcfcfc;
 }
 
 .additional-button {
