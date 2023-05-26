@@ -275,6 +275,21 @@ body {
   outline: 2px solid transparent;
 }
 
+.subcatalog-container:focus-within .catalog-button:not(:focus),
+.login-item:focus-within .user-button:not(:focus),
+.search-item:focus-within .user-button:not(:focus),
+.cart-item:focus-within .user-button:not(:focus) {
+  background-color: #ff4a78;
+}
+
+.subcatalog-container:focus-within .catalog-button:not(:focus):hover,
+.login-item:focus-within .user-button:not(:focus):hover,
+.search-item:focus-within .user-button:not(:focus):hover,
+.cart-item:focus-within .user-button:not(:focus):hover {
+  background-color: #ff4a78;
+  opacity: 0.6;
+}
+
 /* User Interface */
 
 .user-button {
@@ -357,14 +372,6 @@ body {
 
 .subcatalog-container:focus-within .subcatalog-list {
   display: block;
-}
-
-.subcatalog-container:focus-within .catalog-button:not(:focus) {
-  background-color: #ff2f64;
-}
-
-.subcatalog-container:focus-within .catalog-button:not(:focus):hover {
-  background-color: #ff90ac;
 }
 
 .subcatalog-list {
