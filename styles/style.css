@@ -272,6 +272,7 @@ body {
 .header-navigation-link:active,
 .user-button:active {
   background-color: #fcfcfc;
+  outline: 2px solid transparent;
 }
 
 /* User Interface */
