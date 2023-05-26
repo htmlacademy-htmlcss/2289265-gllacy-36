@@ -147,7 +147,7 @@ body {
   color: #2d3440;
 }
 
- .inputs:hover:not(:disabled) {
+.inputs:hover:not(:disabled) {
   border: 1px solid #2d3440;
 }
 
@@ -333,6 +333,14 @@ body {
 
 .subcatalog-container:focus-within .subcatalog-list {
   display: block;
+}
+
+.subcatalog-container:focus-within .catalog-button:not(:focus) {
+  background-color: #ff2f64;
+}
+
+.subcatalog-container:focus-within .catalog-button:not(:focus):hover {
+  background-color: #ff90ac;
 }
 
 .subcatalog-list {
@@ -1654,19 +1662,19 @@ body {
 }
 
 .pagination-link:hover {
-  border-radius:  50%;
+  border-radius: 50%;
   background-color: rgba(252, 252, 252, 0.5);
 }
 
 
 .pagination-link:focus {
-  border-radius:  50%;
+  border-radius: 50%;
   background-color: rgba(252, 252, 252, 0.3);
   outline: 1px solid #2d3440;
 }
 
 .pagination-link:active {
-  border-radius:  50%;
+  border-radius: 50%;
   background-color: rgba(252, 252, 252, 0.5);
   outline: 1px solid #fcfcfc;
 }
@@ -1692,12 +1700,12 @@ body {
 
 
 .pagination-button:hover {
-  border-radius:  50%;
+  border-radius: 50%;
   background-color: rgba(252, 252, 252, 0.5);
 }
 
 .pagination-button:active {
-  border-radius:  50%;
+  border-radius: 50%;
   background-color: rgba(252, 252, 252, 0.5);
   outline: 1px solid #fcfcfc;
 }
