@@ -864,6 +864,14 @@ body {
   background-color: #2d3440;
 }
 
+.socials-link:focus {
+  border: 2px solid #2d3440;
+  outline: none;
+}
+
+.socials-link:focus::after {
+  background-color: #2d3440;
+}
 /* Gifts */
 
 .gifts {
