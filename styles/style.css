@@ -1244,12 +1244,13 @@ body {
 
 .home-delivery {
   display: flex;
+  align-items: flex-start;
   gap: 135px;
   padding: 64px 64px 64px 100px;
   margin-bottom: 80px;
   background-image: url("../images/index/delivery-background.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #fcfcfc;
   border-radius: 26px;
 }
 
@@ -1285,7 +1286,7 @@ body {
 
 .delivery-form-text {
   margin: 0;
-  margin-bottom: 32px;
+  margin-bottom: 28px;
   color: #565c66;
   font-weight: 400;
   font-size: 16px;
