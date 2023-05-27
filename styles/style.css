@@ -329,6 +329,18 @@ body {
   line-height: 20px;
 }
 
+.user-phone-number:hover {
+  text-decoration: underline;
+}
+
+.user-phone-number:focus {
+  outline: 2px solid #2d3440
+}
+
+.user-phone-number:active {
+  opacity: 0.6;
+}
+
 .search-button {
   padding: 0;
   width: 32px;
@@ -1158,6 +1170,19 @@ body {
   display: block;
   text-decoration: none;
   color: inherit
+}
+
+.glaccy-blog-link:hover {
+  text-decoration: underline;
+}
+
+.glaccy-blog-link:focus {
+  outline: 2px solid #2d3440
+}
+
+.glaccy-blog-link:active {
+  opacity: 0.6;
+  outline: none;
 }
 
 .glaccy-blog-title {
