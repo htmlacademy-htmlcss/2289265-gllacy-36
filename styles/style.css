@@ -75,6 +75,12 @@ body {
   box-shadow: 0 4px 12px 0 rgba(45, 52, 64, 0.1);
 }
 
+.button:disabled {
+  pointer-events: none;
+  opacity: 0.4;
+  font-weight: 400;
+}
+
 .main-button {
   display: inline-block;
   color: inherit;
@@ -84,7 +90,7 @@ body {
   outline: 4px solid rgba(252, 252, 252, 0.4);
 }
 
-.main-button:hover:not(:disabled) {
+.main-button:hover {
   background-color: rgba(252, 252, 252, 0.4);
   outline: 4px solid #fcfcfc;
 }
@@ -97,12 +103,6 @@ body {
 .main-button:active {
   outline: 2px solid #2d3440;
   background-color: #fcfcfc;
-}
-
-.main-button:disabled {
-  cursor: auto;
-  opacity: 0.4;
-  font-weight: 400;
 }
 
 .button.is-loading {
@@ -140,7 +140,7 @@ body {
   border-radius: 26px;
 }
 
-.additional-button:hover:not(:disabled) {
+.additional-button:hover {
   color: #2d3440;
   background-color: #fcfcfc;
   outline: 4px solid #ff2f64;
@@ -156,12 +156,6 @@ body {
   background-color: #ff2f64;
 }
 
-.additional-button:disabled {
-  cursor: auto;
-  opacity: 0.3;
-  font-weight: 400;
-}
-
 .inputs {
   font-family: "Inter", sans-serif;
   font-weight: 400;
@@ -173,7 +167,12 @@ body {
   color: #2d3440;
 }
 
-.inputs:hover:not(:disabled) {
+.inputs:disabled {
+  pointer-events: none;
+  background-color: #e7e7e7;
+}
+
+.inputs:hover {
   border: 1px solid #2d3440;
 }
 
@@ -186,10 +185,6 @@ body {
 .inputs.error:focus {
   outline: 2px solid #ea5454;
   border: none;
-}
-
-.inputs:disabled {
-  background-color: #e7e7e7;
 }
 
 .title {
@@ -1641,7 +1636,7 @@ body {
   box-shadow: none;
 }
 
-.filter-button:hover:not(:disabled) {
+.filter-button:hover {
   background-color: #fcfcfc;
   outline: 2px solid rgba(252, 252, 252, 0.3);
 }
@@ -1657,7 +1652,7 @@ body {
 }
 
 .filter-button:disabled {
-  cursor: auto;
+  pointer-events: none;
   opacity: 0.4;
 }
 
@@ -1685,7 +1680,7 @@ body {
   color: inherit;
 }
 
-.button-load-more:hover:not(:disabled) {
+.button-load-more:hover {
   background-color: #fcfcfc;
   outline: 4px solid rgba(252, 252, 252, 0.3);
 }
@@ -1702,7 +1697,7 @@ body {
 }
 
 .button-load-more:disabled {
-  cursor: auto;
+  pointer-events: none;
   opacity: 0.4;
 }
 
