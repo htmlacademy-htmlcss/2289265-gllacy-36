@@ -1002,6 +1002,28 @@ body {
   height: 32px;
   border-radius: 26px;
   background-color: #ff2f64;
+  border: 2px solid #ff2f64;
+}
+
+.add-to-cart::before {
+  position: absolute;
+  background-color: #fcfcfc;
+  content: "";
+  width: 16px;
+  height: 16px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-mask: url("../images/catalog/cart.svg");
+  mask: url("../images/catalog/cart.svg");
+}
+
+.add-to-cart:hover {
+  background-color: #fcfcfc;
+}
+
+.add-to-cart:hover::before {
+  background-color: #000000;
 }
 
 /* About Us */
