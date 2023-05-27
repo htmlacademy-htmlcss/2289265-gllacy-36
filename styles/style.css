@@ -721,7 +721,7 @@ body {
   z-index: -1;
 }
 
-.slide-picture-container {
+.slider-item:not(.current-slider) {
   transform: scale(0.4);
 }
 
@@ -877,6 +877,7 @@ body {
   border: 2px solid transparent;
   outline: none;
 }
+
 .socials-link:active::after {
   opacity: 0.5;
 }
