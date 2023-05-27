@@ -28,7 +28,7 @@
           <ul class="header-navigation-list">
             <li class="header-navigation-item">
               <div class="subcatalog-container">
-                <button class="hedaer-navigation-link catalog-button" type="button">
+                <button class="header-navigation-link catalog-button" type="button">
                   Каталог
                 </button>
                 <ul class="subcatalog-list">
@@ -66,13 +66,13 @@
             </li>
 
             <li class="header-navigation-item">
-              <a class="hedaer-navigation-link" href="#">
+              <a class="header-navigation-link" href="#">
                 Доставка и оплата
               </a>
             </li>
 
             <li class="header-navigation-item">
-              <a class="hedaer-navigation-link" href="#">
+              <a class="header-navigation-link" href="#">
                 О компании
               </a>
             </li>
@@ -105,12 +105,15 @@
                   <h2 class="login-form-title">
                     Личный кабинет
                   </h2>
+
+                  <!-- Добавьте для inputs класс error, чтоб увидеть состояние об ошибке -->
+
                   <form class="login-form" action="https://echo.htmlacademy.ru/" method="get">
                     <input class="email-input inputs" type="text" name="email" value="email@example.com"
                       aria-label="Поле для воода почты." required>
                     <input class="password-input inputs" type="password" name="password" value="qwerty"
                       aria-label="Поле для воода почты." required>
-                    <button class="login-submit-button button" type="submit">
+                    <button class="login-submit-button button additional-button" type="submit">
                       Войти
                     </button>
                     <div class="login-links-container">
@@ -129,7 +132,7 @@
             <!-- Для показа пустой корзины замените класс not-empty-cart на empty-cart  -->
 
             <li class="user-navigation-item">
-              <div class="cart-item empty-cart">
+              <div class="cart-item not-empty-cart">
                 <button class="cart-button user-button" type="button">
                   <span class="have-items">
                     2 Товара
@@ -155,14 +158,14 @@
                         <a class="cart-product-link" href="#">
                           <img class="cart-product-pic" src="/images/ice-creams/ice-cream-1.png" width="46" height="46"
                             alt="Изображение мороженого Малинка.">
-                            <div class="cart-product-container">
-                              <h3 class="cart-product-text">
-                                Малинка
-                              </h3>
-                              <span class="cart-product-details">
-                                1 кг х 310 ₽
-                              </span>
-                            </div>
+                          <div class="cart-product-container">
+                            <h3 class="cart-product-text">
+                              Малинка
+                            </h3>
+                            <span class="cart-product-details">
+                              1 кг х 310 ₽
+                            </span>
+                          </div>
                         </a>
                         <span class="cart-product-price">
                           310 ₽
@@ -176,14 +179,14 @@
                         <a class="cart-product-link" href="#">
                           <img class="cart-product-pic" src="/images/ice-creams/ice-cream-4.png" width="46" height="46"
                             alt="Изображение мороженого Бабл-гам.">
-                            <div class="cart-product-container">
-                              <h3 class="cart-product-text">
-                                Бабл-гам
-                              </h3>
-                              <span class="cart-product-details">
-                                1,5 кг х 320 ₽
-                              </span>
-                            </div>
+                          <div class="cart-product-container">
+                            <h3 class="cart-product-text">
+                              Бабл-гам
+                            </h3>
+                            <span class="cart-product-details">
+                              1,5 кг х 320 ₽
+                            </span>
+                          </div>
                         </a>
                         <span class="cart-product-price">
                           480 ₽
@@ -194,7 +197,7 @@
                       </li>
                     </ul>
                     <div class="apply-button-and-price">
-                      <button class="apply-order-button button" type="button">
+                      <button class="apply-order-button button additional-button" type="button">
                         Оформить заказ
                       </button>
                       <span class="total-price">
@@ -639,17 +642,17 @@
       </main>
 
       <footer class="page-footer">
-        <ul class="socials-list">
+        <ul class="page-footer-socials socials-list">
           <li class="socials-item">
-            <a class="socials-link telegram" href="#" aria-label="Телеграм."></a>
+            <a class="socials-link socials-link-telegram" href="#" aria-label="Телеграм."></a>
           </li>
 
           <li class="socials-item">
-            <a class="socials-link vk" href="#" aria-label="Вконтакте"></a>
+            <a class="socials-link socials-link-vk" href="#" aria-label="Вконтакте"></a>
           </li>
 
           <li class="socials-item">
-            <a class="socials-link youtube" href="#" aria-label="Ютуб."></a>
+            <a class="socials-link socials-link-youtube" href="#" aria-label="Ютуб."></a>
           </li>
         </ul>
 
