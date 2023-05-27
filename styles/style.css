@@ -1250,6 +1250,8 @@ body {
   margin-bottom: 80px;
   background-image: url("../images/index/delivery-background.jpg");
   background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left top;
   background-color: #fcfcfc;
   border-radius: 26px;
 }
