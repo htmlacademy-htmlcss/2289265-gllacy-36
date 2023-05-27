@@ -839,8 +839,10 @@ body {
 .socials-link::after {
   position: absolute;
   content: "";
-  width: 20px;
-  height: 20px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  transform: scale(0.99);
 }
 
 .socials-link-telegram::before {
