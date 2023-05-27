@@ -1860,6 +1860,11 @@ body {
   padding: 48px 0;
 }
 
+.page-footer-socials,
+.slider-footer-socials {
+  max-width: 150px;
+}
+
 /* Navigation */
 
 .footer-navigation-list {
