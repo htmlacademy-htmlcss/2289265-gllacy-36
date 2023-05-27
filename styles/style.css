@@ -1162,8 +1162,8 @@ body {
   padding: 32px 235px 67px 32px;
   background-image: url("../images/index/blog-background.png");
   background-repeat: no-repeat;
-  /* background-position: top;
-  background-color: #ffffff; */
+  background-position: top;
+  background-color: #ffffff;
   border-radius: 16px;
 }
 
