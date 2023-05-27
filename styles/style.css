@@ -872,6 +872,19 @@ body {
 .socials-link:focus::after {
   background-color: #2d3440;
 }
+
+.socials-link:active {
+  border: 2px solid transparent;
+  outline: none;
+}
+.socials-link:active::after {
+  opacity: 0.5;
+}
+
+.socials-link:active::before {
+  background-color: #f9cbd6
+}
+
 /* Gifts */
 
 .gifts {
