@@ -1743,7 +1743,6 @@ body {
 
 .catalog-pagination {
   display: flex;
-  justify-content: space-between;
   padding: 41px 0;
 }
 
@@ -1779,11 +1778,13 @@ body {
 }
 
 .pagination-list {
+  max-width: 185px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   gap: 5px;
   margin: 0;
+  margin-left: auto;
   padding: 0;
   list-style: none;
   text-align: center;
