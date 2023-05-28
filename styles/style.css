@@ -1051,6 +1051,7 @@ body {
   position: relative;
   width: 32px;
   height: 32px;
+  flex-shrink: 0;
   border-radius: 26px;
   background-color: #ff2f64;
   border: 2px solid #ff2f64;
@@ -1441,6 +1442,7 @@ body {
 
 .breadcrumbs-list {
   display: flex;
+  flex-wrap: wrap;
   gap: 28px;
   margin: 0;
   padding: 0;
@@ -1778,6 +1780,7 @@ body {
 
 .pagination-list {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   gap: 5px;
   margin: 0;
