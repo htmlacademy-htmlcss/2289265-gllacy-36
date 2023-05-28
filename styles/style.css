@@ -1675,16 +1675,17 @@ body {
   background-color: #2d3440;
 }
 
-.range-toggle:active {
-  background-color: #2d3440;
-  transition: background-color 0.5s ease;
-}
-
 .range-toggle:focus {
   outline: none;
   background-color: #fcfcfc;
   border: 2px solid #2d3440;
 }
+
+.range-toggle:active {
+  background-color: #2d3440;
+  transition: background-color 0.5s ease;
+}
+
 
 .range-toggle:focus::before {
   background-color: #2d3440;
