@@ -670,6 +670,7 @@ body {
   align-items: center;
   gap: 30px;
   margin: 0;
+  margin-bottom: 5px;
   padding: 0;
 }
 
@@ -765,6 +766,7 @@ body {
   left: 535px;
   list-style: none;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
@@ -793,6 +795,7 @@ body {
 }
 
 .slider-pagination-list {
+  max-width: 40%;
   margin: 0;
   padding: 0;
   display: flex;
