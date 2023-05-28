@@ -72,7 +72,7 @@ body {
   font-size: 16px;
   line-height: 20px;
   cursor: pointer;
-  box-shadow: 0 4px 12px 0 rgba(45, 52, 64, 0.1);
+  filter: drop-shadow(0 4px 12px rgba(45, 52, 64, 0.1));
 }
 
 .button:disabled {
@@ -392,7 +392,7 @@ body {
   font-size: 14px;
   line-height: 20px;
   z-index: 1;
-  box-shadow: 0 8px 16px 0 rgba(45, 52, 64, 0.12);
+  filter: drop-shadow(0 8px 16px rgba(45, 52, 64, 0.12));
 }
 
 .subcatalog-item:not(:last-child) {
@@ -434,7 +434,7 @@ body {
 .search-container {
   position: absolute;
   display: none;
-  box-shadow: 0 8px 16px 0 rgba(45, 52, 64, 0.12);
+  filter: drop-shadow(0 8px 16px rgba(45, 52, 64, 0.12));
 }
 
 .search-item:focus-within .search-container {
@@ -466,7 +466,7 @@ body {
   position: absolute;
   display: none;
   padding: 48px;
-  box-shadow: 0 15px 40px 0 rgba(45, 52, 64, 0.12);
+  filter: drop-shadow(0 15px 40px rgba(45, 52, 64, 0.12));
 }
 
 .login-item:focus-within .login-container {
@@ -533,7 +533,7 @@ body {
   font-weight: 700;
   font-size: 18px;
   line-height: 22px;
-  box-shadow: 0 15px 40px 0 rgba(45, 52, 64, 0.12);
+  filter: drop-shadow(0 15px 40px rgba(45, 52, 64, 0.12));
 }
 
 /* Empty Cart */
@@ -1280,7 +1280,7 @@ body {
   padding: 40px 40px 42px 40px;
   background-color: #fcfcfc;
   border-radius: 8px;
-  box-shadow: 0 15px 40px 0 rgba(45, 52, 64, 0.12);
+  filter: drop-shadow(0 15px 40px rgba(45, 52, 64, 0.12));
 }
 
 .delivery-form {
@@ -1369,7 +1369,7 @@ body {
   background-color: #fcfcfc;
   border-radius: 8px;
   padding: 40px 40px 42px 40px;
-  box-shadow: 0 8px 16px 0 rgba(45, 52, 64, 0.12);
+  filter: drop-shadow (0 8px 16px rgba(45, 52, 64, 0.12));
 }
 
 .address-title {
