@@ -1634,6 +1634,7 @@ body {
 }
 
 .radio-label {
+  display: flex;
   padding-left: 24px;
   position: relative;
 }
@@ -1683,6 +1684,7 @@ body {
 }
 
 .checkbox-label {
+  display: flex;
   position: relative;
   padding-left: 24px;
 }
@@ -1794,7 +1796,7 @@ body {
 
 .pagination-link {
   display: block;
-  width: 24px;
+  min-width: 24px;
   height: 24px;
   text-decoration: none;
   color: inherit
