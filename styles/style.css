@@ -1118,7 +1118,34 @@ body {
 }
 
 .add-to-cart:hover::before {
-  background-color: #000000;
+  background-color: #2d3440;
+}
+
+.add-to-cart:focus {
+  border: 2px solid #2d3440;
+  background-color: #ff2f64;
+}
+
+.add-to-cart:focus::before {
+  background-color: #fcfcfc;
+}
+
+.add-to-cart:active {
+  border: 2px solid #ff2f64;
+  background-color: #ffcBd8;
+}
+
+.add-to-cart:active::before {
+  background-color: #2d3440;
+}
+
+.add-to-cart:disabled {
+  border: 2px solid transparent;
+  background-color: #b9b9b9;
+}
+
+.add-to-cart:disabled::before {
+  background-color: #565c66;
 }
 
 /* About Us */
