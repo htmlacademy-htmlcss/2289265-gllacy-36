@@ -1876,6 +1876,7 @@ body {
   width: 356px;
   margin: 0;
   padding: 0;
+  padding-left: 24px;
   display: grid;
   grid-template-columns: 174px 187px;
   row-gap: 8px;
@@ -1887,7 +1888,6 @@ body {
 
 .footer-navigation-title {
   margin: 0;
-  padding-left: 24px;
   font-weight: 700;
   font-size: 14px;
   position: relative;
@@ -1899,7 +1899,7 @@ body {
   width: 16px;
   height: 16px;
   top: 50%;
-  left: 0;
+  left: -24px;
   transform: translateY(-50%);
   background-image: url("../images/footer/heart.svg");
   background-repeat: no-repeat;
@@ -1909,10 +1909,6 @@ body {
 .footer-navigation-link {
   text-decoration: none;
   color: inherit;
-}
-
-.footer-navigation-item:nth-child(3) .footer-navigation-link {
-  padding-left: 24px;
 }
 
 /* Logo */
