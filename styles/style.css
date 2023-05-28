@@ -373,6 +373,20 @@ body {
   font-size: 16px;
   line-height: 20px;
   color: #2d3440;
+  padding-right: 38px;
+}
+
+.catalog-button::before {
+  position: absolute;
+  content: "";
+  width: 12px;
+  height: 7px;
+  top: 15px;
+  right: 16px;
+  mask: url("../images/header/arrow.svg");
+ -webkit-mask: url("../images/header/arrow.svg");
+ background-repeat: no-repeat;
+ background-color: #2d3440;
 }
 
 .subcatalog-container:focus-within .subcatalog-list {
