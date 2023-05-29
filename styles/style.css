@@ -1924,6 +1924,26 @@ body {
   border-radius: 50%;
 }
 
+.radio-input:hover + .custom-radio::before {
+  border: 1.5px solid #fcfcfc;
+}
+
+.radio-input:hover + .custom-radio::after {
+  background-color: #fcfcfc;
+}
+
+.radio-input:disabled {
+  pointer-events: none;
+}
+
+.radio-input:disabled + .custom-radio::before {
+  border: 1.5px solid rgba(45, 52, 64, 0.5);
+}
+
+.radio-input:disabled + .custom-radio::after {
+  background-color: rgba(45, 52, 64, 0.5);
+}
+
 /* Checkbox */
 
 .fillers-list {
