@@ -1529,9 +1529,10 @@ body {
 }
 
 .tooltip-text {
+  display: non;
   position: absolute;
   width: 162px;
-  padding: 10px 7px;
+  padding: 9px 7px;
   top: -20px;
   left: 100px;
   border: 1px solid #b9b9b9;
@@ -1554,13 +1555,16 @@ body {
 
 .tooltip-text::after {
   position: absolute;
-  top: 10px;
+  top: 9px;
   left: -1px;
   content: "";
   width: 9px;
   height: 16px;
   background-color: #fcfcfc;
+}
 
+.tooltip-container:hover .tooltip-text {
+display: block;
 }
 
 .delivery-form-button {
