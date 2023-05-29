@@ -1946,17 +1946,31 @@ body {
 .custom-checkbox::before {
   content: "";
   position: absolute;
-  width: 17px;
-  height: 17px;
+  width: 16px;
+  height: 16px;
   top: 0;
   left: 0;
-  background-image: url("../images/catalog/checkbox-empty.svg");
-  background-repeat: no-repeat;
-  background-position: center;
+  -webkit-mask: url("../images/catalog/checkbox-empty.svg");
+  mask: url("../images/catalog/checkbox-empty.svg");
+  background-color: #2d3440;
 }
 
 .checkbox-input:checked + .custom-checkbox::before {
-  background-image: url("../images/catalog/checkbox-checked.svg");
+  -webkit-mask: url("../images/catalog/checkbox-checked.svg");
+  mask: url("../images/catalog/checkbox-checked.svg");
+  background-color: #2d3440;
+}
+
+.checkbox-input:hover + .custom-checkbox::before {
+  background-color: #fcfcfc;
+}
+
+.checkbox-input:disabled {
+  pointer-events: none;
+}
+
+.checkbox-input:disabled + .custom-checkbox::before {
+  background-color: rgba(45, 52, 64, 0.5);
 }
 
 /* Filter Button */
