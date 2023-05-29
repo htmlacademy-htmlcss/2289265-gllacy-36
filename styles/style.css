@@ -1516,6 +1516,53 @@ body {
   position: relative;
 }
 
+.tooltip-container::after {
+  position: absolute;
+  content: "";
+  width: 14px;
+  height: 14px;
+  top: 0;
+  right: 0;
+  background-image: url("../images/index/tooltip-info.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.tooltip-text {
+  position: absolute;
+  width: 162px;
+  padding: 10px 7px;
+  top: -20px;
+  left: 100px;
+  border: 1px solid #b9b9b9;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  color: #565c66;
+}
+
+.tooltip-text::before {
+  position: absolute;
+  top: 23%;
+  left: -4%;
+  content: "";
+  width: 12px;
+  height: 12px;
+  border: 1px solid #b9b9b9;
+  transform: rotate(45deg);
+}
+
+.tooltip-text::after {
+  position: absolute;
+  top: 10px;
+  left: -1px;
+  content: "";
+  width: 9px;
+  height: 16px;
+  background-color: #fcfcfc;
+
+}
+
 .delivery-form-button {
   justify-self: center;
   grid-column: 1/-1;
