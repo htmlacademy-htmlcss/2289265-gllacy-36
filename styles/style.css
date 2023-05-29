@@ -241,7 +241,7 @@ body {
   list-style: none;
 }
 
-.header-navigation-item a {
+.header-navigation-link{
   color: #2d3440;
   text-decoration: none;
 }
@@ -508,6 +508,25 @@ body {
   left: 0;
   bottom: -12px;
   background-color: #b9b9b9;
+}
+
+.subcatalog-link {
+  color: inherit;
+  text-decoration: none;
+  padding: 6px 0;
+}
+
+.subcatalog-link:hover {
+  background-color: #ffcbd8;
+}
+
+.subcatalog-link:active {
+  background-color: #ff7799;
+}
+
+.subcatalog-link-current {
+  background-color: #ff4a78;
+  color: #fcfcfc;
 }
 
 /* Pop-Overs */
