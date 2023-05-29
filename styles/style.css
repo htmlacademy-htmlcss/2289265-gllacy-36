@@ -146,14 +146,14 @@ body {
   outline: 4px solid #ff2f64;
 }
 
-.additional-button:active {
-  outline: 2px solid #2d3440;
-  background-color: #feafc3;
-}
-
 .additional-button:focus {
   outline: 2px solid #2d3440;
   background-color: #ff2f64;
+}
+
+.additional-button:active {
+  outline: 2px solid #2d3440;
+  background-color: #feafc3;
 }
 
 .inputs {
@@ -2004,6 +2004,17 @@ body {
   background-color: #fcfcfc;
 }
 
+.checkbox-input:focus + .custom-checkbox::after {
+  position: absolute;
+  left: -1px;
+  top: -1px;
+  content: "";
+  width: 18px;
+  height: 18px;
+  outline: 2px solid #2d3440;
+  border-radius: 2px;
+}
+
 .checkbox-input:disabled {
   pointer-events: none;
 }
@@ -2156,6 +2167,7 @@ body {
   border-radius: 50%;
   background-color: rgba(252, 252, 252, 0.3);
   border: 2px solid #2d3440;
+  outline: none;
 }
 
 .pagination-button:active {
