@@ -221,9 +221,11 @@ body {
 
 .page-header {
   display: flex;
+  padding: 24px 0;
+  margin-bottom: 21px;
   align-items: center;
   gap: 40px;
-  padding: 24px 0;
+
 }
 
 .header-navigation {
@@ -820,7 +822,8 @@ body {
 .current-slider .slide-description {
   display: block;
   width: 470px;
-  margin: 136px 0 0 70px;
+  margin: 115px 0 0 63px;
+  padding: 0 8px 0 9px;
 }
 
 .slide-description-title {
@@ -854,8 +857,8 @@ body {
   position: absolute;
   content: "";
   width: 327px;
-  height: 327px;
-  transform: translateY(104px);
+  height: 312px;
+  transform: translateY(100px);
   background-color: rgba(252, 252, 252, 0.3);
   border-radius: 50%;
   z-index: -1;
@@ -879,8 +882,8 @@ body {
   padding: 0;
   width: 363px;
   position: absolute;
-  top: 258px;
-  left: 535px;
+  top: 237px;
+  left: 527px;
   list-style: none;
   display: flex;
   flex-wrap: wrap;
