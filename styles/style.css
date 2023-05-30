@@ -780,7 +780,7 @@ body {
 /* Slider */
 
 .slider {
-  margin-bottom: 80px;
+  margin-bottom: 78px;
 }
 
 .slider-list {
@@ -1098,7 +1098,7 @@ body {
 .gifts-item {
   position: relative;
   width: 570px;
-  padding: 36px 217px 36px 36px;
+  padding: 36px 228px 36px 36px;
   border-radius: 16px;
   background-color: #ff7799;
 }
