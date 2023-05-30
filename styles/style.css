@@ -1409,7 +1409,7 @@ body {
 .subscription-form-container {
   position: relative;
   width: 570px;
-  padding: 32px;
+  padding: 33px;
   background-image: url("../images/index/subscribe-background.png");
   background-repeat: no-repeat;
   background-position: center;
@@ -1443,9 +1443,11 @@ body {
 }
 
 .subscription-input {
+  padding-bottom: 11px;
+  padding-right: 10px;
   flex-grow: 1;
   min-width: 200px;
-  margin-right: 16px;
+  margin-right: 20px;
 }
 
 /* Home Delivery */
