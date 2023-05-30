@@ -785,11 +785,10 @@ body {
 
 .slider-list {
   display: flex;
-  align-items: center;
-  gap: 30px;
+  gap: 44px;
   margin: 0;
-  margin-bottom: 5px;
   padding: 0;
+  margin-bottom: 2px;
 }
 
 .slider-container {
@@ -803,6 +802,8 @@ body {
 }
 
 .slider-item:not(.current-slider) {
+  opacity: 0.4;
+  margin-top: 160px;
   width: 100px;
   height: 150px;
 }
@@ -822,7 +823,7 @@ body {
 .current-slider .slide-description {
   display: block;
   width: 470px;
-  margin: 115px 0 0 63px;
+  margin: 115px 0 0 62px;
   padding: 0 8px 0 9px;
 }
 
@@ -963,6 +964,7 @@ body {
   padding: 0;
   display: flex;
   flex-wrap: wrap;
+  align-items: flex-end;
   gap: 8px;
   list-style: none;
 }
@@ -999,7 +1001,7 @@ body {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 12px;
 }
 
 .socials-link {
