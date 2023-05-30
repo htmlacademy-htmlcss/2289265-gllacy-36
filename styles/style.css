@@ -1324,6 +1324,10 @@ body {
   line-height: 22px;
 }
 
+.features-cow {
+  padding-right: 15px;
+}
+
 .features-item::before {
   position: absolute;
   content: "";
