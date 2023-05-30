@@ -1164,7 +1164,7 @@ body {
 }
 
 .catalog-item {
-  padding: 0 40px 20px 40px;
+  padding: 0 40px 24px 40px;
   display: grid;
   position: relative;
   justify-items: center;
@@ -1201,7 +1201,7 @@ body {
 
 .product-description {
   margin: 0;
-  margin-bottom: 20px;
+  margin-bottom: 16px;
 }
 
 .product-container {
@@ -1211,6 +1211,7 @@ body {
 }
 
 .product-price {
+  align-self: center;
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
