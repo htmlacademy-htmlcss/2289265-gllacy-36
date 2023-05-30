@@ -1164,7 +1164,7 @@ body {
 }
 
 .catalog-item {
-  padding: 0 40px 24px 40px;
+  padding: 0 40px 20px 40px;
   display: grid;
   position: relative;
   justify-items: center;
@@ -1208,6 +1208,12 @@ body {
   width: 190px;
   display: flex;
   justify-content: space-between;
+}
+
+.product-price {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
 }
 
 .add-to-cart {
