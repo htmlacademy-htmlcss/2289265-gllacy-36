@@ -1658,12 +1658,24 @@ body {
 /* Section Address */
 
 .address {
+  position: relative;
   display: flex;
   padding: 64px;
   border-radius: 16px;
+}
+
+.address::before {
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  content: "";
   background-image: url("../images/index/address-background.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
+  background-position: 0 -95px;
 }
 
 .section-address-container {
