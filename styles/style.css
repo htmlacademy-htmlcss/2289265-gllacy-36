@@ -2233,7 +2233,6 @@ body {
   margin-top: auto;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
   padding: 48px 0;
 }
 
@@ -2247,10 +2246,11 @@ body {
 .footer-navigation-list {
   width: 356px;
   margin: 0;
+  margin-left: auto;
   padding: 0;
-  padding-left: 24px;
+  padding-left: 23px;
   display: grid;
-  grid-template-columns: 174px 187px;
+  grid-template-columns: 148px 187px;
   row-gap: 8px;
   list-style: none;
   font-weight: 400;
@@ -2286,6 +2286,7 @@ body {
 /* Logo */
 
 .footer-logo-container {
+  margin-left: auto;
   width: 193px;
 }
 
