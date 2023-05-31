@@ -1589,7 +1589,7 @@ body {
 }
 
 .tooltip-text {
-  display: none;
+  display: non;
   position: absolute;
   width: 162px;
   padding: 9px 7px;
@@ -1606,8 +1606,8 @@ body {
 
 .tooltip-text::before {
   position: absolute;
-  top: 23%;
-  left: -4%;
+  top: 11px;
+  left: -6.5px;
   content: "";
   width: 12px;
   height: 12px;
@@ -1615,15 +1615,6 @@ body {
   transform: rotate(45deg);
   border-top-color: transparent;
   border-right-color: transparent;
-}
-
-.tooltip-text::after {
-  position: absolute;
-  top: 11px;
-  left: -1px;
-  content: "";
-  width: 1px;
-  height: 14px;
   background-color: #fcfcfc;
 }
 
@@ -1655,10 +1646,13 @@ body {
   top: 9px;
   left: -6px;
   content: "";
-  width: 12px;
-  height: 12px;
-  border: 1px solid #b9b9b9;
+  width: 11px;
+  height: 11px;
+  border: 1px solid #d6cccc;
   transform: rotate(45deg);
+  border-top-color: transparent;
+  border-right-color: transparent;
+  background-color: #fcfcfc;
 }
 
 /* Section Address */
