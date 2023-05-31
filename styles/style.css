@@ -1164,7 +1164,8 @@ body {
   list-style: none;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 30px;
+  column-gap: 30px;
+  row-gap: 39px;
 }
 
 .catalog-item {
@@ -1794,7 +1795,12 @@ body {
 .fieldset-checkbox {
   padding: 0;
   margin: 0;
+  margin-right: 24px;
   border: none;
+}
+
+.fieldset-checkbox {
+  margin-right: 16px;
 }
 
 .fieldset-title {
@@ -1805,7 +1811,7 @@ body {
 .catalog-filter-form {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  row-gap: 16px;
   align-items: center;
 }
 
@@ -1925,9 +1931,9 @@ body {
 .fat-contains-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 16px;
+  gap: 17px;
   margin: 0;
-  padding: 8px 24px;
+  padding: 8px 23px;
   list-style: none;
   border-radius: 18px;
   background-color: rgba(252, 252, 252, 0.3);
@@ -1943,8 +1949,8 @@ body {
   position: absolute;
   width: 16px;
   height: 16px;
-  top: 0;
-  left: 0;
+  top: 2px;
+  left: 2px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1994,10 +2000,10 @@ body {
 
 .fillers-list {
   display: flex;
-  flex-wrap: wrpa;
-  gap: 16px;
+  flex-wrap: wrap;
+  gap: 17px;
   margin: 0;
-  padding: 8px 24px;
+  padding: 10px 25px;
   list-style: none;
   border-radius: 18px;
   background-color: rgba(252, 252, 252, 0.3);
@@ -2014,7 +2020,7 @@ body {
   position: absolute;
   width: 16px;
   height: 16px;
-  top: 0;
+  top: 2px;
   left: 0;
   -webkit-mask: url("../images/catalog/checkbox-empty.svg");
   mask: url("../images/catalog/checkbox-empty.svg");
@@ -2053,13 +2059,16 @@ body {
 /* Filter Button */
 
 .filter-button {
-  padding: 8px 52px;
+  padding: 10px 52px;
   align-self: flex-end;
   border-radius: 20px;
   background-color: rgba(252, 252, 252, 0.3);
   outline: 2px solid #fcfcfc;
   color: inherit;
   box-shadow: none;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
 }
 
 .filter-button:hover {
@@ -2092,16 +2101,16 @@ body {
 
 .catalog-pagination {
   display: flex;
-  padding: 41px 0;
+  padding: 43px 0;
 }
 
 .button-load-more {
   margin-left: 50%;
-  transform: translateX(-50%);
+  transform: translateX(-55%);
   padding: 12px 32px;
   border-radius: 26px;
-  background-color: rgba(255, 255, 255, 0.3);
-  outline: 4px solid #fcfcfc;
+  background-color: #fcfcfc;
+  outline: 4px solid rgba(252, 252, 252, 0.4);
   color: inherit;
 }
 
@@ -2137,6 +2146,8 @@ body {
   padding: 0;
   list-style: none;
   text-align: center;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .pagination-link {
