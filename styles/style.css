@@ -2102,6 +2102,7 @@ body {
 .catalog-pagination {
   display: flex;
   padding: 43px 0;
+  margin-bottom: 40px;
 }
 
 .button-load-more {
@@ -2136,11 +2137,9 @@ body {
 }
 
 .pagination-list {
-  max-width: 185px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 5px;
   margin: 0;
   margin-left: auto;
   padding: 0;
@@ -2148,9 +2147,11 @@ body {
   text-align: center;
   font-size: 16px;
   line-height: 20px;
+  gap: 3px;
 }
 
 .pagination-link {
+  padding: 2px 7px;
   display: block;
   min-width: 24px;
   height: 24px;
@@ -2186,6 +2187,7 @@ body {
 }
 
 .pagination-button {
+  padding: 2px 7px;
   display: block;
   width: 16px;
   height: 16px;
@@ -2204,8 +2206,7 @@ body {
 .pagination-button:focus {
   border-radius: 50%;
   background-color: rgba(252, 252, 252, 0.3);
-  border: 2px solid #2d3440;
-  outline: none;
+  outline: 2px solid #2d3440;
 }
 
 .pagination-button:active {
