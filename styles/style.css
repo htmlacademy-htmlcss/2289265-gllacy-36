@@ -1589,7 +1589,7 @@ body {
 }
 
 .tooltip-text {
-  display: non;
+  display: none;
   position: absolute;
   width: 162px;
   padding: 9px 7px;
