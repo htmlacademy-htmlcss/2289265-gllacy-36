@@ -2233,7 +2233,7 @@ body {
   margin-top: auto;
   display: flex;
   flex-wrap: wrap;
-  padding: 48px 0;
+  padding: 46px 0 48px 0;
 }
 
 .page-footer-socials,
@@ -2251,7 +2251,6 @@ body {
   padding-left: 23px;
   display: grid;
   grid-template-columns: 148px 187px;
-  row-gap: 8px;
   list-style: none;
   font-weight: 400;
   font-size: 14px;
@@ -2293,6 +2292,7 @@ body {
 .footer-logo-link {
   width: 93px;
   height: 27px;
+  margin-bottom: 14px;
   display: block;
   background-image: url("../images/footer/logo-htmlacademy.svg");
 }
@@ -2302,6 +2302,10 @@ body {
   font-weight: 400;
   font-size: 12px;
   line-height: 16px;
+}
+
+.footer-logo-text a {
+  text-underline-offset: 3px;
 }
 
 /* Modal Window*/
