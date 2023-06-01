@@ -2128,6 +2128,7 @@ body {
 }
 
 .button-load-more {
+  align-self: flex-start;
   margin-left: 50%;
   transform: translateX(-55%);
   padding: 12px 32px;
