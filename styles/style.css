@@ -1068,7 +1068,7 @@ body {
 }
 
 .socials-link:active {
-  border: 2px solid transparent;
+  border: 2px solid rgba(252, 252, 252, 0.2);
   outline: none;
 }
 
