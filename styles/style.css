@@ -1833,6 +1833,10 @@ body {
   align-items: center;
 }
 
+.fieldset-title {
+  max-width: 150px;
+}
+
 .catalog-select {
   appearance: none;
   padding: 8px 63px 8px 16px;
