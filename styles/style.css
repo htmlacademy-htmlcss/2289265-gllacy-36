@@ -792,6 +792,7 @@ body {
 
 .slider-list {
   display: flex;
+  overflow: hidden;
   gap: 44px;
   margin: 0;
   padding: 0;
@@ -800,7 +801,6 @@ body {
 
 .slider-container {
   position: relative;
-  overflow: hidden;
 }
 
 .slider-item {
