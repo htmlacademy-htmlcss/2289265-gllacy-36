@@ -486,7 +486,7 @@ body {
 }
 
 .subcatalog-list {
-  display: non;
+  display: none;
   position: absolute;
   content: "";
   padding: 8px 0;
@@ -582,6 +582,13 @@ body {
   width: 356px;
   min-height: 96px;
   padding: 24px 16px;
+}
+
+.search-input::-webkit-search-decoration,
+.search-input::-webkit-search-cancel-button,
+.search-input::-webkit-search-results-button,
+.search-input::-webkit-search-results-decoration {
+  appearance: none;
 }
 
 .search-input {
