@@ -564,22 +564,20 @@ body {
 }
 
 .search-container {
-  position: absolute;
-  right: 0;
+  width: 356px;
+  right: -100px;
   top: 38px;
+  right: 0;
+  position: absolute;
   display: none;
   filter: drop-shadow(0 8px 16px rgba(45, 52, 64, 0.12));
 }
 
 .search-item:focus-within .search-container {
   display: block;
-  position: absolute;
-  top: 50px;
-  left: 0;
 }
 
 .search {
-  width: 356px;
   min-height: 96px;
   padding: 25px 16px 25px 16px;
 }
@@ -613,7 +611,7 @@ body {
 }
 
 .search-input:not(:placeholder-shown) + .search-text-delete {
-display: block;
+  display: block;
 }
 
 .search-text-delete:hover {
@@ -640,16 +638,15 @@ display: block;
 .login-container {
   width: 420px;
   position: absolute;
-  display: none;
-  padding: 48px;
+  display: non;
+  padding: 48px 48px 50px 48px;
+  top: 41px;
+  right: 0;
   filter: drop-shadow(0 15px 40px rgba(45, 52, 64, 0.12));
 }
 
 .login-item:focus-within .login-container {
   display: block;
-  position: absolute;
-  top: 50px;
-  right: 0;
 }
 
 .login-form {
@@ -659,7 +656,7 @@ display: block;
 
 .login-form-title {
   margin: 0;
-  margin-bottom: 32px;
+  margin-bottom: 30px;
   font-weight: 700;
   font-size: 24px;
   line-height: 30px;
@@ -668,7 +665,7 @@ display: block;
 .email-input,
 .password-input {
   width: 100%;
-  margin-bottom: 16px;
+  margin-bottom: 13px;
 }
 
 .login-form input:last-of-type {
@@ -677,7 +674,7 @@ display: block;
 
 .login-submit-button {
   align-self: flex-start;
-  margin-right: 19px;
+  margin-right: 23px;
 }
 
 .login-links-container {
