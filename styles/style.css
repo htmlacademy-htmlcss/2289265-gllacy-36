@@ -482,13 +482,15 @@ body {
 }
 
 .subcatalog-list {
-  display: none;
+  display: non;
   position: absolute;
   content: "";
+  margin-top: 8px;
+  margin-left: 2px;
   padding: 8px 0;
   list-style: none;
   background-color: #fcfcfc;
-  border-radius: 8px;
+  border-radius: 4px;
   font-size: 14px;
   line-height: 20px;
   z-index: 1;
