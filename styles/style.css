@@ -2335,6 +2335,19 @@ body {
   color: inherit;
 }
 
+.footer-navigation-link:hover {
+  opacity: 0.6;
+}
+
+.footer-navigation-link:focus {
+  outline: 2px solid #2d3440;
+}
+
+.footer-navigation-link:active {
+  outline: none;
+  opacity: 0.3;
+}
+
 /* Logo */
 
 .footer-logo-container {
@@ -2350,11 +2363,38 @@ body {
   background-image: url("../images/footer/logo-htmlacademy.svg");
 }
 
+.footer-logo-link:hover {
+  opacity: 0.6;
+}
+
+.footer-logo-link:focus {
+  outline: 2px solid #2d3440;
+}
+
+.footer-logo-link:active {
+  outline: none;
+  opacity: 0.3;
+}
+
 .footer-logo-text {
   margin: 0;
   font-weight: 400;
   font-size: 12px;
   line-height: 16px;
+}
+
+.footer-logo-text a:hover {
+  opacity: 0.6;
+}
+
+.footer-logo-text a:focus {
+  outline: 2px solid #2d3440;
+  text-decoration: none;
+}
+
+.footer-logo-text a:active {
+  outline: none;
+  opacity: 0.3;
 }
 
 .footer-logo-text a {
