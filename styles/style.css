@@ -638,7 +638,7 @@ body {
 .login-container {
   width: 420px;
   position: absolute;
-  display: non;
+  display: none;
   padding: 48px 48px 50px 48px;
   top: 41px;
   right: 0;
