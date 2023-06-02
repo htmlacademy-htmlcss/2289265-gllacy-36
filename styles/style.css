@@ -565,6 +565,8 @@ body {
 
 .search-container {
   position: absolute;
+  right: 0;
+  top: 38px;
   display: none;
   filter: drop-shadow(0 8px 16px rgba(45, 52, 64, 0.12));
 }
@@ -579,7 +581,7 @@ body {
 .search {
   width: 356px;
   min-height: 96px;
-  padding: 24px 16px;
+  padding: 25px 16px 25px 16px;
 }
 
 .search-input::-webkit-search-decoration,
@@ -594,6 +596,7 @@ body {
 }
 
 .search-text-delete {
+  display: none;
   border: none;
   background-color: transparent;
   padding: 3px;
@@ -609,6 +612,10 @@ body {
   z-index: 1;
 }
 
+.search-input:not(:placeholder-shown) + .search-text-delete {
+display: block;
+}
+
 .search-text-delete:hover {
   opacity: 1;
 }
@@ -619,6 +626,7 @@ body {
 }
 
 .search-text-delete:active {
+  border: none;
   opacity: 0.6;
 }
 
