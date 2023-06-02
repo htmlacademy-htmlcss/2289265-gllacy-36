@@ -167,12 +167,8 @@ body {
   border-radius: 4px;
 }
 
-::placeholder {
+.inputs::placeholder {
   color: #b9b9b9;
-}
-
-.inputs:not(:placeholder-shown) {
-  color: #2d3440;
 }
 
 .inputs:disabled {
