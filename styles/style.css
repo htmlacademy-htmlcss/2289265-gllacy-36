@@ -2339,7 +2339,7 @@ body {
 }
 
 .modal-container-closed {
-  display: none;
+  display: non;
 }
 
 .modal-window {
@@ -2374,6 +2374,19 @@ body {
   background-position: center;
 }
 
+.modal-window-close-button:hover {
+opacity: 0.6;
+}
+
+.modal-window-close-button:focus {
+ border: 2px solid #2d3440;
+}
+
+.modal-window-close-button:active {
+  opacity: 0.3;
+  border: none;
+}
+
 .modal-window-form {
   display: grid;
   row-gap: 16px;
@@ -2382,7 +2395,7 @@ body {
 .free-form-text {
   height: 149px;
   resize: none;
-  margin-bottom: 32px;
+  margin-bottom: 16px;
 }
 
 .modal-window-button {
