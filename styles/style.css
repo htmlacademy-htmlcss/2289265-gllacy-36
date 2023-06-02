@@ -482,7 +482,7 @@ body {
 }
 
 .subcatalog-list {
-  display: non;
+  display: none;
   position: absolute;
   content: "";
   margin-top: 8px;
