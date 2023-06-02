@@ -738,7 +738,7 @@ body {
 }
 
 .not-empty-cart .cart-pop-over {
-  width: 420px;
+  min-width: 441px;
   padding: 48px;
 }
 
@@ -808,7 +808,8 @@ body {
 }
 
 .cart-product-price {
-  margin: auto;
+  margin-right: 66px;
+  margin-left: auto;
   align-self: center;
 }
 
@@ -827,7 +828,7 @@ body {
 .apply-button-and-price {
   margin-top: 32px;
   display: flex;
-  justify-content: space-between;
+  gap: 32px;
   flex-wrap: wrap;
   align-items: center;
 }
