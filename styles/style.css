@@ -2346,7 +2346,7 @@ body {
   position: relative;
   width: 570px;
   margin: auto;
-  padding: 64px;
+  padding: 64px 64px 65px 64px;
   border-radius: 8px;
   background-color: #fcfcfc;
   filter: drop-shadow(0 15px 40px rgba(45, 52, 64, 0.12));
@@ -2365,8 +2365,8 @@ body {
   border: none;
   background-color: transparent;
   position: absolute;
-  top: 36px;
-  right: 36px;
+  top: 25px;
+  right: 25px;
   width: 32px;
   height: 32px;
   background-image: url("../images/index/modal-window-cross.svg");
@@ -2375,11 +2375,11 @@ body {
 }
 
 .modal-window-close-button:hover {
-opacity: 0.6;
+  opacity: 0.6;
 }
 
 .modal-window-close-button:focus {
- border: 2px solid #2d3440;
+  border: 2px solid #2d3440;
 }
 
 .modal-window-close-button:active {
@@ -2401,6 +2401,13 @@ opacity: 0.6;
 .modal-window-button {
   justify-self: end;
 }
+
+.modal-name-input,
+.modal-email-input {
+  padding: 13px 0 13px 16px;
+}
+
+/* Button Is Loading */
 
 @keyframes loading {
   0% {
