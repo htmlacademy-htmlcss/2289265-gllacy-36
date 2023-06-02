@@ -563,7 +563,7 @@ body {
 
 .search-container {
   position: absolute;
-  display: none;
+  display: non;
   filter: drop-shadow(0 8px 16px rgba(45, 52, 64, 0.12));
 }
 
@@ -589,6 +589,35 @@ body {
 
 .search-input {
   width: 100%;
+}
+
+.search-text-delete {
+  border: none;
+  background-color: transparent;
+  padding: 3px;
+  width: 16px;
+  height: 16px;
+  top: 40px;
+  right: 29px;
+  position: absolute;
+  background-image: url("../images/header/cross.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.4;
+  z-index: 1;
+}
+
+.search-text-delete:hover {
+  opacity: 1;
+}
+
+.search-text-delete:focus {
+  opacity: 1;
+  border: 1px solid #2d3440;
+}
+
+.search-text-delete:active {
+  opacity: 0.6;
 }
 
 /* Login Pop Over */
@@ -2339,7 +2368,7 @@ body {
 }
 
 .modal-container-closed {
-  display: non;
+  display: none;
 }
 
 .modal-window {
