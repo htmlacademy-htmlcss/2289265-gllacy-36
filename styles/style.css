@@ -1867,7 +1867,7 @@ body {
 }
 
 .fieldset-title {
-  max-width: 150px;
+  max-width: 155px;
 }
 
 .catalog-select {
@@ -1882,7 +1882,7 @@ body {
   line-height: 20px;
   background-image: url("../images/catalog/arrow-down.svg");
   background-repeat: no-repeat;
-  background-position: 165px 50%;
+  background-position: right 13px center;
 }
 
 .catalog-select:hover {
