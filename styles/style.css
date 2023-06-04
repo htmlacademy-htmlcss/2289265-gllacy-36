@@ -2031,6 +2031,11 @@ body {
   border-radius: 50%;
 }
 
+.radio-input:focus + .custom-radio {
+  outline: #2d3440 2px solid;
+  outline-offset: 1px;
+}
+
 .radio-input:hover + .custom-radio::before {
   border: 1.5px solid #fcfcfc;
 }
@@ -2095,13 +2100,12 @@ body {
 
 .checkbox-input:focus + .custom-checkbox::after {
   position: absolute;
-  left: -1px;
-  top: -1px;
+  left: 0;
+  top: 0;
   content: "";
-  width: 18px;
-  height: 18px;
+  width: 19px;
+  height: 19px;
   outline: 2px solid #2d3440;
-  border-radius: 2px;
 }
 
 .checkbox-input:disabled {
