@@ -1986,7 +1986,7 @@ body {
 .fat-contains-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 17px;
+  gap: 16px;
   margin: 0;
   padding: 8px 23px;
   list-style: none;
@@ -1996,7 +1996,7 @@ body {
 
 .radio-label {
   display: flex;
-  padding-left: 24px;
+  padding-left: 25px;
   position: relative;
 }
 
@@ -2058,7 +2058,7 @@ body {
   flex-wrap: wrap;
   gap: 15px;
   margin: 0;
-margin-right: 3px;
+  margin-right: 3px;
   padding: 10px 23px;
   list-style: none;
   border-radius: 18px;
