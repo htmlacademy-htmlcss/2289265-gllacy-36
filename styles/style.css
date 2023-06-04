@@ -2058,8 +2058,8 @@ body {
   flex-wrap: wrap;
   gap: 15px;
   margin: 0;
-  margin-right: 4px;
-  padding: 10px 25px;
+margin-right: 3px;
+  padding: 10px 23px;
   list-style: none;
   border-radius: 18px;
   background-color: rgba(252, 252, 252, 0.3);
@@ -2068,7 +2068,7 @@ body {
 .checkbox-label {
   display: flex;
   position: relative;
-  padding-left: 25px;
+  padding-left: 26px;
 }
 
 .custom-checkbox::before {
