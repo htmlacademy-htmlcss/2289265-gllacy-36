@@ -2255,8 +2255,7 @@ body {
 
 
 .pagination-button:hover {
-  border-radius: 50%;
-  background-color: rgba(252, 252, 252, 0.5);
+  opacity: 0.6;
 }
 
 .pagination-button:focus {
@@ -2266,9 +2265,7 @@ body {
 }
 
 .pagination-button:active {
-  border-radius: 50%;
-  background-color: rgba(252, 252, 252, 0.5);
-  border: 2px solid #fcfcfc;
+  opacity: 0.3;
 }
 
 .pagination-button-next {
