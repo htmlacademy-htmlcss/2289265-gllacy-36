@@ -2149,7 +2149,7 @@ body {
 /* Catalog */
 
 .catalog-products {
-  margin-bottom: 16px;
+  margin-bottom: 14px;
 }
 
 /* Catalog Pagination */
@@ -2300,7 +2300,7 @@ body {
   padding: 0;
   padding-left: 23px;
   display: grid;
-  grid-template-columns: 148px 187px;
+  grid-template-columns: 150px 187px;
   list-style: none;
   font-weight: 400;
   font-size: 14px;
