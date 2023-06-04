@@ -45,3 +45,30 @@ buttonNext.addEventListener('click', () => {
   sliderTabButtons[counter].classList.add('slider-pagination-current');
   changeColor(slides[counter].dataset.theme);
 });
+
+// Modal Window
+
+const additionalButton = document.querySelector('.modal-window-link');
+const modalContainer = document.querySelector('.modal-container');
+const modalWindowClose = document.querySelector('.modal-window-close-button');
+
+additionalButton.addEventListener('click', (evt) => {
+  evt.preventDefault();
+  modalContainer.classList.remove('modal-container-closed');
+});
+
+modalWindowClose.addEventListener('click', () => {
+  modalContainer.classList.add('modal-container-closed');
+});
+
+modalContainer.addEventListener('click', (evt) => {
+  if (!evt.target.classList.contains('modal-window')) {
+    modalContainer.classList.add('modal-container-closed');
+  }
+});
+
+document.addEventListener('keydown', (evt) => {
+  if (evt.key === 'Escape') {
+    modalContainer.classList.add('modal-container-closed');
+  }
+});
