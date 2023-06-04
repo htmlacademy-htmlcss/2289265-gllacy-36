@@ -1169,7 +1169,7 @@ body {
   height: 268px;
   bottom: 0;
   right: 0;
-  background-image: url("../images/index/gifts-raspberry.png");
+  background-image: url("../images/content/gifts-raspberry.png");
 }
 
 .gift-marshmallow::before {
@@ -1180,7 +1180,7 @@ body {
   height: 268px;
   bottom: 0;
   right: 0;
-  background-image: url("../images/index/gifts-marshmallow.png");
+  background-image: url("../images/content/gifts-marshmallow.png");
 }
 
 .gifts-item-title {
