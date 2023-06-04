@@ -2056,8 +2056,9 @@ body {
 .fillers-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 17px;
+  gap: 15px;
   margin: 0;
+  margin-right: 4px;
   padding: 10px 25px;
   list-style: none;
   border-radius: 18px;
@@ -2067,7 +2068,7 @@ body {
 .checkbox-label {
   display: flex;
   position: relative;
-  padding-left: 24px;
+  padding-left: 25px;
 }
 
 .custom-checkbox::before {
@@ -2076,7 +2077,7 @@ body {
   width: 16px;
   height: 16px;
   top: 2px;
-  left: 0;
+  left: 1px;
   -webkit-mask: url("../images/catalog/checkbox-empty.svg");
   mask: url("../images/catalog/checkbox-empty.svg");
   background-color: #2d3440;
