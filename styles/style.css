@@ -1342,7 +1342,7 @@ body {
   position: relative;
   margin-bottom: 80px;
   padding: 80px 64px;
-  background-image: url("../images/index/about-us-background.png");
+  background-image: url("../images/background/about-us-background.png");
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 16px;
@@ -1425,7 +1425,7 @@ body {
 .glaccy-blog {
   width: 570px;
   padding: 32px 235px 67px 32px;
-  background-image: url("../images/index/blog-background.png");
+  background-image: url("../images/background/blog-background.png");
   background-repeat: no-repeat;
   background-position: top;
   background-color: #ffffff;
@@ -1470,7 +1470,7 @@ body {
   position: relative;
   width: 570px;
   padding: 33px;
-  background-image: url("../images/index/subscribe-background.png");
+  background-image: url("../images/background/subscribe-background.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1518,7 +1518,7 @@ body {
   gap: 135px;
   padding: 64px 64px 64px 100px;
   margin-bottom: 80px;
-  background-image: url("../images/index/delivery-background.jpg");
+  background-image: url("../images/background/delivery-background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left top;
@@ -1713,7 +1713,7 @@ body {
   display: flex;
   padding: 64px;
   border-radius: 16px;
-  background-image: url("../images/index/address-background.jpg");
+  background-image: url("../images/background/address-background.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: 0 -95px;
@@ -2285,6 +2285,7 @@ body {
 }
 
 .pagination-button-next {
+  transform: rotate(-90deg);
   margin-left: 9px;
   background-image: url("../images/svg/arrow.svg");
 }
@@ -2292,7 +2293,7 @@ body {
 .pagination-button-previous {
   margin-right: 5px;
   background-image: url("../images/svg/arrow.svg");
-  transform: rotate(180deg);
+  transform: rotate(90deg);
 }
 
 /* Footer */
