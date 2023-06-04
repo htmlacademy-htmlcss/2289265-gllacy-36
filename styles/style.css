@@ -1719,12 +1719,14 @@ body {
   padding: 64px;
   border-radius: 16px;
   background-image: url("../images/background/address-background.jpg");
+  background-color: #de4a6f;
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: 0 -84px;
 }
 
 .section-address-container {
+  max-width: 400px;
   background-color: #fcfcfc;
   border-radius: 8px;
   padding: 40px 42px 42px 40px;
