@@ -2114,7 +2114,7 @@ body {
 /* Filter Button */
 
 .filter-button {
-  padding: 10px 52px;
+  padding: 9px 52px 9px 52px;
   align-self: flex-end;
   border-radius: 20px;
   background-color: rgba(252, 252, 252, 0.3);
