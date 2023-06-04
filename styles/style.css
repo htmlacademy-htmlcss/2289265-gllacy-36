@@ -1493,6 +1493,11 @@ body {
 .subscription-form {
   display: flex;
   align-items: center;
+  gap: 1px;
+}
+
+.subscription-form .additional-button {
+  padding: 13px 32px;
 }
 
 .subscription-text {
@@ -1716,7 +1721,7 @@ body {
   background-image: url("../images/background/address-background.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
-  background-position: 0 -95px;
+  background-position: 0 -84px;
 }
 
 .section-address-container {
