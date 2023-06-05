@@ -2180,9 +2180,19 @@ body {
 /* Catalog Pagination */
 
 .catalog-pagination {
+  position: relative;
   display: flex;
   padding: 43px 0;
   margin-bottom: 40px;
+}
+
+.catalog-pagination::after {
+  content: "";
+  position: absolute;
+  width: 1170px;
+  height: 1px;
+  background-color: rgba(252, 252, 252, 0.3);
+  bottom: -38px;
 }
 
 .button-load-more {
