@@ -355,8 +355,11 @@ body {
 }
 
 .search-item:focus-within .user-button:not(:focus) {
-  color: #fcfcfc;
   background-color: #ff4a78;
+}
+
+.search-item:focus-within .user-button:not(:focus)::before {
+  background-color: #fcfcfc;
 }
 
 .cart-item:focus-within .user-button:not(:focus):hover {
