@@ -96,7 +96,7 @@ body {
   outline: 4px solid #fcfcfc;
 }
 
-.main-button:focus {
+.main-button:focus-visible {
   outline: 2px solid #2d3440;
   background-color: rgba(252, 252, 252, 0.5);
 }
