@@ -1719,10 +1719,8 @@ body {
   padding: 64px;
   border-radius: 16px;
   background-image: url("../images/background/address-background.jpg");
-  background-color: #de4a6f;
   background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: 0 -84px;
+  background-size: cover;
 }
 
 .section-address-container {
@@ -2120,12 +2118,13 @@ body {
 
 .checkbox-input:focus + .custom-checkbox::after {
   position: absolute;
-  left: 0;
-  top: 0;
+  left: 1px;
+  top: 2px;
   content: "";
-  width: 19px;
-  height: 19px;
+  width: 16px;
+  height: 16px;
   outline: 2px solid #2d3440;
+  outline-offset: 2px;
 }
 
 .checkbox-input:disabled {
