@@ -532,7 +532,7 @@ body {
   z-index: -1;
   position: absolute;
   content: "";
-  width: 135px;
+  width: 100%;
   height: 100%;
   left: 0;
   top: 0;
@@ -2200,6 +2200,7 @@ body {
 
 .button-load-more {
   align-self: flex-start;
+  flex-shrink: 0;
   margin-left: 50%;
   transform: translateX(-55%);
   padding: 12px 32px;
