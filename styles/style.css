@@ -33,7 +33,7 @@ html {
 body {
   height: 100%;
   margin: 0 auto;
-  background-color: #feaFc3;
+  background-color: #feafc3;
   color: #2d3440;
   font-family: "Inter", sans-serif;
   font-weight: 400;
@@ -127,7 +127,12 @@ body {
   flex-shrink: 0;
 }
 
-.additional-button.button.is-loading::after {
+.button.is-loading::after {
+  border: 2px solid rgb(252, 252, 252, 0.25);
+  border-bottom-color: #fcfcfc;
+}
+
+.additional-button.is-loading::after {
   border: 2px solid rgb(252, 252, 252, 0.25);
   border-bottom-color: #fcfcfc;
 }
@@ -1590,7 +1595,6 @@ body {
   line-height: 20px;
 }
 
-
 /* Phone */
 
 .phone-container {
@@ -2289,7 +2293,6 @@ body {
   background-repeat: no-repeat;
   background-position: center;
 }
-
 
 .pagination-button:hover {
   opacity: 0.6;
