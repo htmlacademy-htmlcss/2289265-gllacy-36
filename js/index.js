@@ -62,7 +62,7 @@ modalWindowClose.addEventListener('click', () => {
 });
 
 modalContainer.addEventListener('click', (evt) => {
-  if (!evt.target.classList.contains('modal-window')) {
+  if (!evt.target.classList.closest('.modal-window')) {
     modalContainer.classList.add('modal-container-closed');
   }
 });
