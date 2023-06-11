@@ -544,14 +544,14 @@
                     </span>
                   </span>
                 </span>
-                <input class="date-input inputs" type="text" name="date" placeholder="01.04.2020">
+                <input class="date-input inputs" type="text" name="date" placeholder="01.04.2020" required>
               </label>
 
               <label class="phone-label phone-container">
                 <span class="text-phone">
                   Телефон
                 </span>
-                <input class="phone-input inputs" type="text" name="phone-number" placeholder="+7 800 999-00-00">
+                <input class="phone-input inputs" type="text" name="phone-number" placeholder="+7 800 999-00-00" required>
               </label>
 
               <label class="address-label address-container">
@@ -564,7 +564,7 @@
                   </span>
                 </span>
                 <input class="address-input inputs" type="text" name="address"
-                  placeholder="ул. Большая Конюшенная, 19/8">
+                  placeholder="ул. Большая Конюшенная, 19/8" required>
               </label>
 
               <button class="button delivery-form-button additional-button" type="submit">
@@ -665,10 +665,9 @@
         </p>
         <button class="modal-window-close-button" aria-label="Кнопка закрытия модального окна" type="button"></button>
         <form class="modal-window-form" action="https://echo.htmlacademy.ru/" method="post">
-          <input class="modal-name-input inputs" type="text" placeholder="Имя и фамилия"
-            aria-label="Поле ввода имени и фамилии">
+          <input class="modal-name-input inputs" type="text" placeholder="Имя и фамилия" aria-label="Поле ввода имени и фамилии" required>
           <input class="modal-email-input inputs" type="text" placeholder="email@example.com"
-            aria-label="Поле ввода почты">
+            aria-label="Поле ввода почты" required>
           <textarea class="free-form-text inputs" name="free-form-text" aria-label="Поле ввода в свободной форму"placeholder="В свободной форме"></textarea>
           <button class="modal-window-button button additional-button" type="submit">
             Отправить
