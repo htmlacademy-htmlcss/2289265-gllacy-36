@@ -2012,12 +2012,12 @@ body {
   border-radius: 50%;
 }
 
-.range-scale-to {
-  transform: translateX(80px);
+.toggle-min {
+  transform: translateX(24px);
 }
 
-.range-scale-from {
-  transform: translateX(24px);
+.toggle-max {
+  transform: translateX(80px);
 }
 
 .range-toggle:hover {
