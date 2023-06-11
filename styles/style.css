@@ -182,7 +182,7 @@ body {
 }
 
 .inputs:hover {
-  border: 1px solid #2d3440;
+  outline: 1px solid #2d3440;
 }
 
 .inputs.error {
@@ -2339,6 +2339,11 @@ body {
   margin-right: 5px;
   background-image: url("../images/svg/arrow.svg");
   transform: rotate(90deg);
+}
+
+.pagination-button:not([href]) {
+  pointer-events: none;
+  opacity: 0.3;
 }
 
 /* Footer */
