@@ -698,6 +698,7 @@ body {
 }
 
 .login-links-container {
+  max-width: 115px;
   margin: 0;
   display: flex;
   flex-direction: column;
