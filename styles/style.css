@@ -801,6 +801,19 @@ body {
   color: #2d3440
 }
 
+.cart-product-link:hover {
+  opacity: 0.6;
+}
+
+.cart-product-link:focus-visible {
+  outline: 2px solid #2d3440;
+  outline-offset: 2px;
+}
+
+.cart-product-link:active {
+  opacity: 0.3;
+}
+
 .cart-product-text {
   margin: 0;
   display: grid;
@@ -832,6 +845,19 @@ body {
   background-image: url("../images/svg/cross.svg");
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.delete-product-button:hover {
+  opacity: 0.6;
+}
+
+.delete-product-button:focus-visible {
+  outline: 2px solid #2d3440;
+  outline-offset: 2px;
+}
+
+.delete-product-button:active {
+  opacity: 0.3;
 }
 
 .apply-button-and-price {
@@ -927,7 +953,7 @@ body {
   width: 327px;
   height: 312px;
   transform: translateY(100px);
-  background-color: rgba(252, 252, 252, 0.3);
+  background-color: #ffcBd8;
   border-radius: 50%;
   z-index: -1;
 }
@@ -937,7 +963,7 @@ body {
   content: "";
   width: 327px;
   height: 327px;
-  background-color: rgba(252, 252, 252, 0.3);
+  background-color: #ffcBd8;
   border-radius: 50%;
   z-index: -1;
   transform: translateY(104px);
