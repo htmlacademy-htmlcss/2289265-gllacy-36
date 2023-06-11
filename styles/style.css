@@ -573,12 +573,12 @@ body {
 /* Pop-Overs */
 
 .pop-over-container {
+  z-index: 1;
   background-color: #fcfcfc;
   border-radius: 4px;
 }
 
 .search-item {
-  z-index: 1;
   display: block;
   position: relative;
 }
