@@ -1810,6 +1810,7 @@ body {
 }
 
 .address-phone-number {
+  width: 225px;
   text-decoration: none;
   font-weight: 700;
   font-size: 20px;
