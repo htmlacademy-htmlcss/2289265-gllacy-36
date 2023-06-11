@@ -224,6 +224,18 @@ body {
   margin-right: 16px;
 }
 
+.logo-gllacy:hover {
+  opacity: 0.6;
+}
+
+.logo-gllacy:focus-visible {
+  outline: 2px solid #2d3440;
+}
+
+.logo-gllacy:active {
+  opacity: 0.3;
+}
+
 .logo-gllacy-picture {
   display: block;
 }
