@@ -731,17 +731,17 @@ body {
   display: block;
 }
 
-.empty-cart .cart-container .empty-cart-pop-over {
+.empty-cart > .empty-cart-pop-over {
   width: 288px;
   display: block;
 }
 
-.empty-cart .cart-button .have-no-items {
+.empty-cart > .have-no-items {
   display: block;
 }
 
-.empty-cart .cart-container .cart-pop-over,
-.empty-cart .cart-button .have-items {
+.empty-cart > .cart-pop-over,
+.empty-cart > .have-items {
   display: none;
 }
 
