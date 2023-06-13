@@ -2243,6 +2243,7 @@ body {
 }
 
 .button-load-more {
+  max-width: 180px;
   align-self: flex-start;
   flex-shrink: 0;
   margin-left: 50%;
@@ -2262,6 +2263,7 @@ body {
 .pagination-list {
   display: flex;
   flex-wrap: wrap;
+  min-width: 168px;
   align-items: center;
   margin: 0;
   margin-left: auto;
