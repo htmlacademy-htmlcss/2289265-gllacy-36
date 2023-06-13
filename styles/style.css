@@ -731,9 +731,8 @@ body {
   display: block;
 }
 
-.cart-container .empty-cart-pop-over {
+.empty-cart-pop-over {
   width: 288px;
-  display: block;
 }
 
 .empty-cart > .have-no-items {
@@ -744,7 +743,6 @@ body {
 .empty-cart .cart-button .have-items {
   display: none;
 }
-
 
 /* Not Empty Cart */
 
