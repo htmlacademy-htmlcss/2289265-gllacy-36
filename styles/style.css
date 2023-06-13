@@ -297,10 +297,8 @@ body {
 /* User Interface */
 
 .user-list {
-  margin: 0;
-  margin-left: auto;
+  margin: auto 0 auto auto;
   padding: 0;
-  align-self: center;
   align-items: center;
   display: flex;
   flex-wrap: wrap;
