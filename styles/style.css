@@ -735,12 +735,12 @@ body {
   width: 288px;
 }
 
-.empty-cart > .have-no-items {
-  display: block;
-}
-
 .empty-cart .cart-pop-over.cart-container {
   display: none;
+}
+
+.empty-cart-button .have-no-items {
+  display: block;
 }
 
 .empty-cart-button .have-items {
