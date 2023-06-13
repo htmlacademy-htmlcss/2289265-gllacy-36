@@ -591,7 +591,7 @@ body {
   top: 38px;
   right: 0;
   position: absolute;
-  display: non;
+  display: none;
   filter: drop-shadow(0 8px 16px rgba(45, 52, 64, 0.12));
 }
 
@@ -685,7 +685,7 @@ body {
 .email-input,
 .password-input {
   width: 100%;
-  margin-bottom: 13px;
+  margin-bottom: 14px;
 }
 
 .login-form input:last-of-type {
@@ -720,7 +720,7 @@ body {
 }
 
 .cart-container {
-  display: none;
+  display: non;
   position: absolute;
   right: 0;
   top: 40px;
