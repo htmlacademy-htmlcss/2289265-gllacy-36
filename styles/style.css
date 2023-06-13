@@ -2263,6 +2263,7 @@ body {
 .pagination-list {
   display: flex;
   flex-wrap: wrap;
+  align-content: flex-start;
   min-width: 168px;
   align-items: center;
   margin: 0;
