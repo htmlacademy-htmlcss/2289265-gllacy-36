@@ -731,7 +731,7 @@ body {
   display: block;
 }
 
-.empty-cart > .empty-cart-pop-over {
+.cart-container .empty-cart-pop-over {
   width: 288px;
   display: block;
 }
@@ -740,8 +740,8 @@ body {
   display: block;
 }
 
-.empty-cart > .cart-pop-over,
-.empty-cart > .have-items {
+.empty-cart .cart-container .cart-pop-over,
+.empty-cart .cart-button .have-items {
   display: none;
 }
 
