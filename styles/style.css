@@ -296,6 +296,20 @@ body {
 
 /* User Interface */
 
+.user-list {
+  margin: 0;
+  margin-left: auto;
+  padding: 0;
+  align-self: center;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  list-style: none;
+  font-size: 14px;
+  line-height: 20px;
+}
+
 .user-button {
   display: block;
   padding: 6px 16px 6px 38px;
@@ -309,27 +323,10 @@ body {
   line-height: 20px;
 }
 
-.user-interface {
-  margin-left: auto;
-  display: flex;
-  align-self: center;
-}
-
-.user-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 16px;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  font-size: 14px;
-  line-height: 20px;
-}
-
 .user-phone-number {
   max-width: 150px;
-  margin-right: 18px;
-  margin-top: 6px;
+  margin-right: 2px;
+  margin-top: 3px;
   flex-shrink: 0;
   color: inherit;
   text-decoration: none;
