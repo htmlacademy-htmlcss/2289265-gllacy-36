@@ -312,6 +312,7 @@ body {
 .user-interface {
   margin-left: auto;
   display: flex;
+  align-self: center;
 }
 
 .user-list {
@@ -327,7 +328,7 @@ body {
 
 .user-phone-number {
   max-width: 150px;
-  margin-right: 16px;
+  margin-right: 18px;
   margin-top: 6px;
   flex-shrink: 0;
   color: inherit;
@@ -585,11 +586,12 @@ body {
 
 .search-container {
   width: 356px;
+  min-height: 95px;
   right: -100px;
   top: 38px;
   right: 0;
   position: absolute;
-  display: none;
+  display: non;
   filter: drop-shadow(0 8px 16px rgba(45, 52, 64, 0.12));
 }
 
@@ -598,8 +600,7 @@ body {
 }
 
 .search {
-  min-height: 96px;
-  padding: 25px 16px 25px 16px;
+  padding: 25px 16px 23px 16px;
 }
 
 .search-input::-webkit-search-decoration,
