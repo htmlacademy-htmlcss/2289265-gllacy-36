@@ -22,7 +22,8 @@
       <header class="page-header inner-header">
         <nav class="header-navigation">
           <a class="logo-gllacy" href="index.html" aria-label="Переход на главную страницу магазина.">
-            <img class="logo-gllacy-picture" width="137" height="55" src="/images/svg/logo-glaccy.svg" alt="Логотип GlaccyShop.">
+            <img class="logo-gllacy-picture" width="137" height="55" src="/images/svg/logo-glaccy.svg"
+              alt="Логотип GlaccyShop.">
           </a>
           <ul class="header-navigation-list">
             <li class="header-navigation-item">
@@ -78,133 +79,135 @@
           </ul>
         </nav>
 
-          <ul class="user-list">
-            <li class="user-navigation-item">
-              <a class="user-phone-number" href="tel:+78005558628">
-                +7 800 555-86-28
-              </a>
-            </li>
+        <ul class="user-list">
+          <li class="user-navigation-item">
+            <a class="user-phone-number" href="tel:+78005558628">
+              +7 800 555-86-28
+            </a>
+          </li>
 
-            <li class="user-navigation-item">
-              <div class="search-item">
-                <button class="user-button search-button" type="button" aria-label="Кнопка поиска."></button>
-                <div class="pop-over-container search-container">
-                  <form class="search" action="https://echo.htmlacademy.ru/" method="get">
-                    <input class="search-input inputs" type="search" placeholder="Поиск по сайту" aria-label="Поле поиска." required>
-                  </form>
-                </div>
+          <li class="user-navigation-item">
+            <div class="search-item">
+              <button class="user-button search-button" type="button" aria-label="Кнопка поиска."></button>
+              <div class="pop-over-container search-container">
+                <form class="search" action="https://echo.htmlacademy.ru/" method="get">
+                  <input class="search-input inputs" type="search" placeholder="Поиск по сайту"
+                    aria-label="Поле поиска." required>
+                </form>
               </div>
-            </li>
+            </div>
+          </li>
 
-            <li class="user-navigation-item">
-              <div class="login-item">
-                <button class="login-button user-button" type="button">
-                  Вход
-                </button>
-                <div class="pop-over-container login-container">
-                  <h2 class="login-form-title">
-                    Личный кабинет
-                  </h2>
+          <li class="user-navigation-item">
+            <div class="login-item">
+              <button class="login-button user-button" type="button">
+                Вход
+              </button>
+              <div class="pop-over-container login-container">
+                <h2 class="login-form-title">
+                  Личный кабинет
+                </h2>
 
-                  <!-- Добавьте для inputs класс error, чтоб увидеть состояние об ошибке -->
+                <!-- Добавьте для inputs класс error, чтоб увидеть состояние об ошибке -->
 
-                  <form class="login-form" action="https://echo.htmlacademy.ru/" method="get">
-                    <input class="email-input inputs" type="text" name="email" value="email@example.com" aria-label="Поле для ввода почты." required>
-                    <input class="password-input inputs" type="password" name="password" value="qwerty" aria-label="Поле для ввода пароля." required>
-                    <button class="login-submit-button button additional-button" type="submit">
-                      Войти
-                    </button>
-                    <div class="login-links-container">
-                      <a class="forgot-password-link" href="#">
-                        Забыли пароль?
-                      </a>
-                      <a class="sign-up-link" href="#">
-                        Регистрация
-                      </a>
-                    </div>
-                  </form>
-                </div>
-              </div>
-            </li>
-
-            <!-- Для показа пустой корзины замените класс not-empty-cart на empty-cart  -->
-
-            <li class="user-navigation-item">
-              <div class="cart-item empty-cart">
-                <button class="cart-button user-button" type="button">
-                  <span class="have-items">
-                    2 товара
-                  </span>
-                  <span class="have-no-items">
-                    Нет товаров
-                  </span>
-                </button>
-
-                <div class="empty-cart-pop-over pop-over-container cart-container">
-                  <p class="cart-empty-text">
-                    Ваша корзина пока пуста
-                  </p>
-                </div>
-
-                <div class="pop-over-container cart-container">
-
-
-                  <div class="cart-pop-over">
-                    <h3 class="cart-title">
-                      Корзина
-                    </h3>
-                    <ul class="cart-product-list">
-                      <li class="cart-product-item">
-                        <a class="cart-product-link" href="#">
-                          <img class="cart-product-pic" src="/images/ice-creams/ice-cream-1.png" width="46" height="46" alt="Изображение мороженого Малинка.">
-                          <div class="cart-product-container">
-                            <h3 class="cart-product-text">
-                              Малинка
-                            </h3>
-                            <span class="cart-product-details">
-                              1 кг х 310 ₽
-                            </span>
-                          </div>
-                        </a>
-                        <span class="cart-product-price">
-                          310 ₽
-                        </span>
-                        <button class="delete-product-button delete-product-button button" type="button" aria-label="Удалить продукт из корзины.">
-                        </button>
-                      </li>
-
-                      <li class="cart-product-item">
-                        <a class="cart-product-link" href="#">
-                          <img class="cart-product-pic" src="/images/ice-creams/ice-cream-4.png" width="46" height="46" alt="Изображение мороженого Бабл-гам.">
-                          <div class="cart-product-container">
-                            <h3 class="cart-product-text">
-                              Бабл-гам
-                            </h3>
-                            <span class="cart-product-details">
-                              1,5 кг х 320 ₽
-                            </span>
-                          </div>
-                        </a>
-                        <span class="cart-product-price">
-                          480 ₽
-                        </span>
-                        <button class="delete-product-button button" type="button" aria-label="Удалить продукт из корзины.">
-                        </button>
-                      </li>
-                    </ul>
-                    <div class="apply-button-and-price">
-                      <button class="apply-order-button button additional-button" type="button">
-                        Оформить заказ
-                      </button>
-                      <span class="total-price">
-                        Итого: 790 ₽
-                      </span>
-                    </div>
+                <form class="login-form" action="https://echo.htmlacademy.ru/" method="get">
+                  <input class="email-input inputs" type="text" name="email" value="email@example.com"
+                    aria-label="Поле для ввода почты." required>
+                  <input class="password-input inputs" type="password" name="password" value="qwerty"
+                    aria-label="Поле для ввода пароля." required>
+                  <button class="login-submit-button button additional-button" type="submit">
+                    Войти
+                  </button>
+                  <div class="login-links-container">
+                    <a class="forgot-password-link" href="#">
+                      Забыли пароль?
+                    </a>
+                    <a class="sign-up-link" href="#">
+                      Регистрация
+                    </a>
                   </div>
+                </form>
+              </div>
+            </div>
+          </li>
+
+          <!-- Для показа пустой корзины замените класс not-empty-cart на empty-cart  -->
+
+          <li class="user-navigation-item">
+            <div class="cart-item empty-cart">
+              <button class="cart-button empty-cart-button user-button" type="button">
+                <span class="have-items">
+                  2 товара
+                </span>
+                <span class="have-no-items">
+                  Нет товаров
+                </span>
+              </button>
+
+              <div class="empty-cart-pop-over pop-over-container cart-container">
+                <p class="cart-empty-text">
+                  Ваша корзина пока пуста
+                </p>
+              </div>
+
+              <div class="cart-pop-over pop-over-container cart-container">
+                <h3 class="cart-title">
+                  Корзина
+                </h3>
+                <ul class="cart-product-list">
+                  <li class="cart-product-item">
+                    <a class="cart-product-link" href="#">
+                      <img class="cart-product-pic" src="/images/ice-creams/ice-cream-1.png" width="46" height="46"
+                        alt="Изображение мороженого Малинка.">
+                      <div class="cart-product-container">
+                        <h3 class="cart-product-text">
+                          Малинка
+                        </h3>
+                        <span class="cart-product-details">
+                          1 кг х 310 ₽
+                        </span>
+                      </div>
+                    </a>
+                    <span class="cart-product-price">
+                      310 ₽
+                    </span>
+                    <button class="delete-product-button delete-product-button button" type="button"
+                      aria-label="Удалить продукт из корзины.">
+                    </button>
+                  </li>
+
+                  <li class="cart-product-item">
+                    <a class="cart-product-link" href="#">
+                      <img class="cart-product-pic" src="/images/ice-creams/ice-cream-4.png" width="46" height="46"
+                        alt="Изображение мороженого Бабл-гам.">
+                      <div class="cart-product-container">
+                        <h3 class="cart-product-text">
+                          Бабл-гам
+                        </h3>
+                        <span class="cart-product-details">
+                          1,5 кг х 320 ₽
+                        </span>
+                      </div>
+                    </a>
+                    <span class="cart-product-price">
+                      480 ₽
+                    </span>
+                    <button class="delete-product-button button" type="button" aria-label="Удалить продукт из корзины.">
+                    </button>
+                  </li>
+                </ul>
+                <div class="apply-button-and-price">
+                  <button class="apply-order-button button additional-button" type="button">
+                    Оформить заказ
+                  </button>
+                  <span class="total-price">
+                    Итого: 790 ₽
+                  </span>
                 </div>
               </div>
-            </li>
-          </ul>
+            </div>
+          </li>
+        </ul>
       </header>
 
       <main class="page-catalog">
@@ -369,7 +372,8 @@
 
           <ul class="catalog-list">
             <li class="catalog-item">
-              <img class="product-picture" width="168" height="168" src="/images/ice-creams/ice-cream-1.png" alt="Изображение мороженого Малинка.">
+              <img class="product-picture" width="168" height="168" src="/images/ice-creams/ice-cream-1.png"
+                alt="Изображение мороженого Малинка.">
               <a class="product-title" href="#">
                 Малинка
               </a>
@@ -385,7 +389,8 @@
             </li>
 
             <li class="catalog-item">
-              <img class="product-picture" width="168" height="168" src="/images/ice-creams/ice-cream-2.png" alt="Изображение мороженого Фисташка.">
+              <img class="product-picture" width="168" height="168" src="/images/ice-creams/ice-cream-2.png"
+                alt="Изображение мороженого Фисташка.">
               <a class="product-title" href="#">
                 Фисташка
               </a>
@@ -401,7 +406,8 @@
             </li>
 
             <li class="catalog-item">
-              <img class="product-picture" width="168" height="168" src="/images/ice-creams/ice-cream-3.png" alt="Изображение мороженого Черника.">
+              <img class="product-picture" width="168" height="168" src="/images/ice-creams/ice-cream-3.png"
+                alt="Изображение мороженого Черника.">
               <a class="product-title" href="#">
                 Черника
               </a>
@@ -418,7 +424,8 @@
             </li>
 
             <li class="catalog-item">
-              <img class="product-picture" width="168" height="168" src="/images/ice-creams/ice-cream-4.png" alt="Изображение Бабл-гам.">
+              <img class="product-picture" width="168" height="168" src="/images/ice-creams/ice-cream-4.png"
+                alt="Изображение Бабл-гам.">
               <a class="product-title" href="#">
                 Бабл-гам
               </a>
@@ -435,7 +442,8 @@
             </li>
 
             <li class="catalog-item">
-              <img class="product-picture" width="168" height="168" src="/images/ice-creams/ice-cream-5.png" alt="Изображение мороженого Ежевика.">
+              <img class="product-picture" width="168" height="168" src="/images/ice-creams/ice-cream-5.png"
+                alt="Изображение мороженого Ежевика.">
               <a class="product-title" href="#">
                 Ежевика
               </a>
@@ -451,7 +459,8 @@
             </li>
 
             <li class="catalog-item">
-              <img class="product-picture" width="168" height="168" src="/images/ice-creams/ice-cream-6.png" alt="Изображение мороженого Банан.">
+              <img class="product-picture" width="168" height="168" src="/images/ice-creams/ice-cream-6.png"
+                alt="Изображение мороженого Банан.">
               <a class="product-title" href="#">
                 Банан
               </a>
@@ -468,7 +477,8 @@
             </li>
 
             <li class="catalog-item">
-              <img class="product-picture" width="168" height="168" src="/images/ice-creams/ice-cream-7.png" alt="Изображение мороженого Шоколадка.">
+              <img class="product-picture" width="168" height="168" src="/images/ice-creams/ice-cream-7.png"
+                alt="Изображение мороженого Шоколадка.">
               <a class="product-title" href="#">
                 Шоколадка
               </a>
@@ -484,7 +494,8 @@
             </li>
 
             <li class="catalog-item">
-              <img class="product-picture" width="168" height="168" src="/images/ice-creams/ice-cream-8.png" alt="Изображение мороженого Клубничка.">
+              <img class="product-picture" width="168" height="168" src="/images/ice-creams/ice-cream-8.png"
+                alt="Изображение мороженого Клубничка.">
               <a class="product-title" href="#">
                 Клубничка
               </a>
@@ -501,7 +512,8 @@
             </li>
 
             <li class="catalog-item">
-              <img class="product-picture" width="168" height="168" src="/images/ice-creams/ice-cream-9.png" alt="Изображение мороженого Лимон.">
+              <img class="product-picture" width="168" height="168" src="/images/ice-creams/ice-cream-9.png"
+                alt="Изображение мороженого Лимон.">
               <a class="product-title" href="#">
                 Лимон
               </a>
@@ -517,7 +529,8 @@
             </li>
 
             <li class="catalog-item">
-              <img class="product-picture" width="168" height="168" src="/images/ice-creams/ice-cream-10.png" alt="Изображение мороженого Ментол.">
+              <img class="product-picture" width="168" height="168" src="/images/ice-creams/ice-cream-10.png"
+                alt="Изображение мороженого Ментол.">
               <a class="product-title" href="#">
                 Ментол
               </a>
@@ -534,7 +547,8 @@
             </li>
 
             <li class="catalog-item">
-              <img class="product-picture" width="168" height="168" src="/images/ice-creams/ice-cream-11.png" alt="Изображение мороженого Орешек.">
+              <img class="product-picture" width="168" height="168" src="/images/ice-creams/ice-cream-11.png"
+                alt="Изображение мороженого Орешек.">
               <a class="product-title" href="#">
                 Орешек
               </a>
@@ -550,7 +564,8 @@
             </li>
 
             <li class="catalog-item">
-              <img class="product-picture" width="168" height="168" src="/images/ice-creams/ice-cream-12.png" alt="Изображение мороженого Крем-брюле.">
+              <img class="product-picture" width="168" height="168" src="/images/ice-creams/ice-cream-12.png"
+                alt="Изображение мороженого Крем-брюле.">
               <a class="product-title" href="#">
                 Крем-брюле
               </a>
@@ -612,7 +627,8 @@
             </li>
 
             <li class="pagination-item">
-              <a class="pagination-button pagination-button-next" href="#" aria-label="Переход на предыдущую страницу."></a>
+              <a class="pagination-button pagination-button-next" href="#"
+                aria-label="Переход на предыдущую страницу."></a>
             </li>
           </ul>
         </section>
@@ -621,11 +637,13 @@
       <footer class="page-footer">
         <ul class="page-footer-socials socials-list">
           <li class="socials-item">
-            <a class="socials-link socials-link-telegram" target="_blank" href="https://t.me/htmlacademy" aria-label="Академия в Телеграм."></a>
+            <a class="socials-link socials-link-telegram" target="_blank" href="https://t.me/htmlacademy"
+              aria-label="Академия в Телеграм."></a>
           </li>
 
           <li class="socials-item">
-            <a class="socials-link socials-link-vk" target="_blank" href="https://vk.com/htmlacademy" aria-label="Академия Вконтакте."></a>
+            <a class="socials-link socials-link-vk" target="_blank" href="https://vk.com/htmlacademy"
+              aria-label="Академия Вконтакте."></a>
           </li>
 
           <li class="socials-item">

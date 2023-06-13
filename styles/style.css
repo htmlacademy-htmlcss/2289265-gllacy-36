@@ -739,8 +739,11 @@ body {
   display: block;
 }
 
-.empty-cart .cart-container .cart-pop-over,
-.empty-cart .cart-button .have-items {
+.empty-cart .cart-pop-over.cart-container {
+  display: none;
+}
+
+.empty-cart-button .have-items {
   display: none;
 }
 
