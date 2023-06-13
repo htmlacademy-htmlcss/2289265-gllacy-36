@@ -299,7 +299,6 @@ body {
 .user-list {
   margin: auto 0 auto auto;
   padding: 0;
-  align-items: center;
   display: flex;
   flex-wrap: wrap;
   gap: 16px;
@@ -322,9 +321,10 @@ body {
 }
 
 .user-phone-number {
+  display: block;
   max-width: 150px;
   margin-right: 2px;
-  margin-top: 3px;
+  margin-top: 5px;
   flex-shrink: 0;
   color: inherit;
   text-decoration: none;
