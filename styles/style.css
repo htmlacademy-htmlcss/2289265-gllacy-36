@@ -302,7 +302,7 @@ body {
   padding: 0;
   display: flex;
   flex-wrap: wrap;
-  gap: 16px;
+  gap: 17px;
   list-style: none;
   font-size: 14px;
   line-height: 20px;
@@ -324,7 +324,6 @@ body {
 .user-phone-number {
   display: block;
   max-width: 150px;
-  margin-right: 2px;
   margin-top: 5px;
   flex-shrink: 0;
   color: inherit;
