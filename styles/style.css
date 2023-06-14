@@ -582,8 +582,7 @@ body {
 .search-container {
   width: 356px;
   min-height: 95px;
-  right: -100px;
-  top: 38px;
+  top: 39px;
   right: 0;
   position: absolute;
   display: none;
@@ -595,7 +594,7 @@ body {
 }
 
 .search {
-  padding: 25px 16px 23px 16px;
+  padding: 24px 16px 23px 16px;
 }
 
 .search-input::-webkit-search-decoration,
@@ -715,7 +714,7 @@ body {
 }
 
 .cart-container {
-  display: non;
+  display: none;
   position: absolute;
   right: 0;
   top: 40px;
