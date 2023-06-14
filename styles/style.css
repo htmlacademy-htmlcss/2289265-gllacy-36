@@ -297,7 +297,8 @@ body {
 /* User Interface */
 
 .user-list {
-  margin: auto 0 auto auto;
+  max-width: 460px;
+  margin: 0 0 auto auto;
   padding: 0;
   display: flex;
   flex-wrap: wrap;
