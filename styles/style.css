@@ -715,7 +715,7 @@ body {
 }
 
 .cart-container {
-  display: none;
+  display: non;
   position: absolute;
   right: 0;
   top: 40px;
