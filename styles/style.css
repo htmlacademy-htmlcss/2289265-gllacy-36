@@ -257,6 +257,7 @@ body {
 }
 
 .header-navigation-list {
+  max-width: 550px;
   margin: 0;
   padding: 0;
   display: flex;
